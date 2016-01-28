@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Калькулятор стажа</title>
+    </head>
+    <body>
+        Введи дату начала работы и, через запятую, 
+        дату завершения работы, например "31/12/10, 27/02/16":
+        <form action="/" method="post">
+            <input type="text" name="expression" />
+            <input type="submit" value="Посчитать отработанные дни" />
+        </form>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                Results:
+                <pre>
+                    {% for message in messages %}
+{{ message }}
+                    {% endfor %}
+                </pre>
+            {% endif %}
+        {% endwith %}
+    </body>
+</html>
