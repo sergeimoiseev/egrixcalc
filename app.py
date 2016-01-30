@@ -8,8 +8,7 @@ app.secret_key = "bacon"
 
 class View(flask.views.MethodView):
     def get(self):
-        return flask.render_template('index_calc.html')
-        # return flask.render_template('index.html')
+        return flask.render_template('index.html')
         
     def post(self):
         output_list = []

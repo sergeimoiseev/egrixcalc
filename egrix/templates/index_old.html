@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Заголовок</title>
+    <style>
+        .result_table {
+            width:880px;
+        }
+        .result_table tr {
+            width:80px;
+            margin:10;
+            padding:4px;
+        }
+        table {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    Заголовок
+    <!-- https://jsfiddle.net/ZjcX2/2 -->
+    <form action="/" method="post">
+        <fieldset>
+            <legend>Personal details</legend>
+            <ul class=form-fields>
+                <li>
+                    <label for=first-name>First name</label>
+                    <input type=text class=text-input id=first-name name=f1.first_name>
+                </li>
+                <li>
+                    <label for=last-name>Last name</label>
+                    <input type=text class=text-input id=last-name name=f1.last_name>
+                </li>
+                <li>
+                    <label for=email>Email</label>
+                    <input type=email class=text-input id=email name=f1.email>
+                    <small class=extra-help>.edu emails only</small>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Contacting you</legend>
+            <p>We may contact you from time to time&hellip;</p>
+            <ul class=form-fields>
+                <li>
+                    <span class=label>How would you like to be contacted?</span>
+                    <ul class=check-list>
+                        <li>
+                            <input type=checkbox id=by-email name=f2.by_email> <label for=by-email>By email</label>
+                        </li>
+                        <li>
+                            <input type=checkbox id=by-post name=f2.by_post> <label for=by-post>By post</label>
+                        </li>
+                        <li>
+                            <input type=checkbox id=by-pigeon name=f2.by_pigeon> <label for=by-pigeon>By carrier pigeon</label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class=label>How often would you like to be contacted?</span>
+                    <ul class="check-list  multi-list  two-cols">
+                        <li>
+                            <input type=radio name=f2.frequency id=weekly> <label for=weekly>Weekly</label>
+                        </li>
+                        <li>
+                            <input type=radio name=f2.frequency id=daily> <label for=daily>Daily</label>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </fieldset>
+        <input type=submit value="Send">
+    </form>
+
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    Results:
+    <table class=result_table border="1">
+     <tr>
+        <th>Россия</th>
+        <th>Великобритания</th>
+        <th>Европа</th>
+        <th>Длина ступни, см</th>
+    </tr>
+    {% for message in messages %}
+    <tr>
+        {% for item in message %}
+        <td>{{ item }}</td>
+<!--         <td>{{ item }}</td>
+        <td>{{ item }}</td> -->
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+<!--     <pre>
+        {% for message in messages %}
+{{ message }}
+        {% endfor %}
+    </pre> -->
+    {% endif %}
+    {% endwith %}
+</body>
+</html>
