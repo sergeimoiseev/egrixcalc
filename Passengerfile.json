@@ -11,5 +11,5 @@
   "daemonize": true,
   // Tell Passenger to run the app as the given user. Only has effect
   // if Passenger was started with root privileges.
-  "user": "repetitor"
+  "user": "egrixcalc"
 }
