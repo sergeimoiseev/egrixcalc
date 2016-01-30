@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 import flask, flask.views
-import calc_staj
+import egrix_calc
 
 app = flask.Flask(__name__)
 # Don't do this!
@@ -16,8 +17,6 @@ class View(flask.views.MethodView):
         data = dict((key, flask.request.form.getlist(key)) for key in flask.request.form.keys())
         data_keys = [key for key in flask.request.form.keys()]
         data_vals = [flask.request.form.getlist(key) for key in  data_keys]
-        # data_vals = []
-        # (data_vals.append(flask.request.form.getlist(key)) for key in  data_keys)
 
         flask.flash(data_keys)
         flask.flash(data_vals)
