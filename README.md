@@ -1,9 +1,20 @@
-## Passenger: Flask example app
+flask-tutorial
+==============
 
-This is a [Flask](http://flask.pocoo.org/) hello world example app for [the Passenger application server](https://www.phusionpassenger.com/).
 
-The `master` branch contains the code without Passenger installed.
+#What is Flask ?
+Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
 
-The `end_result` branch contains the code with Passenger installed.
+#tutorial
+Source code for video tutorial series
+https://www.youtube.com/playlist?list=PL0DA14EB3618A3507
 
-Run `git diff origin/master..origin/end_result` to see what's different.
+
+#ما هو Flask ?
+
+flask هو اطار عمل صغير للغة Python مبني على اساس Werkzeug, Jinja 2 و good intentions.
+
+#دورة تعليمية
+
+الكود المصدري لسلسلة دروس الفيديو.
+https://www.youtube.com/playlist?list=PL0DA14EB3618A3507
