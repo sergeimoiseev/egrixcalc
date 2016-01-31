@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import flask, flask.views
-import egrix_calc
+import egrix_calc, calc_tools
 
 app = flask.Flask(__name__)
 # Don't do this!
@@ -20,7 +20,7 @@ class View(flask.views.MethodView):
         flask.flash(data_keys)
         flask.flash(data_vals)
 
-        params_dict = egrix_calc.get_and_store_params()
+        params_dict = calc_tools.get_and_store_params()
         params_keys = [key for key in params_dict.keys()]
         params_vals = [params_dict[key] for key in  params_keys]
 
