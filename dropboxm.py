@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Include the Dropbox SDK
 import dropbox
 import os
@@ -48,7 +49,6 @@ class DropboxConnection(object):
 
 if __name__ == "__main__":
     dr_fname = 'params.txt'
-    # dr_fname = u'/Приложения/egrixcalc/params.txt'
     print('reading file \'%s\' from dropbox' % dr_fname)
     dc = DropboxConnection()
     out_fname = 'cities_from_dropbox.txt'
