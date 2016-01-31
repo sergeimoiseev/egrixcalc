@@ -99,17 +99,13 @@ def calc(params_dict):
 # Эффективность работы машины
     car_efficiency = work__cost_by_workout / workout_expenditure
 
-    # results_dict['fuel__total_usage_cost'] = fuel__total_usage_cost
-    # results_dict['fuel__stolen_workout_cost'] = fuel__stolen_workout_cost
-    # results_dict['repair__total_cost_by_workout'] = repair__total_cost_by_workout
-    # results_dict['service__price_by_time_of_workout'] = service__price_by_time_of_workout
-    # results_dict['fridge__spoil_cost_by_workout'] = fridge__spoil_cost_by_workout
+# Среднемесячные показатели
+    workout_expenditure_per_month = workout_expenditure / (12*srok)
+    workout_profit_per_month = workout_profit / (12*srok)
 
-    results_dict['fridge__loss_chance'] = fridge__loss_chance
-    results_dict['fridge__spoil_cost_by_workout'] = fridge__spoil_cost_by_workout
     results_dict['work__cost_by_workout'] = work__cost_by_workout
-    results_dict['workout_expenditure'] = workout_expenditure
-    results_dict['workout_profit'] = workout_profit
+    results_dict['workout_expenditure_per_month'] = workout_expenditure_per_month
+    results_dict['workout_profit_per_month'] = workout_profit_per_month
     results_dict['car_efficiency'] = car_efficiency
     # results_dict[''] = 
     return results_dict
