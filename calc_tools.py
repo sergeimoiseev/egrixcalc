@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
-import ast
+import ast, math
 from pprint import pprint as pp
 import logging
 # import numpy as np
 # routem, mapm, dropboxm, gmaps, tools, bokehm, tspm
 
 logger = logging.getLogger(__name__)
+
+def mlog(first_arg,a):
+    return math.log(1/(1-a*first_arg))
 
 def type_of_value(var):
     try:
@@ -69,6 +72,10 @@ def pairwise(iterable):
 import re, yaml, logging, inspect
 import dropboxm
 
+import re
+def hasNumbers(inputString):
+    return bool(re.search(r'\d', inputString))
+
 def read_params_dict(from_dropbox=True):
     logger.debug(get_string_caller_objclass_method(read_params_dict,inspect.stack()))
 
@@ -91,10 +98,13 @@ def read_params_dict(from_dropbox=True):
             continue
         tmp_list = [p.strip() for p in re.split('=|#',line)]
         comment = tmp_list[-1] # not used!
-        try:
-            float_value = float(tmp_list[1])
-        except Exception as e:
-            float_value = False
+        if hasNumbers(tmp_list[1]):
+            try:
+                float_value = float(tmp_list[1])
+            except Exception as e:
+                float_value = None
+        else:
+            float_value = bool(tmp_list[1])
         d[tmp_list[0]] = float_value
     return d
 

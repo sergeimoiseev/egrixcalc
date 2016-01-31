@@ -21,11 +21,19 @@ class View(flask.views.MethodView):
         flask.flash(data_vals)
 
         params_dict = calc_tools.get_and_store_params()
-        params_keys = [key for key in params_dict.keys()]
-        params_vals = [params_dict[key] for key in  params_keys]
+        params_keys = [key for key in params_dict.keys() if key in params_dict]
+        params_vals = [params_dict[key] for key in  params_keys if key in params_dict]
 
         flask.flash(params_keys)
         flask.flash(params_vals)
+
+        results_dict = egrix_calc.calc(params_dict)
+        results_keys = [key for key in results_dict.keys() if key in results_dict]
+        results_vals = [results_dict[key] for key in results_keys if key in results_dict]
+
+        flask.flash(results_keys)
+        flask.flash(results_vals)
+
 
         return self.get()
     
