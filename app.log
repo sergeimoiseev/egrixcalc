@@ -1,0 +1,12 @@
+14:38:12.512 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+14:38:14.087 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+14:40:17.942 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+14:40:19.529 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+14:41:02.985 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+14:41:04.527 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+14:42:15.225 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+14:42:16.761 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+14:42:28.682 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+14:42:30.236 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+14:44:02.237 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+14:44:03.806 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com

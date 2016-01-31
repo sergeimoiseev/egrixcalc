@@ -20,10 +20,16 @@ class View(flask.views.MethodView):
         flask.flash(data_keys)
         flask.flash(data_vals)
 
+        params_dict = egrix_calc.get_and_store_params()
+        params_keys = [key for key in params_dict.keys()]
+        params_vals = [params_dict[key] for key in  params_keys]
+
+        flask.flash(params_keys)
+        flask.flash(params_vals)
+
         return self.get()
     
 app.add_url_rule('/', view_func=View.as_view('main'), methods=['GET', 'POST'])
-
 
 if __name__ == '__main__':
     app.debug = True
