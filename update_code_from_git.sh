@@ -9,4 +9,4 @@ git reset --hard origin/master
 cd ..
 chmod -R 777 egrixcalc/
 cd egrixcalc
-passenger start
+passenger start --friendly-error-pages
