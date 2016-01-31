@@ -2,7 +2,7 @@
 import ast
 from pprint import pprint as pp
 import logging
-import numpy as np
+# import numpy as np
 # routem, mapm, dropboxm, gmaps, tools, bokehm, tspm
 
 logger = logging.getLogger(__name__)
