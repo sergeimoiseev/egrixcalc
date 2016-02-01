@@ -93,19 +93,20 @@ class View(flask.views.MethodView):
                 values[5] = "%.1f" % (results_dict['monitoring__recoupment'])
                 headers[5] = 'Срок окупаемости системы, мес'
 
-        headers = [str(item) for item in headers]
-        values = [str(item) for item in values]
-        results_keys = [str(item) for item in results_keys]
-        results_vals = [str(item) for item in results_vals]
+        headers = [str(bytes(item,'utf-8'),encoding='utf-8') for item in headers]
+        # values = [str(bytes(item,'utf-8'),encoding='utf-8') for item in values]
+        results_keys = [str(bytes(item,'utf-8'),encoding='utf-8') for item in results_keys]
+        # results_vals = [str(bytes(item,'utf-8'),encoding='utf-8') for item in results_vals]
 
-        flask.flash(['Русский язык'])
-        flask.flash(['test output'])
+        
+        # flask.flash([str(bytes('Русский язык', 'utf-8'),encoding = 'utf-8')])
+        # flask.flash(['test output'])
 
-        # flask.flash(headers)
-        # flask.flash(values)
+        flask.flash(headers)
+        flask.flash(values)
 
-        # flask.flash(results_keys)
-        # flask.flash(results_vals)
+        flask.flash(results_keys)
+        flask.flash(results_vals)
 
 
         return self.get()
