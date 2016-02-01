@@ -1424,3 +1424,7 @@ on
 13:18:45.111 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
 13:18:46.148 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:18:46] "POST / HTTP/1.1" 200 -
 13:18:46.262 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:18:46] "GET /static/favicon.ico HTTP/1.1" 200 -
+13:19:56.684 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+13:19:56.740 - werkzeug - INFO -  * Restarting with stat
+13:19:57.240 - werkzeug - WARNING -  * Debugger is active!
+13:19:57.241 - werkzeug - INFO -  * Debugger pin code: 181-547-290

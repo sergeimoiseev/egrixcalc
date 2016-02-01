@@ -110,10 +110,10 @@ class View(flask.views.MethodView):
 
 
         # flask.flash([str(bytes('Русский язык', 'utf-8'),encoding = 'utf-8')])
-        # flask.flash(['test output'])
+        flask.flash(['test output'])
 
-        flask.flash(headers)
-        flask.flash(values)
+        # flask.flash(headers)
+        # flask.flash(values)
 
         # flask.flash(results_keys)
         # flask.flash(results_vals)
