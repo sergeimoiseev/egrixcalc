@@ -77,13 +77,21 @@
         {% with messages = get_flashed_messages() %}
             {% if messages %}
             <table class=result_table border="1">
-            <tr>
+<!--             <tr>
                 {% for item in  messages[0] %}
                 <th>{{ item }}</th>
                 {% endfor %}
+            </tr> -->
+            <tr>
+                <th>'Затраты на эксплуатацию в мес, руб'</th>
+                <th>'Доходы от эксплуатации в мес, руб'</th>
+                <th>'Чистая прибыль в мес, руб'</th>
+                <th>'Эффективность ТС'</th>
+                <th>'Стоимость установки системы, руб'</th>
+                <th>'Срок окупаемости системы, мес'</th>
             </tr>
             <tr>
-                {% for item in  messages[1] %}
+                {% for item in  messages[0] %}
                 <td>{{ item }}</td>
                 {% endfor %}
             </tr>

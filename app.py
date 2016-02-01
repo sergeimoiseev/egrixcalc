@@ -98,6 +98,7 @@ class View(flask.views.MethodView):
                 values[5] = "%.1f" % (results_dict['monitoring__recoupment'])
                 headers[5] = 'Срок окупаемости системы, мес'
 
+# cant print in russian on jinja2
         # headers = [tr(item) for item in headers]
         # values = [tr(item) for item in values]
         # results_keys = [tr(item) for item in results_keys]
@@ -110,10 +111,10 @@ class View(flask.views.MethodView):
 
 
         # flask.flash([str(bytes('Русский язык', 'utf-8'),encoding = 'utf-8')])
-        flask.flash(['test output'])
+        # flask.flash(['test output'])
 
         # flask.flash(headers)
-        # flask.flash(values)
+        flask.flash(values)
 
         # flask.flash(results_keys)
         # flask.flash(results_vals)
