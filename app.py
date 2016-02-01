@@ -3,6 +3,11 @@ import flask, flask.views
 import egrix_calc
 import calc_tools as ct
 import logging
+import transliterate 
+# transliterate.translit(u"Лорем ипсум долор сит амет", 'ru', reversed=True)
+def tr(string):
+    return transliterate.translit(string,'ru',reversed=True)
+
 logger = logging.getLogger(__name__)
 
 app = flask.Flask(__name__)
@@ -93,12 +98,17 @@ class View(flask.views.MethodView):
                 values[5] = "%.1f" % (results_dict['monitoring__recoupment'])
                 headers[5] = 'Срок окупаемости системы, мес'
 
-        headers = [str(bytes(item,'utf-8'),encoding='utf-8') for item in headers]
+        headers = [tr(item) for item in headers]
+        values = [tr(item) for item in values]
+        results_keys = [tr(item) for item in results_keys]
+        results_vals = [tr(item) for item in results_vals]
+
+        # headers = [str(bytes(item,'utf-8'),encoding='utf-8') for item in headers]
         # values = [str(bytes(item,'utf-8'),encoding='utf-8') for item in values]
-        results_keys = [str(bytes(item,'utf-8'),encoding='utf-8') for item in results_keys]
+        # results_keys = [str(bytes(item,'utf-8'),encoding='utf-8') for item in results_keys]
         # results_vals = [str(bytes(item,'utf-8'),encoding='utf-8') for item in results_vals]
 
-        
+
         # flask.flash([str(bytes('Русский язык', 'utf-8'),encoding = 'utf-8')])
         # flask.flash(['test output'])
 

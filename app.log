@@ -1380,3 +1380,5 @@ on
 13:08:27.667 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
 13:08:29.203 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
 13:08:30.304 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:08:30] "POST / HTTP/1.1" 200 -
+13:14:22.826 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+13:14:22.883 - werkzeug - INFO -  * Restarting with stat
