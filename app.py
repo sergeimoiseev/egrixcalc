@@ -101,7 +101,7 @@ class View(flask.views.MethodView):
         headers = [tr(item) for item in headers]
         values = [tr(item) for item in values]
         results_keys = [tr(item) for item in results_keys]
-        results_vals = [tr(item) for item in results_vals]
+        # results_vals = [tr(item) for item in results_vals]
 
         # headers = [str(bytes(item,'utf-8'),encoding='utf-8') for item in headers]
         # values = [str(bytes(item,'utf-8'),encoding='utf-8') for item in values]
@@ -115,8 +115,8 @@ class View(flask.views.MethodView):
         flask.flash(headers)
         flask.flash(values)
 
-        flask.flash(results_keys)
-        flask.flash(results_vals)
+        # flask.flash(results_keys)
+        # flask.flash(results_vals)
 
 
         return self.get()

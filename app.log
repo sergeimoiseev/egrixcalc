@@ -1382,3 +1382,45 @@ on
 13:08:30.304 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:08:30] "POST / HTTP/1.1" 200 -
 13:14:22.826 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
 13:14:22.883 - werkzeug - INFO -  * Restarting with stat
+13:17:38.302 - werkzeug - INFO -  * Restarting with stat
+13:17:38.803 - werkzeug - WARNING -  * Debugger is active!
+13:17:38.804 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+13:17:39.412 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:17:39] "GET / HTTP/1.1" 200 -
+13:17:39.569 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:17:39] "GET /static/favicon.ico HTTP/1.1" 200 -
+13:17:41.257 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity']
+13:17:41.258 - __main__ - INFO - data_vals
+[[''], ['']]
+13:17:41.283 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+13:17:42.889 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+13:17:43.959 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:17:43] "POST / HTTP/1.1" 500 -
+13:17:44.050 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:17:44] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+13:17:44.053 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:17:44] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+13:17:44.056 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:17:44] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+13:17:44.122 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:17:44] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+13:17:44.269 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:17:44] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:17:44.312 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:17:44] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:18:15.495 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+13:18:20.850 - werkzeug - INFO -  * Restarting with stat
+13:18:21.345 - werkzeug - WARNING -  * Debugger is active!
+13:18:21.346 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+13:18:28.630 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time']
+13:18:28.632 - __main__ - INFO - data_vals
+[[''], ['']]
+13:18:28.657 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+13:18:30.244 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+13:18:31.405 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:18:31] "POST / HTTP/1.1" 200 -
+13:18:31.538 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:18:31] "GET /static/favicon.ico HTTP/1.1" 200 -
+13:18:39.707 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+13:18:39.764 - werkzeug - INFO -  * Restarting with stat
+13:18:40.279 - werkzeug - WARNING -  * Debugger is active!
+13:18:40.279 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+13:18:43.415 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time']
+13:18:43.416 - __main__ - INFO - data_vals
+[[''], ['']]
+13:18:43.442 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+13:18:45.111 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+13:18:46.148 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:18:46] "POST / HTTP/1.1" 200 -
+13:18:46.262 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:18:46] "GET /static/favicon.ico HTTP/1.1" 200 -
