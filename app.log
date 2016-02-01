@@ -1144,3 +1144,60 @@ on
 12:28:12.411 - urllib3.connectionpool - INFO - Resetting dropped connection: api-content.dropbox.com
 12:28:13.949 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:28:13] "POST / HTTP/1.1" 200 -
 12:28:14.019 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:28:14] "GET /static/favicon.ico HTTP/1.1" 200 -
+12:38:23.605 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+12:38:23.659 - werkzeug - INFO -  * Restarting with stat
+12:45:54.575 - werkzeug - INFO -  * Restarting with stat
+12:45:55.070 - werkzeug - WARNING -  * Debugger is active!
+12:45:55.071 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+12:46:02.400 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:46:02] "GET / HTTP/1.1" 200 -
+12:46:03.071 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:46:03] "GET / HTTP/1.1" 200 -
+12:46:05.877 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time']
+12:46:05.878 - __main__ - INFO - data_vals
+[['4'], ['']]
+12:46:05.921 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+12:46:07.484 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+12:46:08.696 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:46:08] "POST / HTTP/1.1" 500 -
+12:46:08.804 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:46:08] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12:46:08.807 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:46:08] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+12:46:08.810 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:46:08] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12:46:08.869 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:46:08] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12:46:09.006 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:46:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12:46:09.055 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:46:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12:46:59.988 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+12:47:00.045 - werkzeug - INFO -  * Restarting with stat
+12:47:00.548 - werkzeug - WARNING -  * Debugger is active!
+12:47:00.548 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+12:47:06.466 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity']
+12:47:06.467 - __main__ - INFO - data_vals
+[[''], ['4']]
+12:47:06.510 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+12:47:08.043 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+12:47:09.058 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:47:09] "POST / HTTP/1.1" 200 -
+12:47:09.202 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:47:09] "GET /static/favicon.ico HTTP/1.1" 200 -
+12:47:11.133 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity']
+12:47:11.133 - __main__ - INFO - data_vals
+[[''], ['']]
+12:47:11.761 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:47:11] "POST / HTTP/1.1" 200 -
+12:47:12.433 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity']
+12:47:12.435 - __main__ - INFO - data_vals
+[[''], ['']]
+12:47:13.093 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:47:13] "POST / HTTP/1.1" 200 -
+12:47:14.532 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity']
+12:47:14.533 - __main__ - INFO - data_vals
+[[''], ['2']]
+12:47:15.182 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:47:15] "POST / HTTP/1.1" 200 -
+12:47:16.557 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity']
+12:47:16.558 - __main__ - INFO - data_vals
+[[''], ['']]
+12:47:17.165 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:47:17] "POST / HTTP/1.1" 200 -
+12:47:18.665 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity', 'equip.alarm_btn']
+12:47:18.667 - __main__ - INFO - data_vals
+[[''], [''], ['on']]
+12:47:19.277 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:47:19] "POST / HTTP/1.1" 200 -
