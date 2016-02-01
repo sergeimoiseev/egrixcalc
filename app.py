@@ -76,8 +76,8 @@ class View(flask.views.MethodView):
         results_keys = [key for key in results_dict.keys() if key in results_dict]
         results_vals = [results_dict[key] for key in results_keys if key in results_dict]
 
-        headers = ['','','','','','']
-        values = [0.,0.,0.,0.,0.,0.]
+        headers = ['','','','','','','']
+        values = [0.,0.,0.,0.,0.,0.,0.]
         for key in results_keys:
             if key == 'workout_expenditure_per_month':
                 values[0] = "%.1f" % (results_dict['workout_expenditure_per_month'])
@@ -88,15 +88,18 @@ class View(flask.views.MethodView):
             if key == 'workout_profit_per_month':
                 values[2] = "%.1f" % (results_dict['workout_profit_per_month'])
                 headers[2] = 'Чистая прибыль в мес, руб'
+            if key == 'workout_profit_per_month':
+                values[3] = "%.1f" % (results_dict['monitoring__additional_profit_per_month'])
+                headers[3] = 'Экономия за счет мониторинга в месяц, руб'
             if key == 'car_efficiency':
-                values[3] = "%.3f" % (results_dict['car_efficiency'])
-                headers[3] = 'Эффективность ТС'
+                values[4] = "%.3f" % (results_dict['car_efficiency'])
+                headers[4] = 'Эффективность ТС'
             if key == 'monitoring__setup_cost':
-                values[4] = "%.1f" % (results_dict['monitoring__setup_cost'])
-                headers[4] = 'Стоимость установки системы, руб'
+                values[5] = "%.1f" % (results_dict['monitoring__setup_cost'])
+                headers[5] = 'Стоимость установки системы, руб'
             if key == 'monitoring__recoupment':
-                values[5] = "%.1f" % (results_dict['monitoring__recoupment'])
-                headers[5] = 'Срок окупаемости системы, мес'
+                values[6] = "%.1f" % (results_dict['monitoring__recoupment'])
+                headers[6] = 'Срок окупаемости системы, мес'
 
 # cant print in russian on jinja2
         # headers = [tr(item) for item in headers]

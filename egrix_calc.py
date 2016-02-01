@@ -179,6 +179,7 @@ def compare(par_dict):
     else:
         monitoring__recoupment = 0.
     results_with_monitoring['monitoring__recoupment'] = monitoring__recoupment
+    results_with_monitoring['monitoring__additional_profit_per_month'] = monitoring__additional_profit_per_month
     # results_with_monitoring[''] = 
     return results_with_monitoring
 
