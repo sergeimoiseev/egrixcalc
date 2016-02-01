@@ -83,7 +83,7 @@ def read_params_dict(from_dropbox=True):
 
     if from_dropbox:
         logger.debug("reading from dropbox")
-        dr_fname = 'params.txt'
+        dr_fname = '/egrixcalc/params.txt'
         dc = dropboxm.DropboxConnection()
         with dc.open_dropbox_file(dr_fname) as dr_f:
             srt_params = dr_f.read().decode('utf-8')

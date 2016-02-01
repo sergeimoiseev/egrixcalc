@@ -1523,3 +1523,15 @@ on
 13:40:32.165 - __main__ - INFO - data_vals
 [[''], ['']]
 13:40:32.754 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:40:32] "POST / HTTP/1.1" 200 -
+13:43:50.466 - werkzeug - INFO -  * Restarting with stat
+13:43:50.994 - werkzeug - WARNING -  * Debugger is active!
+13:43:50.995 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+13:43:55.191 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:43:55] "GET / HTTP/1.1" 200 -
+13:43:55.717 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:43:55] "GET / HTTP/1.1" 200 -
+13:43:58.304 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity']
+13:43:58.306 - __main__ - INFO - data_vals
+[[''], ['']]
+13:43:58.332 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+13:43:59.919 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+13:44:02.147 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 13:44:02] "POST / HTTP/1.1" 200 -
