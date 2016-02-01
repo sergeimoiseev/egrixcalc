@@ -98,11 +98,14 @@ class View(flask.views.MethodView):
         results_keys = [str(item) for item in results_keys]
         results_vals = [str(item) for item in results_vals]
 
-        flask.flash(headers)
-        flask.flash(values)
+        flask.flash(['test output'])
+        flask.flash(['test output'])
 
-        flask.flash(results_keys)
-        flask.flash(results_vals)
+        # flask.flash(headers)
+        # flask.flash(values)
+
+        # flask.flash(results_keys)
+        # flask.flash(results_vals)
 
 
         return self.get()

@@ -1201,3 +1201,11 @@ on
 12:47:18.667 - __main__ - INFO - data_vals
 [[''], [''], ['on']]
 12:47:19.277 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2016 12:47:19] "POST / HTTP/1.1" 200 -
+12:50:31.703 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+12:50:31.758 - werkzeug - INFO -  * Restarting with stat
+12:50:32.271 - werkzeug - WARNING -  * Debugger is active!
+12:50:32.271 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+12:51:03.212 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+12:51:03.265 - werkzeug - INFO -  * Restarting with stat
+12:51:03.746 - werkzeug - WARNING -  * Debugger is active!
+12:51:03.749 - werkzeug - INFO -  * Debugger pin code: 181-547-290
