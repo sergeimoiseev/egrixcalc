@@ -10,8 +10,8 @@ class DropboxConnection(object):
         self._client = self._connect(kwargs)
     def _connect(self,kwargs,get_access_token=False):        
         # Get your app key and secret from the Dropbox developer website
-        app_key = '7rqrmkehalvk3zo'
-        app_secret = 'wsiz2zanf9ujo63'
+        app_key = '150v6du4vixr2xn'
+        app_secret = 'yrtlnqjflfvslor'
 
         if get_access_token:
             flow = dropbox.client.DropboxOAuth2FlowNoRedirect(app_key, app_secret)
@@ -37,7 +37,7 @@ class DropboxConnection(object):
             # This will fail if the user enters an invalid authorization code
             access_token, user_id = flow.finish(code)
         else:
-            access_token = 'UCdViiUkgIkAAAAAAAAj04T0cR7bKs49JLkv-rIHroG2EnDesbkA4awFeZggCQF8'
+            access_token = 'UCdViiUkgIkAAAAAAAAj4q5KsVyvlEgCLV3eDcJJtuLniMmXfnQ6Pj6qNHy1vBHH'
 
         client = dropbox.client.DropboxClient(access_token)
         print('linked account user: %s' % client.account_info()['display_name'])
@@ -48,7 +48,7 @@ class DropboxConnection(object):
         return f
 
 if __name__ == "__main__":
-    dr_fname = 'params.txt'
+    dr_fname = '/egrixcalc/params.txt'
     print('reading file \'%s\' from dropbox' % dr_fname)
     dc = DropboxConnection()
     out_fname = 'cities_from_dropbox.txt'
