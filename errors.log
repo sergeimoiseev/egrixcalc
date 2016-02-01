@@ -1,0 +1,44 @@
+10:35:24.971 - __main__ - ERROR - data_keys
+['firm.cars_quantity', 'firm.average_run']
+10:35:24.971 - __main__ - ERROR - data_vals
+[[''], ['']]
+10:35:54.647 - __main__ - ERROR - data_keys
+['firm.cars_quantity', 'firm.average_run']
+10:35:54.647 - __main__ - ERROR - data_vals
+[[''], ['']]
+10:35:57.627 - egrix_calc - ERROR - results_with_monitoring['workout_profit']
+1490221.4013763797
+10:35:57.627 - egrix_calc - ERROR - results_with_monitoring['car_efficiency']
+1.1751187042183928
+10:35:57.628 - egrix_calc - ERROR - results_wo_monitoring['workout_profit']
+1158030.925185904
+10:35:57.628 - egrix_calc - ERROR - results_wo_monitoring['car_efficiency']
+1.1384247636408198
+10:37:15.954 - __main__ - ERROR - data_keys
+['firm.cars_quantity', 'firm.average_run']
+10:37:15.955 - __main__ - ERROR - data_vals
+[[''], ['']]
+10:37:18.975 - egrix_calc - ERROR - results_with_monitoring['workout_profit']
+1490221.4013763797
+10:37:18.978 - egrix_calc - ERROR - results_with_monitoring['car_efficiency']
+1.1751187042183928
+10:37:18.980 - egrix_calc - ERROR - results_wo_monitoring['workout_profit']
+1158030.925185904
+10:37:18.982 - egrix_calc - ERROR - results_wo_monitoring['car_efficiency']
+1.1384247636408198
+10:38:05.123 - __main__ - ERROR - data_keys
+['firm.cars_quantity', 'firm.average_run']
+10:38:05.124 - __main__ - ERROR - data_vals
+[[''], ['']]
+10:38:07.512 - egrix_calc - ERROR - results_with_monitoring['workout_profit']
+1490221.4013763797
+10:38:07.512 - egrix_calc - ERROR - results_with_monitoring['car_efficiency']
+1.1751187042183928
+10:38:07.513 - egrix_calc - ERROR - results_wo_monitoring['workout_profit']
+1158030.925185904
+10:38:07.513 - egrix_calc - ERROR - results_wo_monitoring['car_efficiency']
+1.1384247636408198
+10:39:18.536 - __main__ - ERROR - data_keys
+['firm.cars_quantity', 'firm.average_run']
+10:39:18.536 - __main__ - ERROR - data_vals
+[[''], ['']]

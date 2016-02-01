@@ -103,8 +103,8 @@ def read_params_dict(from_dropbox=True):
                 float_value = float(tmp_list[1])
             except Exception as e:
                 float_value = None
-        else:
-            float_value = bool(tmp_list[1])
+        # else:
+        #     float_value = bool(tmp_list[1])  # wont work
         d[tmp_list[0]] = float_value
     return d
 

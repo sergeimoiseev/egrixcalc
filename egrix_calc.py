@@ -6,7 +6,23 @@ logger = logging.getLogger(__name__)
 
 def calc(params_dict):
     globals().update(params_dict)  # very dirty!! polutes namespace
-    results_dict = {}
+
+    logger.info("params_dict['flagThermo']\n%s" % (params_dict['flagThermo'],))
+    logger.info("params_dict['flagFrLoss']\n%s" % (params_dict['flagFrLoss'],))
+
+    flagB = flagTracker # контролируются ли левые ходки
+    calc_results_dict = {}
+    # i =ЕСЛИ(flagI;0;accu)
+    i = 0. if flagI else accu # коэфф-т простоев !!! нигде не использвется! ввести.
+    # b =ЕСЛИ(ИЛИ(flagPP;flagB);0;accu)
+    if flag_passengers:
+        b =  0. if flagPP else accu # коэфф-т "левых" пассажироперевозок
+    else:
+        b =  0. if flagB else accu # коэфф-т "левых" ходок
+    # флаги берутся из params_dict
+
+
+# Базовые величины для расчетов
     workout_cost_per_km = cost_loss_by_car_sell/prob # просто из головы. Ниакой оптимизации пока
     C0 = cost_loss_by_car_sell/x_k # себестоимость машины
     workout_in_hours = prob/average_speed # наработка в часах
@@ -66,7 +82,7 @@ def calc(params_dict):
     # Потери продуктов из-за разморозки     за срок службы 
     # ЕСЛИ(flagThermo;h_0*x_k*accu;h_0*x_k)
     fridge__spoil_cost_by_workout = h_0*x_k*accu if flagThermo else h_0*x_k
-
+    logger.info("fridge__spoil_cost_by_workout\n%s" % (fridge__spoil_cost_by_workout,))
 # Зарплата водителя 
     # z_0=I54*12*srok/x_k
     z_0 = driver__salary * 12 * srok / x_k
@@ -96,6 +112,18 @@ def calc(params_dict):
                             - workout__car_cost)
     workout_profit = (work__cost_by_workout - workout_expenditure)
 
+# Стоимость системы мониторинга
+    monitoring__setup_cost = 0.
+    monitoring__setup_cost += monitoring__tracker_cost if flagTracker else 0.
+    monitoring__setup_cost += monitoring__dut_cost if flagDut else 0.
+    monitoring__setup_cost += monitoring__termometr_cost if flagThermo else 0.
+    monitoring__setup_cost += monitoring__pp if flagPP else 0.
+    monitoring__setup_cost += monitoring__block_eng_cost if flag_block_eng else 0.
+    monitoring__setup_cost += monitoring__alarm_btn_cost if flag_alarm_btn else 0.
+    # monitoring__setup_cost +=  if  else 0.
+    monitoring__cost_by_workout = monitoring__setup_cost + \
+                        monitoring__abonent_pays_per_month * 12 * srok
+
 # Эффективность работы машины
     car_efficiency = work__cost_by_workout / workout_expenditure
 
@@ -103,12 +131,56 @@ def calc(params_dict):
     workout_expenditure_per_month = workout_expenditure / (12*srok)
     workout_profit_per_month = workout_profit / (12*srok)
 
-    results_dict['work__cost_by_workout'] = work__cost_by_workout
-    results_dict['workout_expenditure_per_month'] = workout_expenditure_per_month
-    results_dict['workout_profit_per_month'] = workout_profit_per_month
-    results_dict['car_efficiency'] = car_efficiency
-    # results_dict[''] = 
-    return results_dict
+    calc_results_dict['workout_profit'] = workout_profit
+    calc_results_dict['work__cost_by_workout'] = work__cost_by_workout
+    calc_results_dict['workout_expenditure_per_month'] = workout_expenditure_per_month
+    calc_results_dict['workout_profit_per_month'] = workout_profit_per_month
+    calc_results_dict['monitoring__setup_cost'] = monitoring__setup_cost
+    calc_results_dict['monitoring__cost_by_workout'] = monitoring__cost_by_workout
+    
+    # все аддитивные величины домножить на число машин
+    # (скидки делать здесь)
+    calc_results_dict.update((x, y*cars_quantity) for x, y in calc_results_dict.items())
+    
+    calc_results_dict['car_efficiency'] = car_efficiency
+    calc_results_dict['srok'] = srok
+    return calc_results_dict
+
+def compare(par_dict):
+    # Сравнение выгоды без системы и с системой
+    results_with_monitoring = calc(par_dict)
+    logger.debug("results_with_monitoring['workout_profit']\n%s" % (results_with_monitoring['workout_profit'],))
+    logger.debug("results_with_monitoring['car_efficiency']\n%s" % (results_with_monitoring['car_efficiency'],))
+
+    # как будто мониторинга нет
+    par_dict['i'] = accu # коэфф-т простоев !!! нигде не использвется! ввести.
+    par_dict['b'] = accu # коэфф-т "левых" ходок
+    par_dict['flagTracker'] = 0.  # ставим ли трекер
+    par_dict['flagDut'] = 0. # устанавливается ли ДУТ
+    par_dict['flagThermo'] = 0. # устанавливается ли термометр
+    par_dict['flagFrLoss'] = 0. # портится ли товар без холодильника
+    par_dict['flagI'] = 0. # есть ли контроль простоев (Idle)
+    par_dict['flagPP'] = 0. # есть ли контроль пассажиропотока
+    results_wo_monitoring = calc(par_dict)
+
+    logger.debug("results_wo_monitoring['workout_profit']\n%s" % (results_wo_monitoring['workout_profit'],))
+    logger.debug("results_wo_monitoring['car_efficiency']\n%s" % (results_wo_monitoring['car_efficiency'],))
+
+    srok = results_with_monitoring['srok'] 
+
+    monitoring__additional_profit = results_with_monitoring['workout_profit'] - \
+                                     results_wo_monitoring['workout_profit']
+    monitoring__additional_profit_per_month = monitoring__additional_profit / (12*srok)
+
+    if monitoring__additional_profit != 0.:
+        monitoring__recoupment = \
+                results_wo_monitoring['monitoring__cost_by_workout'] \
+                 / monitoring__additional_profit_per_month
+    else:
+        monitoring__recoupment = 0.
+    results_with_monitoring['monitoring__recoupment'] = monitoring__recoupment
+    # results_with_monitoring[''] = 
+    return results_with_monitoring
 
 if __name__ == '__main__':
     ct.setup_logging()
