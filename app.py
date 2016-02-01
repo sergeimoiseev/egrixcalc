@@ -98,7 +98,7 @@ class View(flask.views.MethodView):
         results_keys = [str(item) for item in results_keys]
         results_vals = [str(item) for item in results_vals]
 
-        flask.flash(['test output'])
+        flask.flash(['Русский язык'])
         flask.flash(['test output'])
 
         # flask.flash(headers)
