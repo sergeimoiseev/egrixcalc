@@ -1428,3 +1428,7 @@ on
 13:19:56.740 - werkzeug - INFO -  * Restarting with stat
 13:19:57.240 - werkzeug - WARNING -  * Debugger is active!
 13:19:57.241 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+13:20:45.984 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+13:20:46.037 - werkzeug - INFO -  * Restarting with stat
+13:20:46.533 - werkzeug - WARNING -  * Debugger is active!
+13:20:46.534 - werkzeug - INFO -  * Debugger pin code: 181-547-290

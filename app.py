@@ -98,9 +98,9 @@ class View(flask.views.MethodView):
                 values[5] = "%.1f" % (results_dict['monitoring__recoupment'])
                 headers[5] = 'Срок окупаемости системы, мес'
 
-        headers = [tr(item) for item in headers]
-        values = [tr(item) for item in values]
-        results_keys = [tr(item) for item in results_keys]
+        # headers = [tr(item) for item in headers]
+        # values = [tr(item) for item in values]
+        # results_keys = [tr(item) for item in results_keys]
         # results_vals = [tr(item) for item in results_vals]
 
         # headers = [str(bytes(item,'utf-8'),encoding='utf-8') for item in headers]
