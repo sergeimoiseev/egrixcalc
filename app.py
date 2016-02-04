@@ -46,8 +46,18 @@ class View(flask.views.MethodView):
                     flask.flash(['Введите параметры верно.'])
                     return self.get()
 
-        if 'equip.dut' in data.keys():
-            if data['equip.dut'][0] == 'on':
+        # изменение параметров
+        # общих для всех автопарков
+        try:
+            car_type = [key for key in flask.request.form.keys() if 'type_' in key][0].split('_')[-1]
+            if car_type == '':
+                car_type = 'arbitary'
+        except KeyError:
+            car_type = 'arbitary'
+        
+
+        if car_type+'.dut' in data.keys():
+            if data[car_type+'.dut'][0] == 'on':
                 params_dict['flagDut'] = 1.
         if 'firm.fridge' in data.keys():
             if data['firm.fridge'][0] == 'on':
@@ -117,6 +127,11 @@ class View(flask.views.MethodView):
         # flask.flash(['test output'])
 
         # flask.flash(headers)
+        flask.flash([[str(flask.request.form)],car_type+'.dut',data.get(car_type+'.dut',None), \
+                    params_dict['testflagDut']])
+        # flask.flash([['route'],[str(flask.request.args)]])
+        # flask.flash([['route'],[str(flask.request.query_string)]])
+        # flask.flash([['route'],[str(flask.request.url_rule.rule)]])
         flask.flash(values)
 
         # flask.flash(results_keys)

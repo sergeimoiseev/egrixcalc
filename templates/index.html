@@ -5,6 +5,12 @@
     <title>Калькулятор Egrix v0.1</title>
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <style>
+        html *
+        {
+           font-size: 1em !important;
+           color: #000 !important;
+           font-family: Arial !important;
+        }
         .result_table {
             width:880px;
         }
@@ -16,67 +22,157 @@
         table {
             border: 1px solid black;
         }
+        a {text-decoration:none}
+        /* Tabbed example */
+        div.tabs {
+          min-height: 12em;      /* No height: can grow if :target doesn't work */
+          position: relative;       /* Establish a containing block */
+          line-height: 1;       /* Easier to calculate with */
+          z-index: 0}           /* So that we can put other things behind */
+        div.tabs > div {
+          display: inline}      /* We want the buttons all on one line */
+        div.tabs > div > a {
+          color: black;         /* Looks more like a button than a link */
+          background: #CCC;     /* Active tabs are light gray */
+          padding: 0.2em;       /* Some breathing space */
+          border: 0.1em outset #BBB;    /* Make it look like a button */
+          border-bottom: 0.5em solid #CCC} /* Visually connect tab and tab body */
+        div.tabs > div:not(:target) > a {
+          border-bottom: none;      /* Make the bottom border disappear */
+          background: #999}     /* Inactive tabs are dark gray */
+        div.tabs > div:target > a,  /* Apply to the targeted item or... */
+        :target #arbitary > a {     /* ... to the default item */
+          border-bottom: 0.1em solid #CCC; /* Visually connect tab and tab body */
+          background: #CCC}     /* Active tab is light gray */
+        div.tabs > div > div {
+          background: #CCC;     /* Light gray */
+          z-index: -2;          /* Behind, because the borders overlap */
+          left: 0; top: 1.3em;      /* The top needs some calculation... */
+          bottom: 0; right: 0;      /* Other sides flush with containing block */
+          overflow: auto;       /* Scroll bar if needed */
+          padding: 0.3em;       /* Looks better */
+          border: 0.1em outset #BBB}    /* 3D look */
+        div.tabs > div:not(:target) > div { /* Protect CSS1 & CSS2 browsers */
+          position: absolute }      /* All these DIVs overlap */
+        div.tabs > div:target > div, :target #arbitary > div {
+          position: absolute;       /* All these DIVs overlap */
+          z-index: -1}          /* Raise it above the others */
+
+        div.tabs :target {
+          outline: none}
     </style>
 </head>
 <body>
     Расчет выгоды от установки системы АвтоГЛОНАСС
     <form action="/" method="post">
-            <fieldset>
-                <legend>Сведения о составе автопарка</legend>
-                <ul class=form-fields>
-                    <li>
-                        <label for=first-name>Количество машин</label>
-                        <input type=text class=text-input id=first-name name=firm.cars_quantity>
-                    </li>
-                    <li>
-                        <label for=first-name>Среднее время работы Ваших автомобилей в день</label>
-                        <input type=text class=text-input id=average_run_time name=firm.average_run_time>
-                    </li>
-                    <li>
-                        <input type=checkbox id=fridge name=firm.fridge> <label for=fridge>Рефрижератор</label>
-                    </li>
-                    <li>
-                        <input type=checkbox id=passengers name=firm.passengers> <label for=passengers>Пассажироперевозки</label>
-                    </li>
-                </ul>
-            </fieldset>
-            <fieldset>
-                <legend>Устанавливаемое оборудование</legend>
-                <p>Выберите желаемый набор дополнительного оборудования:</p>
-                <ul class=form-fields>
-                    <ul class=check-list>
-<!--                         <li>
-                            <input type=checkbox id=tracker name=equip.tracker> <label for=tracker>Трекер</label>
-                            <small class=extra-help>(необходим для подключения оборудования, кроме отмеченного **)</small>
-                        </li> -->
-                        <li>
-                            <input type=checkbox id=dut name=equip.dut> <label for=dut>ДУТ</label>
-                        </li>
-                        <li>
-                            <input type=checkbox id=temp name=equip.temp> <label for=temp>Датчик температуры (не учитывается без пункта "Рефрижератор")</label>
-                        </li>
-<!--                         <li>
-                            <input type=checkbox id=voice name=equip.voice> <label for=voice>Голосовая гарнитура</label>
-                        </li> -->
-                        <li>
-                            <input type=checkbox id=block_eng name=equip.block_eng> <label for=block_eng>Реле блокировки двигателя</label>
-                        </li>
-                        <li>
-                            <input type=checkbox id=alarm_btn name=equip.alarm_btn> <label for=alarm_btn>Тревожная кнопка</label>
-                        </li>
-                        <li>
-                            <input type=checkbox id=pp name=equip.pp> <label for=pp>ПП (не учитывается без пункта "Пассажироперевозки")</label>
-                        </li>
-                    </ul>
-                </ul>
-<!--  -->
-            </fieldset>
-            <input type=submit value="Рассчитать">
-        </form>
+        <fieldset>
+            <legend>Сведения о составе автопарка</legend>
+              <table class=basic_params_table border="0">
+                <tr>
+                <td><label for=first-name>Количество машин</label> </td>
+                <td><input type=text class=text-input id=first-name name=firm.cars_quantity></td>
+                </tr>
+                <tr>
+                <td><label for=first-name>Среднее время работы автомобиля в день</label></td>
+                <td><input type=text class=text-input id=average_run_time name=firm.average_run_time></td>
+                </tr>
+              </table>
+        </fieldset>
+        <fieldset>
+            <legend>Выберите желаемый набор дополнительного оборудования:</legend>
+            <div class=tabs>
+               <div id=type_freight> <a href="#type_freight">Грузоперевозки</a>
+                  <div>
+                    <input type=checkbox id=dut name=equip.dut> <label for=dut>ДУТ</label>
+                    <br>
+                    <input type=checkbox id=temp name=equip.temp> <label for=temp>Датчик температуры</label>
+                    <br>
+                    <input type=checkbox id=block_eng name=equip.block_eng> <label for=block_eng>Реле блокировки двигателя</label>
+                    <br>
+                    <input type=checkbox id=alarm_btn name=equip.alarm_btn> <label for=alarm_btn>Тревожная кнопка</label>
+                    <br>
+                    <input type=checkbox id=pp name=equip.pp> <label for=pp>ПП</label>
+                    <br>
+                    <br>
+                    <button type=submit name=type_freight>Рассчитать</button>
+                  </div>
+              </div>
 
-        {% with messages = get_flashed_messages() %}
-            {% if messages %}
-            <table class=result_table border="1">
+              <div id=type_fridge> <a href="#type_fridge">Перевозка заморозки</a>
+                  <div>
+                    <input type=checkbox id=dut name=equip.dut> <label for=dut>ДУТ</label>
+                    <br>
+                    <input type=checkbox id=temp name=equip.temp> <label for=temp>Датчик температуры</label>
+                    <br>
+                    <input type=checkbox id=block_eng name=equip.block_eng> <label for=block_eng>Реле блокировки двигателя</label>
+                    <br>
+                    <input type=checkbox id=alarm_btn name=equip.alarm_btn> <label for=alarm_btn>Тревожная кнопка</label>
+                    <br>
+                    <input type=checkbox id=pp name=equip.pp> <label for=pp>ПП</label>
+                    <br>
+                    <br>
+                    <button type=submit name=type_fridge>Рассчитать</button>
+                  </div>
+              </div>
+
+              <div id=type_passenger> <a href="#type_passenger">Пассажироперевозки</a>
+                  <div>
+                    <input type=checkbox id=dut name=equip.dut> <label for=dut>ДУТ</label>
+                    <br>
+                    <input type=checkbox id=temp name=equip.temp> <label for=temp>Датчик температуры</label>
+                    <br>
+                    <input type=checkbox id=block_eng name=equip.block_eng> <label for=block_eng>Реле блокировки двигателя</label>
+                    <br>
+                    <input type=checkbox id=alarm_btn name=equip.alarm_btn> <label for=alarm_btn>Тревожная кнопка</label>
+                    <br>
+                    <input type=checkbox id=pp name=equip.pp> <label for=pp>ПП</label>
+                    <br>
+                    <br>
+                    <button type=submit name=type_passenger>Рассчитать</button>
+                  </div>
+              </div>
+
+              <div id=type_taxi> <a href="#type_taxi">Такси</a>
+                  <div>
+                    <input type=checkbox id=dut name=equip.dut> <label for=dut>ДУТ</label>
+                    <br>
+                    <input type=checkbox id=temp name=equip.temp> <label for=temp>Датчик температуры</label>
+                    <br>
+                    <input type=checkbox id=block_eng name=equip.block_eng> <label for=block_eng>Реле блокировки двигателя</label>
+                    <br>
+                    <input type=checkbox id=alarm_btn name=equip.alarm_btn> <label for=alarm_btn>Тревожная кнопка</label>
+                    <br>
+                    <input type=checkbox id=pp name=equip.pp> <label for=pp>ПП</label>
+                    <br>
+                    <br>
+                    <button type=submit name=type_taxi>Рассчитать</button>
+                  </div>
+              </div>
+
+              <div id=type_arbitary> <a href="#type_arbitary">Другая конфигурация</a>
+                  <div>Выберите одну из первых вкладок, если вы хотите оборудовать типовой автопарк<br><br>
+                    <input type=checkbox id=dut name=arbitary.dut> <label for=dut>ДУТ</label>
+                    <br>
+                    <input type=checkbox id=temp name=equip.temp> <label for=temp>Датчик температуры</label>
+                    <br>
+                    <input type=checkbox id=block_eng name=equip.block_eng> <label for=block_eng>Реле блокировки двигателя</label>
+                    <br>
+                    <input type=checkbox id=alarm_btn name=equip.alarm_btn> <label for=alarm_btn>Тревожная кнопка</label>
+                    <br>
+                    <input type=checkbox id=pp name=equip.pp> <label for=pp>ПП</label>
+                    <br>
+                    <br>
+                    <button type=submit name=type_arbitary>Рассчитать</button>
+                  </div>
+              </div>
+
+          </div>
+        </fieldset>
+  </form>
+  <br>
+  {% with messages = get_flashed_messages() %}
+  {% if messages %}
+  <table class=result_table border="1">
 <!--             <tr>
                 {% for item in  messages[0] %}
                 <th>{{ item }}</th>
@@ -84,7 +180,7 @@
             </tr> -->
             <tr>
                 <th>Затраты на эксплуатацию в мес, руб</th>
-                <th>Доходы от эксплуатации в мес, руб</th>`
+                <th>Доходы от эксплуатации в мес, руб</th>
                 <th>Чистая прибыль в мес, руб</th>
                 <th>Экономия за счет мониторинга в месяц, руб</th>
                 <th>Эффективность ТС</th>
@@ -98,14 +194,14 @@
             </tr>
 
             {% for message in  messages[2:] %}
-                <tr>
-                    {% for item in  message %}
-                    <td>{{ item }}</td>
-                    {% endfor %}
-                </tr>
+            <tr>
+                {% for item in  message %}
+                <td>{{ item }}</td>
+                {% endfor %}
+            </tr>
             {% endfor %}
-            </table>
-            {% endif %}
+        </table>
+        {% endif %}
         {% endwith %}
-</body>
-</html>
+    </body>
+    </html>
