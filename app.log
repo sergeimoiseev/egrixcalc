@@ -2747,3 +2747,305 @@ on
 17:35:46.141 - werkzeug - INFO -  * Restarting with stat
 17:35:46.611 - werkzeug - WARNING -  * Debugger is active!
 17:35:46.611 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+17:41:46.898 - werkzeug - INFO -  * Restarting with stat
+17:41:47.416 - werkzeug - WARNING -  * Debugger is active!
+17:41:47.416 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+17:41:48.339 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 17:41:48] "GET / HTTP/1.1" 200 -
+17:41:48.441 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 17:41:48] "GET /static/favicon.ico HTTP/1.1" 200 -
+17:41:49.729 - __main__ - INFO - data_keys
+['firm.average_run_time', 'type_arbitary', 'firm.cars_quantity']
+17:41:49.729 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+17:41:49.769 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+17:41:51.344 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+17:41:52.155 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 17:41:52] "POST / HTTP/1.1" 500 -
+17:41:52.226 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 17:41:52] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+17:41:52.228 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 17:41:52] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+17:41:52.230 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 17:41:52] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+17:41:52.290 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 17:41:52] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+17:41:52.299 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 17:41:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+17:41:52.357 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 17:41:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+17:46:41.123 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+17:46:41.173 - werkzeug - INFO -  * Restarting with stat
+17:46:41.663 - werkzeug - WARNING -  * Debugger is active!
+17:46:41.663 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+17:46:44.962 - __main__ - INFO - data_keys
+['type_arbitary', 'firm.cars_quantity', 'firm.average_run_time']
+17:46:44.963 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+17:46:45.011 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+17:46:46.557 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+17:46:47.570 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 17:46:47] "POST / HTTP/1.1" 200 -
+17:46:47.646 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 17:46:47] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:21:42.053 - werkzeug - INFO -  * Restarting with stat
+21:21:42.532 - werkzeug - WARNING -  * Debugger is active!
+21:21:42.532 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+21:21:49.412 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:21:49] "GET / HTTP/1.1" 200 -
+21:21:51.208 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_arbitary', 'firm.average_run_time']
+21:21:51.208 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:21:51.241 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+21:21:54.425 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+21:21:57.406 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:21:57] "POST / HTTP/1.1" 200 -
+21:22:29.851 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+21:22:29.901 - werkzeug - INFO -  * Restarting with stat
+21:22:30.391 - werkzeug - WARNING -  * Debugger is active!
+21:22:30.391 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+21:22:32.908 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:22:32.908 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:22:32.956 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+21:22:36.315 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+21:22:37.350 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:22:37] "POST / HTTP/1.1" 200 -
+21:22:37.419 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:22:37] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:22:57.219 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+21:22:57.279 - werkzeug - INFO -  * Restarting with stat
+21:22:57.759 - werkzeug - WARNING -  * Debugger is active!
+21:22:57.759 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+21:23:00.314 - __main__ - INFO - data_keys
+['firm.average_run_time', 'type_arbitary', 'firm.cars_quantity']
+21:23:00.314 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:23:00.363 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+21:23:03.071 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+21:23:05.261 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:23:05] "POST / HTTP/1.1" 200 -
+21:23:05.335 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:23:05] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:30:26.252 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+21:30:26.312 - werkzeug - INFO -  * Restarting with stat
+21:30:26.822 - werkzeug - WARNING -  * Debugger is active!
+21:30:26.822 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+21:30:55.691 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+21:30:55.751 - werkzeug - INFO -  * Restarting with stat
+21:30:56.231 - werkzeug - WARNING -  * Debugger is active!
+21:30:56.231 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+21:31:47.627 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_arbitary', 'firm.average_run_time']
+21:31:47.627 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:31:47.676 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+21:31:49.269 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+21:31:50.309 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:31:50] "POST / HTTP/1.1" 200 -
+21:31:50.369 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:31:50] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:31:51.373 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_arbitary', 'firm.average_run_time']
+21:31:51.373 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:31:52.034 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:31:52] "POST / HTTP/1.1" 200 -
+21:31:53.671 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_arbitary', 'firm.average_run_time']
+21:31:53.671 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:31:54.335 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:31:54] "POST / HTTP/1.1" 200 -
+21:31:54.860 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_arbitary', 'firm.average_run_time']
+21:31:54.860 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:31:55.525 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:31:55] "POST / HTTP/1.1" 200 -
+21:31:58.546 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_arbitary', 'firm.average_run_time']
+21:31:58.546 - __main__ - INFO - data_vals
+[['122'], [''], ['']]
+21:31:59.721 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:31:59] "POST / HTTP/1.1" 200 -
+21:32:23.395 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_arbitary', 'firm.average_run_time']
+21:32:23.395 - __main__ - INFO - data_vals
+[['122'], [''], ['']]
+21:32:24.224 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:32:24] "POST / HTTP/1.1" 200 -
+21:32:24.284 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:32:24] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:32:25.677 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_arbitary', 'firm.average_run_time']
+21:32:25.677 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:32:27.141 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:32:27] "POST / HTTP/1.1" 200 -
+21:32:53.412 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_arbitary', 'firm.average_run_time']
+21:32:53.412 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:32:54.072 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:32:54] "POST / HTTP/1.1" 200 -
+21:32:54.136 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:32:54] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:34:14.243 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+21:34:14.303 - werkzeug - INFO -  * Restarting with stat
+21:34:14.783 - werkzeug - WARNING -  * Debugger is active!
+21:34:14.783 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+21:34:17.050 - __main__ - INFO - data_keys
+['firm.average_run_time', 'type_arbitary', 'firm.cars_quantity']
+21:34:17.050 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:34:17.099 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+21:34:20.090 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+21:34:22.820 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:34:22] "POST / HTTP/1.1" 200 -
+21:34:22.898 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:34:22] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:34:27.380 - __main__ - INFO - data_keys
+['firm.average_run_time', 'arbitary.dut', 'type_arbitary', 'firm.cars_quantity']
+21:34:27.380 - __main__ - INFO - data_vals
+[[''], ['on'], [''], ['']]
+21:34:28.376 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:34:28] "POST / HTTP/1.1" 200 -
+21:34:56.107 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+21:34:56.157 - werkzeug - INFO -  * Restarting with stat
+21:34:56.639 - werkzeug - WARNING -  * Debugger is active!
+21:34:56.639 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+21:34:58.644 - __main__ - INFO - data_keys
+['firm.average_run_time', 'arbitary.dut', 'firm.cars_quantity', 'type_arbitary']
+21:34:58.644 - __main__ - INFO - data_vals
+[[''], ['on'], [''], ['']]
+21:34:58.692 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.dropbox.com
+21:35:00.371 - urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api-content.dropbox.com
+21:35:02.456 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:35:02] "POST / HTTP/1.1" 200 -
+21:35:02.524 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:35:02] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:35:09.030 - __main__ - INFO - data_keys
+['firm.average_run_time', 'arbitary.dut', 'firm.cars_quantity', 'type_arbitary']
+21:35:09.030 - __main__ - INFO - data_vals
+[[''], ['on'], [''], ['']]
+21:35:10.301 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:35:10] "POST / HTTP/1.1" 200 -
+21:35:12.424 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity', 'type_arbitary']
+21:35:12.424 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:35:14.672 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:35:14] "POST / HTTP/1.1" 200 -
+21:35:20.310 - __main__ - INFO - data_keys
+['firm.average_run_time', 'equip.temp', 'firm.cars_quantity', 'equip.block_eng', 'arbitary.dut', 'equip.alarm_btn', 'type_arbitary']
+21:35:20.310 - __main__ - INFO - data_vals
+[[''], ['on'], [''], ['on'], ['on'], ['on'], ['']]
+21:35:21.209 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:35:21] "POST / HTTP/1.1" 200 -
+21:36:58.732 - __main__ - INFO - data_keys
+['firm.average_run_time', 'equip.temp', 'firm.cars_quantity', 'equip.block_eng', 'arbitary.dut', 'equip.alarm_btn', 'type_arbitary']
+21:36:58.732 - __main__ - INFO - data_vals
+[[''], ['on'], [''], ['on'], ['on'], ['on'], ['']]
+21:36:58.738 - urllib3.connectionpool - INFO - Resetting dropped connection: api.dropbox.com
+21:36:59.750 - urllib3.connectionpool - INFO - Resetting dropped connection: api-content.dropbox.com
+21:37:06.333 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:37:06] "POST / HTTP/1.1" 200 -
+21:37:06.393 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:37:06] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:37:10.391 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity', 'type_arbitary']
+21:37:10.391 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:37:12.424 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:37:12] "POST / HTTP/1.1" 200 -
+21:37:47.894 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\calc_tools.py', reloading
+21:37:47.944 - werkzeug - INFO -  * Restarting with stat
+21:37:48.444 - werkzeug - WARNING -  * Debugger is active!
+21:37:48.444 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+21:38:14.208 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\calc_tools.py', reloading
+21:38:14.258 - werkzeug - INFO -  * Restarting with stat
+21:38:14.768 - werkzeug - WARNING -  * Debugger is active!
+21:38:14.768 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+21:38:25.107 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+21:38:25.167 - werkzeug - INFO -  * Restarting with stat
+21:38:25.647 - werkzeug - WARNING -  * Debugger is active!
+21:38:25.647 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+21:38:28.772 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:38:28.773 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:38:28.822 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:38:28] "POST / HTTP/1.1" 200 -
+21:38:28.885 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:38:28] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:38:30.972 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:38:30.972 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:38:30.990 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:38:30] "POST / HTTP/1.1" 200 -
+21:38:32.526 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:38:32.526 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:38:32.548 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:38:32] "POST / HTTP/1.1" 200 -
+21:38:33.289 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:38:33.289 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:38:33.310 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:38:33] "POST / HTTP/1.1" 200 -
+21:38:33.833 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:38:33.833 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:38:33.853 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:38:33] "POST / HTTP/1.1" 200 -
+21:38:35.562 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary', 'arbitary.dut']
+21:38:35.572 - __main__ - INFO - data_vals
+[[''], [''], [''], ['on']]
+21:38:35.591 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:38:35] "POST / HTTP/1.1" 200 -
+21:39:30.366 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:39:30.366 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:39:30.398 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:39:30] "POST / HTTP/1.1" 200 -
+21:39:59.340 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:39:59.341 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:39:59.367 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:39:59] "POST / HTTP/1.1" 200 -
+21:39:59.434 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:39:59] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:40:01.908 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:40:01.908 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:40:01.933 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:40:01] "POST / HTTP/1.1" 200 -
+21:40:02.835 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:40:02.835 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:40:02.855 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:40:02] "POST / HTTP/1.1" 200 -
+21:40:22.701 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:40:22.701 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:40:22.731 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:40:22] "POST / HTTP/1.1" 200 -
+21:40:22.793 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:40:22] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:43:57.107 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:43:57.108 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:43:57.137 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:43:57] "POST / HTTP/1.1" 200 -
+21:43:57.214 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:43:57] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:43:59.420 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:43:59.420 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:43:59.444 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:43:59] "POST / HTTP/1.1" 200 -
+21:44:04.329 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary', 'arbitary.temp', 'arbitary.dut']
+21:44:04.329 - __main__ - INFO - data_vals
+[[''], [''], [''], ['on'], ['on']]
+21:44:04.350 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:44:04] "POST / HTTP/1.1" 200 -
+21:44:09.082 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary', 'arbitary.dut', 'arbitary.block_eng', 'arbitary.temp']
+21:44:09.082 - __main__ - INFO - data_vals
+[[''], [''], [''], ['on'], ['on'], ['on']]
+21:44:09.103 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:44:09] "POST / HTTP/1.1" 200 -
+21:48:00.547 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary', 'arbitary.dut', 'arbitary.block_eng', 'arbitary.temp']
+21:48:00.548 - __main__ - INFO - data_vals
+[[''], [''], [''], ['on'], ['on'], ['on']]
+21:48:00.578 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:48:00] "POST / HTTP/1.1" 200 -
+21:48:00.638 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:48:00] "GET /static/favicon.ico HTTP/1.1" 200 -
+21:48:07.351 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:48:07.351 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:48:07.374 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:48:07] "POST / HTTP/1.1" 200 -
+21:48:08.117 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary']
+21:48:08.117 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+21:48:08.134 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:48:08] "POST / HTTP/1.1" 200 -
+21:48:10.912 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'machinery.dut', 'type_machinery']
+21:48:10.912 - __main__ - INFO - data_vals
+[[''], [''], ['on'], ['']]
+21:48:10.937 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:48:10] "POST / HTTP/1.1" 200 -
+21:48:14.003 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_arbitary', 'arbitary.temp']
+21:48:14.003 - __main__ - INFO - data_vals
+[[''], [''], [''], ['on']]
+21:48:14.023 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:48:14] "POST / HTTP/1.1" 200 -
+21:50:01.625 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+21:50:01.685 - werkzeug - INFO -  * Restarting with stat
+21:50:02.175 - werkzeug - WARNING -  * Debugger is active!
+21:50:02.175 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+21:50:05.680 - __main__ - INFO - data_keys
+['type_arbitary', 'firm.cars_quantity', 'firm.average_run_time', 'arbitary.temp']
+21:50:05.681 - __main__ - INFO - data_vals
+[[''], [''], [''], ['on']]
+21:50:05.755 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:50:05] "POST / HTTP/1.1" 200 -
+21:50:05.821 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:50:05] "GET /static/favicon.ico HTTP/1.1" 200 -

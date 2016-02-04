@@ -29,7 +29,7 @@ class View(flask.views.MethodView):
         logger.info("data_keys\n%s" % (data_keys,))
         logger.info("data_vals\n%s" % (data_vals,))
 
-        params_dict = ct.get_and_store_params()
+        params_dict = ct.get_and_store_params(load_from_dropbox=False)
         # params_keys = [key for key in params_dict.keys() if key in params_dict]
         # params_vals = [params_dict[key] for key in  params_keys if key in params_dict]
 
@@ -46,17 +46,24 @@ class View(flask.views.MethodView):
                     flask.flash(['Введите параметры верно.'])
                     return self.get()
 
-        # изменение параметров
-        # общих для всех автопарков
+# необходимо реализовать чтение-вывод всех парамтеров из файла настроек
+# на отдельную "экспертную" вкладку
+
+
+# ниже - изменение параметров
+# общих для всех автопарков
         try:
             car_type = [key for key in flask.request.form.keys() if 'type_' in key][0].split('_')[-1]
             if car_type == '':
-                car_type = 'arbitary'
+                car_type = 'arbitary'  #  тип автопарка по умолчанию - неопределенный
         except KeyError:
-            car_type = 'arbitary'
+            car_type = 'arbitary'  #  тип автопарка по умолчанию - неопределенный
         
 
-        if car_type+'.dut' in data.keys():
+        if car_type+'.dut' in data.keys():  # теперь нужно так же переделать все регулруемые параметры
+        # лучше бы это было автоматизированно т.к. парамтеров много
+        #    лучше бы ключи-name-ы в форме назывались так же как параметры в файле настроек,
+        # если это возможно
             if data[car_type+'.dut'][0] == 'on':
                 params_dict['flagDut'] = 1.
         if 'firm.fridge' in data.keys():
@@ -111,32 +118,16 @@ class View(flask.views.MethodView):
                 values[6] = "%.1f" % (results_dict['monitoring__recoupment'])
                 headers[6] = 'Срок окупаемости системы, мес'
 
-# cant print in russian on jinja2
-        # headers = [tr(item) for item in headers]
-        # values = [tr(item) for item in values]
-        # results_keys = [tr(item) for item in results_keys]
-        # results_vals = [tr(item) for item in results_vals]
+# print in russian on jinja2 - use "|safe" option
+        # flask.flash(['Русский язык'])
 
-        # headers = [str(bytes(item,'utf-8'),encoding='utf-8') for item in headers]
-        # values = [str(bytes(item,'utf-8'),encoding='utf-8') for item in values]
-        # results_keys = [str(bytes(item,'utf-8'),encoding='utf-8') for item in results_keys]
-        # results_vals = [str(bytes(item,'utf-8'),encoding='utf-8') for item in results_vals]
-
-
-        # flask.flash([str(bytes('Русский язык', 'utf-8'),encoding = 'utf-8')])
-        # flask.flash(['test output'])
-
-        # flask.flash(headers)
-        flask.flash([[str(flask.request.form)],car_type+'.dut',data.get(car_type+'.dut',None), \
-                    params_dict['testflagDut']])
-        # flask.flash([['route'],[str(flask.request.args)]])
-        # flask.flash([['route'],[str(flask.request.query_string)]])
-        # flask.flash([['route'],[str(flask.request.url_rule.rule)]])
+        flask.flash(headers)
         flask.flash(values)
+        flask.flash(flask.request.form.keys())
+        flask.flash(flask.request.form.values())
 
         # flask.flash(results_keys)
         # flask.flash(results_vals)
-
 
         return self.get()
     

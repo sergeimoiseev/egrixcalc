@@ -108,13 +108,13 @@ def read_params_dict(from_dropbox=True):
         d[tmp_list[0]] = float_value
     return d
 
-def get_and_store_params():
+def get_and_store_params(load_from_dropbox=True):
     logger.debug(get_string_caller_objclass_method(get_and_store_params,inspect.stack()))
 
     params_dict = {}
     #try to load prarms from dropbox
     try:
-        params_dict = read_params_dict(from_dropbox=True)
+        params_dict = read_params_dict(from_dropbox=load_from_dropbox)
         read_dropbox_successfully = True
     except Exception as e: 
         read_dropbox_successfully = False
