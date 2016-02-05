@@ -147,3 +147,15 @@
 15:07:37.772 - __main__ - INFO - post request in TypeArbitary
 15:07:37.772 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:07:37] "POST /type_arbitary/ HTTP/1.1" 302 -
 15:07:37.782 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:07:37] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:10:36.495 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc_ec2\\app.py', reloading
+15:10:36.545 - werkzeug - INFO -  * Restarting with stat
+15:10:37.037 - werkzeug - WARNING -  * Debugger is active!
+15:10:37.037 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+15:10:43.113 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc_ec2\\params_processor.py', reloading
+15:10:43.173 - werkzeug - INFO -  * Restarting with stat
+15:10:43.653 - werkzeug - WARNING -  * Debugger is active!
+15:10:43.653 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+15:10:57.816 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc_ec2\\params_processor.py', reloading
+15:10:57.866 - werkzeug - INFO -  * Restarting with stat
+15:10:58.338 - werkzeug - WARNING -  * Debugger is active!
+15:10:58.338 - werkzeug - INFO -  * Debugger pin code: 181-547-290

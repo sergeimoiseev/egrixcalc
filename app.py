@@ -17,10 +17,10 @@ class Main(proc.EgrixCalcView):
     def post(self):
         logger.info("post request in Main")
 
-        # messages_to_flash = self.process_params('index')
+        messages_to_flash = self.process_params('index')
         # logger.info("messages_to_flash\n%s" % (messages_to_flash,))
-        # for message in messages_to_flash:
-        #     flask.flash(message)
+        for message in messages_to_flash:
+            flask.flash(message)
 
         flask.flash('index message')
         return flask.redirect(flask.url_for('index'))
@@ -34,11 +34,11 @@ class TypeArbitary(proc.EgrixCalcView):
 
         messages_to_flash = self.process_params('type_arbitary')
         # logger.info("messages_to_flash\n%s" % (messages_to_flash,))
-        # for message in messages_to_flash:
-            # flask.flash(message)
+        for message in messages_to_flash:
+            flask.flash(message)
             # pass
             
-        flask.flash(messages_to_flash)
+        # flask.flash(messages_to_flash)
         # flask.flash('arb message')
         return flask.redirect(flask.url_for('type_arbitary'))
 
