@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import flask, flask.views
-# import egrix_calc
-# import calc_tools as ct
-# import params_processor as proc
+import egrix_calc
+import calc_tools as ct
+import params_processor as proc
 import logging
 logger = logging.getLogger(__name__)
 
