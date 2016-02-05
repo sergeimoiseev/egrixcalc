@@ -174,3 +174,52 @@
 15:12:51.829 - werkzeug - INFO -  * Restarting with stat
 15:12:52.301 - werkzeug - WARNING -  * Debugger is active!
 15:12:52.301 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+15:13:25.766 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:13:25] "GET / HTTP/1.1" 200 -
+15:13:25.828 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:13:25] "GET /static/style.css HTTP/1.1" 304 -
+15:13:27.731 - __main__ - INFO - post request in Main
+15:13:27.741 - params_processor - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity', 'type_minimal']
+15:13:27.741 - params_processor - INFO - data_vals
+[[''], [''], ['']]
+15:13:27.752 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:13:27] "POST / HTTP/1.1" 500 -
+15:13:27.822 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:13:27] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+15:13:27.824 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:13:27] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+15:13:27.825 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:13:27] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+15:13:27.887 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:13:27] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+15:13:28.017 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:13:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+15:13:28.050 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:13:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+15:13:52.057 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc_ec2\\params_processor.py', reloading
+15:13:52.107 - werkzeug - INFO -  * Restarting with stat
+15:13:52.577 - werkzeug - WARNING -  * Debugger is active!
+15:13:52.577 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+15:14:16.202 - __main__ - INFO - post request in Main
+15:14:16.203 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'type_minimal', 'firm.average_run_time']
+15:14:16.203 - params_processor - INFO - data_vals
+[[''], [''], ['']]
+15:14:16.235 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:14:16] "POST / HTTP/1.1" 302 -
+15:14:16.250 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:14:16] "GET / HTTP/1.1" 200 -
+15:14:16.311 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:14:16] "GET /static/style.css HTTP/1.1" 304 -
+15:14:17.479 - __main__ - INFO - post request in Main
+15:14:17.479 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'type_minimal', 'firm.average_run_time']
+15:14:17.479 - params_processor - INFO - data_vals
+[[''], [''], ['']]
+15:14:17.498 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:14:17] "POST / HTTP/1.1" 302 -
+15:14:17.503 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:14:17] "GET / HTTP/1.1" 200 -
+15:14:19.903 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:14:19] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:14:20.730 - __main__ - INFO - post request in TypeArbitary
+15:14:20.731 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'type_freight', 'firm.average_run_time']
+15:14:20.731 - params_processor - INFO - data_vals
+[[''], [''], ['']]
+15:14:20.744 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:14:20] "POST /type_arbitary/ HTTP/1.1" 302 -
+15:14:20.749 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:14:20] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:14:21.843 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:14:21] "GET / HTTP/1.1" 200 -
+15:14:22.512 - __main__ - INFO - post request in Main
+15:14:22.512 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'type_minimal', 'firm.average_run_time']
+15:14:22.512 - params_processor - INFO - data_vals
+[[''], [''], ['']]
+15:14:22.529 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:14:22] "POST / HTTP/1.1" 302 -
+15:14:22.534 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:14:22] "GET / HTTP/1.1" 200 -
