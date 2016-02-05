@@ -310,3 +310,16 @@
 15:30:32.407 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:30:32] "POST /type_arbitary/ HTTP/1.1" 302 -
 15:30:32.417 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:30:32] "GET /type_arbitary/ HTTP/1.1" 200 -
 15:30:33.054 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:30:33] "GET / HTTP/1.1" 200 -
+15:31:36.886 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc_ec2\\params_processor.py', reloading
+15:31:36.936 - werkzeug - INFO -  * Restarting with stat
+15:31:37.426 - werkzeug - WARNING -  * Debugger is active!
+15:31:37.426 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+15:31:55.432 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:31:55] "GET / HTTP/1.1" 200 -
+15:31:55.499 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:31:55] "GET /static/style.css HTTP/1.1" 304 -
+15:31:56.802 - __main__ - INFO - post request in Main
+15:31:56.802 - params_processor - INFO - data_keys
+['firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+15:31:56.802 - params_processor - INFO - data_vals
+[[''], [''], ['']]
+15:31:56.838 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:31:56] "POST / HTTP/1.1" 302 -
+15:31:56.843 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:31:56] "GET / HTTP/1.1" 200 -
