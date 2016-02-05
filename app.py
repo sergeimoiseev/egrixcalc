@@ -23,6 +23,7 @@ class Main(proc.EgrixCalcView):
         #     flask.flash(message)
         
         flask.flash(messages_to_flash[0])
+        flask.flash(messages_to_flash[1])
 
         # flask.flash('index message')
         return flask.redirect(flask.url_for('index'))
@@ -40,6 +41,7 @@ class TypeArbitary(proc.EgrixCalcView):
         #     flask.flash(message)
             # pass
         flask.flash(messages_to_flash[0])
+        flask.flash(messages_to_flash[1])
             
         # flask.flash(messages_to_flash)
         # flask.flash('arb message')
