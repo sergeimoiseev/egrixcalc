@@ -1,6 +1,22 @@
 {% extends "base.html" %}
 {% block body %}
+  <form action="{{url_for('index')}}" method="post">
+    <fieldset>
+        <legend>Сведения о составе автопарка</legend>
+          <table class=basic_params_table border="0">
+            <tr>
+            <td><label for=first-name>Количество машин</label> </td>
+            <td><input type=text class=text-input id=first-name name=firm.cars_quantity></td>
+            </tr>
+            <tr>
+            <td><label for=first-name>Среднее время работы автомобиля в день</label></td>
+            <td><input type=text class=text-input id=average_run_time name=firm.average_run_time></td>
+            </tr>
+          </table>
+    </fieldset>
 
+
+  </form>
 <p>index page</p>
 
 {% endblock %}
