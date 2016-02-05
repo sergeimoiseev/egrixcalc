@@ -44,9 +44,9 @@
 
   {% with messages = get_flashed_messages() %}
     {% if messages %}
-      {% for item in  messages[0] %}
-        {{ item|safe }}
-      {% endfor %}
+      {{ messages[0]|safe }}
+      {{ messages[1]|safe }}
+      {{ messages[2]|safe }}
     {% endif %}
   {% endwith %}
 
