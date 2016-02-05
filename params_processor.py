@@ -15,7 +15,8 @@ class EgrixCalcView(flask.views.MethodView):
         data_vals = [flask.request.form.getlist(key) for key in  data_keys]
         # flask.flash(data_keys)
         # flask.flash(data_vals)
-        return data_keys[0]
+        return 'data_keys[0] русский'
+        # return data_keys[0]
 
         logger.info("data_keys\n%s" % (data_keys,))
         logger.info("data_vals\n%s" % (data_vals,))
