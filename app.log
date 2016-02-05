@@ -558,3 +558,27 @@
 [[u''], [u''], [u''], [u'on']]
 16:30:06.700 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:30:06] "POST /type_arbitary/ HTTP/1.1" 302 -
 16:30:06.706 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:30:06] "GET /type_arbitary/ HTTP/1.1" 200 -
+16:38:10.404 - werkzeug - INFO -  * Restarting with stat
+16:38:10.694 - werkzeug - WARNING -  * Debugger is active!
+16:38:10.694 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+16:38:10.694 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+16:38:12.947 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:38:12] "GET / HTTP/1.1" 200 -
+16:38:13.082 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:38:13] "GET /static/style.css HTTP/1.1" 200 -
+16:38:14.092 - __main__ - INFO - post request in Main
+16:38:14.092 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'type_minimal', 'firm.average_run_time']
+16:38:14.092 - params_processor - INFO - data_vals
+[[u''], [u''], [u'']]
+16:38:14.142 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:38:14] "POST / HTTP/1.1" 302 -
+16:38:14.163 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:38:14] "GET / HTTP/1.1" 500 -
+16:38:14.229 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:38:14] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+16:38:14.233 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:38:14] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+16:38:14.236 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:38:14] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+16:38:14.289 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:38:14] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+16:38:14.311 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:38:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+16:38:14.378 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:38:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+16:38:45.733 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\params_processor.py', reloading
+16:38:45.753 - werkzeug - INFO -  * Restarting with stat
+16:38:46.023 - werkzeug - WARNING -  * Debugger is active!
+16:38:46.032 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+16:38:46.032 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
