@@ -19,6 +19,7 @@ class Main(flask.views.MethodView):
         # for message in messages_to_flash:
         #     flask.flash(message)
 
+        flask.flash('index message')
         return flask.redirect(flask.url_for('index'))
 
 class TypeArbitary(flask.views.MethodView):
@@ -33,6 +34,7 @@ class TypeArbitary(flask.views.MethodView):
         # for message in messages_to_flash:
         #     flask.flash(message)
             
+        flask.flash('arb message')
         return flask.redirect(flask.url_for('type_arbitary'))
 
 app.add_url_rule('/',

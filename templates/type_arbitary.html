@@ -39,6 +39,19 @@
   <div class="hyperlink" id=main> <a href="{{url_for('index')}}">Вернуться к типовым наборам оборудования</a>
   </div>    
 
-<p>arb page</p>
+  <p>arb page</p>
+
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <table class=result_table border="1">
+      <tr>
+          {% for item in  messages[0] %}
+          <th><center>{{ item|safe }}</center></th>
+          {% endfor %}
+      </tr>
+    </table>
+    {% endif %}
+  {% endwith %}
+
 
 {% endblock %}

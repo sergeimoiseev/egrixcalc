@@ -153,4 +153,17 @@
   
   <p>index page</p>
 
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <table class=result_table border="1">
+      <tr>
+          {% for item in  messages[0] %}
+          <th><center>{{ item|safe }}</center></th>
+          {% endfor %}
+      </tr>
+    </table>
+    {% endif %}
+  {% endwith %}
+
+
 {% endblock %}
