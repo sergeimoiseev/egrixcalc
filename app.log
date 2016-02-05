@@ -1,0 +1,12 @@
+14:19:43.544 - werkzeug - INFO -  * Restarting with stat
+14:19:44.042 - werkzeug - WARNING -  * Debugger is active!
+14:19:44.045 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+14:19:44.066 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:19:44] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:19:44.149 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:19:44] "GET /static/style.css HTTP/1.1" 304 -
+14:19:46.658 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:19:46] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:19:46.722 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:19:46] "GET /static/style.css HTTP/1.1" 304 -
+14:19:48.875 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:19:48] "GET / HTTP/1.1" 200 -
+14:24:12.186 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc_ec2\\app.py', reloading
+14:24:12.236 - werkzeug - INFO -  * Restarting with stat
+14:24:12.706 - werkzeug - WARNING -  * Debugger is active!
+14:24:12.706 - werkzeug - INFO -  * Debugger pin code: 181-547-290
