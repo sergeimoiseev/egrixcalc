@@ -121,3 +121,19 @@
 14:58:20.184 - __main__ - INFO - post request in TypeArbitary
 14:58:20.184 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:58:20] "POST /type_arbitary/ HTTP/1.1" 302 -
 14:58:20.184 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:58:20] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:01:52.630 - werkzeug - INFO -  * Restarting with stat
+15:01:53.120 - werkzeug - WARNING -  * Debugger is active!
+15:01:53.120 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+15:05:10.677 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:05:10] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:05:10.743 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:05:10] "GET /static/style.css HTTP/1.1" 200 -
+15:05:12.524 - __main__ - INFO - post request in TypeArbitary
+15:05:12.534 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:05:12] "POST /type_arbitary/ HTTP/1.1" 302 -
+15:05:12.534 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:05:12] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:05:13.347 - __main__ - INFO - post request in TypeArbitary
+15:05:13.347 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:05:13] "POST /type_arbitary/ HTTP/1.1" 302 -
+15:05:13.347 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:05:13] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:05:14.269 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:05:14] "GET / HTTP/1.1" 200 -
+15:05:15.114 - __main__ - INFO - post request in Main
+15:05:15.114 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:05:15] "POST / HTTP/1.1" 302 -
+15:05:15.114 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:05:15] "GET / HTTP/1.1" 200 -
+15:05:15.836 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:05:15] "GET /type_arbitary/ HTTP/1.1" 200 -

@@ -2,7 +2,8 @@
         {
            font-size: 1em !important;
            color: #000 !important;
-           font-family: Arial !important;
+           font-family: 'Georgia', serif;
+           /*font-family: Arial !important;*/
         }
         .result_table {
             width:880px;
