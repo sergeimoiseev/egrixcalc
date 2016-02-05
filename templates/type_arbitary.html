@@ -42,9 +42,24 @@
   <p>arb page</p>
 
 
-  {% with messages = get_flashed_messages() %}
-    {% if messages %}
-      {{ messages[0]|safe }}
+  {% with m = get_flashed_messages() %}
+    {% if m %}
+      <table class=result_table border="1">
+        <tr>
+        <th> {{ m[0][0]|safe }} </th>
+        <th> {{ m[0][1]|safe }} </th>
+        <th> {{ m[0][2]|safe }} </th>
+        <th> {{ m[0][3]|safe }} </th>
+        <th> {{ m[0][4]|safe }} 
+        </tr>
+        <tr>
+        <td> {{ m[0][0]|safe }} </td>
+        <td> {{ m[0][1]|safe }} </td>
+        <td> {{ m[0][2]|safe }} </td>
+        <td> {{ m[0][3]|safe }} </td>
+        <td> {{ m[0][4]|safe }} 
+        </tr>
+      </table>
     {% endif %}
   {% endwith %}
 
