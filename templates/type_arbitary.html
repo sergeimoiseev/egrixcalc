@@ -43,7 +43,7 @@
 
   {% with messages = get_flashed_messages() %}
     {% if messages %}
-      <th><center>{{ messages|safe }}</center></th>
+      <th><center>{{ messages[0]|safe }}</center></th>
     {% endif %}
   {% endwith %}
 
