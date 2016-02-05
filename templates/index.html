@@ -156,9 +156,7 @@
   {% with messages = get_flashed_messages() %}
     {% if messages %}
       {{ messages[0]|safe }}
-      {% for item in messages[0] %}
-        <p>{{ item|safe }}</p>
-      {% endfor %}
+
     {% endif %}
   {% endwith %}
 
