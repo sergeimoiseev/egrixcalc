@@ -393,3 +393,31 @@
 15:38:27.520 - werkzeug - WARNING -  * Debugger is active!
 15:38:27.520 - werkzeug - INFO -  * Debugger pin code: 303-428-632
 15:38:27.520 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+15:39:02.357 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:39:02] "GET / HTTP/1.1" 200 -
+15:39:02.486 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:39:02] "GET /static/style.css HTTP/1.1" 304 -
+15:39:04.217 - __main__ - INFO - post request in Main
+15:39:04.226 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:39:04] "POST / HTTP/1.1" 302 -
+15:39:04.226 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:39:04] "GET / HTTP/1.1" 200 -
+15:39:05.625 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:39:05] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:39:06.371 - __main__ - INFO - post request in TypeArbitary
+15:39:06.371 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:39:06] "POST /type_arbitary/ HTTP/1.1" 302 -
+15:39:06.371 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:39:06] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:39:06.940 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:39:06] "GET / HTTP/1.1" 200 -
+15:48:30.678 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc_ec2\\params_processor.py', reloading
+15:48:30.698 - werkzeug - INFO -  * Restarting with stat
+15:48:30.989 - werkzeug - WARNING -  * Debugger is active!
+15:48:30.989 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+15:48:30.999 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+15:49:00.381 - werkzeug - INFO -  * Restarting with stat
+15:49:00.661 - werkzeug - WARNING -  * Debugger is active!
+15:49:00.661 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+15:49:00.661 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+15:49:04.983 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:49:04] "GET / HTTP/1.1" 200 -
+15:49:05.114 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:49:05] "GET /static/style.css HTTP/1.1" 304 -
+15:49:06.072 - __main__ - INFO - post request in Main
+15:49:06.082 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:49:06] "POST / HTTP/1.1" 302 -
+15:49:06.082 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:49:06] "GET / HTTP/1.1" 200 -
+15:49:07.413 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:49:07] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:49:08.234 - __main__ - INFO - post request in TypeArbitary
+15:49:08.234 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:49:08] "POST /type_arbitary/ HTTP/1.1" 302 -
+15:49:08.244 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:49:08] "GET /type_arbitary/ HTTP/1.1" 200 -

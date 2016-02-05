@@ -17,7 +17,8 @@ class EgrixCalcView(flask.views.MethodView):
         # flask.flash(data_keys)
         # flask.flash(data_vals)
         # return u'data_keys[0] русский'
-        return [[u'Затраты на эксплуатацию в мес, руб',u'еще',u'русский'],data_vals]
+        return [[u'eng',u'engl',u'sh'],data_vals]
+        # return [[u'Затраты на эксплуатацию в мес, руб',u'еще',u'русский'],data_vals]
 
         logger.info("data_keys\n%s" % (data_keys,))
         logger.info("data_vals\n%s" % (data_vals,))
