@@ -16,7 +16,6 @@ def type_of_value(var):
     except Exception:
        return str
 
-
 import logging.config, os, yaml
 
 def setup_logging(
