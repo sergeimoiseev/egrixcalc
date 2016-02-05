@@ -38,7 +38,9 @@
   </form>
   <div class="hyperlink" id=main> <a href="{{url_for('index')}}">Вернуться к типовым наборам оборудования</a>
   </div>    
-
+  
+  <br>
+  <br>
   {% with m = get_flashed_messages() %}
     {% if m %}
       <table class=result_table border="1">
@@ -50,6 +52,7 @@
         <th> {{ m[0][4]|safe }} </th>
         <th> {{ m[0][5]|safe }} </th>
         <th> {{ m[0][6]|safe }} </th>
+        <th> {{ m[0][7]|safe }} </th>
         </tr>
         <tr>
         <td> {{ m[1][0]|safe }} </td>
@@ -59,6 +62,7 @@
         <td> {{ m[1][4]|safe }} </td>
         <td> {{ m[1][5]|safe }} </td>
         <td> {{ m[1][6]|safe }} </td>
+        <td> {{ m[1][7]|safe }} </td>
         </tr>
       </table>
     {% endif %}

@@ -500,3 +500,61 @@
 16:03:10.680 - werkzeug - WARNING -  * Debugger is active!
 16:03:10.680 - werkzeug - INFO -  * Debugger pin code: 303-428-632
 16:03:10.690 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+16:03:56.395 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:03:56] "GET /type_arbitary/ HTTP/1.1" 200 -
+16:03:56.523 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:03:56] "GET /static/style.css HTTP/1.1" 304 -
+16:03:57.730 - __main__ - INFO - post request in TypeArbitary
+16:03:57.740 - params_processor - INFO - data_keys
+['type_freight', 'firm.cars_quantity', 'firm.average_run_time']
+16:03:57.740 - params_processor - INFO - data_vals
+[[u''], [u''], [u'']]
+16:03:57.802 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:03:57] "POST /type_arbitary/ HTTP/1.1" 302 -
+16:03:57.806 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:03:57] "GET /type_arbitary/ HTTP/1.1" 200 -
+16:03:58.540 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:03:58] "GET / HTTP/1.1" 200 -
+16:03:59.282 - __main__ - INFO - post request in Main
+16:03:59.292 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'type_minimal', 'firm.average_run_time']
+16:03:59.292 - params_processor - INFO - data_vals
+[[u''], [u''], [u'']]
+16:03:59.305 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:03:59] "POST / HTTP/1.1" 302 -
+16:03:59.312 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:03:59] "GET / HTTP/1.1" 200 -
+16:28:25.973 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:28:25] "GET /type_arbitary/ HTTP/1.1" 200 -
+16:28:28.437 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:28:28] "GET / HTTP/1.1" 200 -
+16:28:29.223 - __main__ - INFO - post request in Main
+16:28:29.223 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'type_minimal', 'firm.average_run_time']
+16:28:29.223 - params_processor - INFO - data_vals
+[[u''], [u''], [u'']]
+16:28:29.233 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:28:29] "POST / HTTP/1.1" 302 -
+16:28:29.250 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:28:29] "GET / HTTP/1.1" 200 -
+16:28:31.756 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:28:31] "GET /type_arbitary/ HTTP/1.1" 200 -
+16:28:32.934 - __main__ - INFO - post request in TypeArbitary
+16:28:32.934 - params_processor - INFO - data_keys
+['type_freight', 'firm.cars_quantity', 'firm.average_run_time']
+16:28:32.934 - params_processor - INFO - data_vals
+[[u''], [u''], [u'']]
+16:28:32.953 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:28:32] "POST /type_arbitary/ HTTP/1.1" 302 -
+16:28:32.961 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:28:32] "GET /type_arbitary/ HTTP/1.1" 200 -
+16:29:54.596 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:29:54] "GET / HTTP/1.1" 200 -
+16:29:54.660 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:29:54] "GET /static/style.css HTTP/1.1" 304 -
+16:29:55.920 - __main__ - INFO - post request in Main
+16:29:55.920 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'type_minimal', 'firm.average_run_time']
+16:29:55.920 - params_processor - INFO - data_vals
+[[u''], [u''], [u'']]
+16:29:55.940 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:29:55] "POST / HTTP/1.1" 302 -
+16:29:55.946 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:29:55] "GET / HTTP/1.1" 200 -
+16:29:56.882 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:29:56] "GET /type_arbitary/ HTTP/1.1" 200 -
+16:29:57.875 - __main__ - INFO - post request in TypeArbitary
+16:29:57.875 - params_processor - INFO - data_keys
+['type_freight', 'firm.cars_quantity', 'firm.average_run_time']
+16:29:57.875 - params_processor - INFO - data_vals
+[[u''], [u''], [u'']]
+16:29:57.891 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:29:57] "POST /type_arbitary/ HTTP/1.1" 302 -
+16:29:57.895 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:29:57] "GET /type_arbitary/ HTTP/1.1" 200 -
+16:30:06.677 - __main__ - INFO - post request in TypeArbitary
+16:30:06.687 - params_processor - INFO - data_keys
+['type_freight', 'firm.cars_quantity', 'firm.average_run_time', 'freight.temp']
+16:30:06.687 - params_processor - INFO - data_vals
+[[u''], [u''], [u''], [u'on']]
+16:30:06.700 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:30:06] "POST /type_arbitary/ HTTP/1.1" 302 -
+16:30:06.706 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 16:30:06] "GET /type_arbitary/ HTTP/1.1" 200 -
