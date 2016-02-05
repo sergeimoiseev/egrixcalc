@@ -32,11 +32,11 @@ class TypeArbitary(proc.EgrixCalcView):
     def post(self):
         logger.info("post request in TypeArbitary")
 
-        messages_to_flash = self.process_params('type_arbitary')
-        logger.info("messages_to_flash\n%s" % (messages_to_flash,))
-        for message in messages_to_flash:
+        # messages_to_flash = self.process_params('type_arbitary')
+        # logger.info("messages_to_flash\n%s" % (messages_to_flash,))
+        # for message in messages_to_flash:
             # flask.flash(message)
-            pass
+            # pass
             
         flask.flash('arb message')
         return flask.redirect(flask.url_for('type_arbitary'))
