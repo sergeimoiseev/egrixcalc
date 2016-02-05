@@ -35,8 +35,8 @@ class EgrixCalcView(flask.views.MethodView):
                 motorhours_per_day = float(data['firm.average_run_time'][0])
                 params_dict['motorhours_per_day'] =  float(data['firm.average_run_time'][0])
                 if motorhours_per_day > 24:
-                    flask.flash(['Неверно заданы параметры.'])
-                    flask.flash(['Введите параметры верно.'])
+                    # flask.flash([u'Неверно заданы параметры.'])
+                    # flask.flash([u'Введите параметры верно.'])
                     return flask.redirect(flask.url_for(page_name))
 
         # необходимо реализовать чтение-вывод всех парамтеров из файла настроек
