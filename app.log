@@ -443,3 +443,17 @@
 15:53:33.039 - __main__ - INFO - post request in TypeArbitary
 15:53:33.039 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:53:33] "POST /type_arbitary/ HTTP/1.1" 302 -
 15:53:33.049 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:53:33] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:58:47.141 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:58:47] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:58:47.201 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:58:47] "GET /static/style.css HTTP/1.1" 304 -
+15:58:48.460 - __main__ - INFO - post request in TypeArbitary
+15:58:48.460 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:58:48] "POST /type_arbitary/ HTTP/1.1" 302 -
+15:58:48.470 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:58:48] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:58:49.056 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:58:49] "GET / HTTP/1.1" 200 -
+15:58:49.869 - __main__ - INFO - post request in Main
+15:58:49.880 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:58:49] "POST / HTTP/1.1" 302 -
+15:58:49.880 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:58:49] "GET / HTTP/1.1" 200 -
+15:59:58.864 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc_ec2\\params_processor.py', reloading
+15:59:58.884 - werkzeug - INFO -  * Restarting with stat
+15:59:59.164 - werkzeug - WARNING -  * Debugger is active!
+15:59:59.164 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+15:59:59.174 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
