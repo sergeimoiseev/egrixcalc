@@ -4504,3 +4504,24 @@ True
 14:11:31.036 - werkzeug - INFO -  * Restarting with stat
 14:11:31.519 - werkzeug - WARNING -  * Debugger is active!
 14:11:31.519 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+14:11:59.272 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:11:59] "GET / HTTP/1.1" 200 -
+14:11:59.452 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:11:59] "GET / HTTP/1.1" 200 -
+14:12:01.573 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:01] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:02.506 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:02] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:04.109 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:04] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:04.589 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:04] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:04.805 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:04] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:04.995 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:04] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:05.161 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:05] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:05.312 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:05] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:05.455 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:05] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:05.597 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:05] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:05.737 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:05] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:06.600 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:06] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:06.683 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:06] "GET /static/style.css HTTP/1.1" 200 -
+14:12:31.396 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:31] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:31.461 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:31] "GET /static/style.css HTTP/1.1" 304 -
+14:12:33.745 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:33] "GET / HTTP/1.1" 200 -
+14:12:34.416 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:34] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:12:34.938 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:34] "GET / HTTP/1.1" 200 -
+14:12:36.136 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:12:36] "GET /type_arbitary/ HTTP/1.1" 200 -
