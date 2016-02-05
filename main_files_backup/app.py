@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 import flask, flask.views
+import egrix_calc
+import calc_tools as ct
+import params_processor as proc
 import logging
 logger = logging.getLogger(__name__)
 
@@ -7,10 +10,10 @@ app = flask.Flask(__name__)
 app.debug = True
 app.secret_key = "bacon"
 
-class Main(flask.views.MethodView):
+class Main(proc.EgrixCalcView):
     def get(self):
         return flask.render_template('index.html')
-
+        
     def post(self):
         logger.info("post request in Main")
 
@@ -21,10 +24,10 @@ class Main(flask.views.MethodView):
 
         return flask.redirect(flask.url_for('index'))
 
-class TypeArbitary(flask.views.MethodView):
+class TypeArbitary(proc.EgrixCalcView):
     def get(self):
         return flask.render_template('type_arbitary.html')
-
+        
     def post(self):
         logger.info("post request in TypeArbitary")
 

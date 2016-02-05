@@ -1,0 +1,11 @@
+{C_plus: 125000.0, a: 1.0, accu: 0.05, average_speed: 50.0, breaking_on_last_hundreds_probability: 0.95,
+  cars_quantity: 1.0, cost_loss_by_car_sell: 1000000.0, driver__salary: 30000.0, flagDut: 0.0,
+  flagFrLoss: 0.0, flagI: 0.0, flagPP: 0.0, flagThermo: 0.0, flagTracker: 1.0, flag_alarm_btn: 0.0,
+  flag_block_eng: 0.0, flag_passengers: 0.0, fridge__spoil_fee: 50000.0, fridge_loss_probability: 0.05,
+  fuel__cost_per_liter: 35.0, fuel__liters_per_km: 0.12, fuel__stealing_rate: 0.05,
+  fuel__usage_increase_by_time_of_workout: 0.275, monitoring__abonent_pays_per_month: 300.0,
+  monitoring__alarm_btn_cost: 1000.0, monitoring__block_eng_cost: 2000.0, monitoring__dut_cost: 2500.0,
+  monitoring__pp: 3000.0, monitoring__termometr_cost: 2000.0, monitoring__tracker_cost: 4500.0,
+  motorhours_per_day: 5.0, payload: 5.0, prob: 500000.0, repair__year_cost_new_car: 20000.0,
+  service__price_part_per_year: 0.05, work__cost_per_tkm: 5.0, workdays_per_year: 250.0,
+  x_k: 0.8}

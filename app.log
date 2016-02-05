@@ -10,3 +10,5 @@
 14:24:12.236 - werkzeug - INFO -  * Restarting with stat
 14:24:12.706 - werkzeug - WARNING -  * Debugger is active!
 14:24:12.706 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+14:26:31.382 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc_ec2\\app.py', reloading
+14:26:31.432 - werkzeug - INFO -  * Restarting with stat
