@@ -91,25 +91,25 @@ class EgrixCalcView(flask.views.MethodView):
         for key in results_keys:
             if key == 'workout_expenditure_per_month':
                 values[0] = "%.1f" % (results_dict['workout_expenditure_per_month'])
-                headers[0] = 'Затраты на эксплуатацию в мес, руб'
+                headers[0] = u'Затраты на эксплуатацию в мес, руб'
             if key == 'work__cost_by_workout':
                 values[1] = "%.1f" % (results_dict['work__cost_by_workout'])
-                headers[1] = 'Доходы от эксплуатации в мес, руб'
+                headers[1] = u'Доходы от эксплуатации в мес, руб'
             if key == 'workout_profit_per_month':
                 values[2] = "%.1f" % (results_dict['workout_profit_per_month'])
-                headers[2] = 'Чистая прибыль в мес, руб'
+                headers[2] = u'Чистая прибыль в мес, руб'
             if key == 'workout_profit_per_month':
                 values[3] = "%.1f" % (results_dict['monitoring__additional_profit_per_month'])
-                headers[3] = 'Экономия за счет мониторинга в месяц, руб'
+                headers[3] = u'Экономия за счет мониторинга в месяц, руб'
             if key == 'car_efficiency':
                 values[4] = "%.3f" % (results_dict['car_efficiency'])
-                headers[4] = 'Эффективность ТС'
+                headers[4] = u'Эффективность ТС'
             if key == 'monitoring__setup_cost':
                 values[5] = "%.1f" % (results_dict['monitoring__setup_cost'])
-                headers[5] = 'Стоимость установки системы, руб'
+                headers[5] = u'Стоимость установки системы, руб'
             if key == 'monitoring__recoupment':
                 values[6] = "%.1f" % (results_dict['monitoring__recoupment'])
-                headers[6] = 'Срок окупаемости системы, мес'
+                headers[6] = u'Срок окупаемости системы, мес'
 
         # print in russian on jinja2 - use "|safe" option
         # flask.flash(['Русский язык'])

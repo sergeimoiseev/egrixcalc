@@ -323,3 +323,25 @@
 [[''], [''], ['']]
 15:31:56.838 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:31:56] "POST / HTTP/1.1" 302 -
 15:31:56.843 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:31:56] "GET / HTTP/1.1" 200 -
+15:33:20.674 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc_ec2\\params_processor.py', reloading
+15:33:20.724 - werkzeug - INFO -  * Restarting with stat
+15:33:21.194 - werkzeug - WARNING -  * Debugger is active!
+15:33:21.194 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+15:33:23.594 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:33:23] "GET / HTTP/1.1" 200 -
+15:33:23.656 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:33:23] "GET /static/style.css HTTP/1.1" 304 -
+15:33:25.565 - __main__ - INFO - post request in Main
+15:33:25.565 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'type_minimal', 'firm.average_run_time']
+15:33:25.565 - params_processor - INFO - data_vals
+[[''], [''], ['']]
+15:33:25.604 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:33:25] "POST / HTTP/1.1" 302 -
+15:33:25.610 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:33:25] "GET / HTTP/1.1" 200 -
+15:33:26.224 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:33:26] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:33:27.546 - __main__ - INFO - post request in TypeArbitary
+15:33:27.546 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'type_freight', 'firm.average_run_time']
+15:33:27.546 - params_processor - INFO - data_vals
+[[''], [''], ['']]
+15:33:27.570 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:33:27] "POST /type_arbitary/ HTTP/1.1" 302 -
+15:33:27.575 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:33:27] "GET /type_arbitary/ HTTP/1.1" 200 -
+15:33:28.369 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 15:33:28] "GET / HTTP/1.1" 200 -
