@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block body %}
-  <form action="{{url_for('type_arbitary')}}" method="post">
+ <!--  <form action="{{url_for('type_arbitary')}}" method="post">
     <fieldset>
         <legend>Сведения о составе автопарка</legend>
           <table class=basic_params_table border="0">
@@ -63,5 +63,8 @@
         {% endfor %}
       </table>
       {% endif %}
-    {% endwith %}
+    {% endwith %} -->
+  <div class="hyperlink" id=type_arbitary> <a href="{{url_for('type_arbitary')}}">index</a>
+  <br>
+
 {% endblock %}
