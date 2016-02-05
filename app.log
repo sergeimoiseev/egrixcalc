@@ -96,3 +96,15 @@
 14:54:16.428 - __main__ - INFO - post request in TypeArbitary
 14:54:16.430 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:54:16] "POST /type_arbitary/ HTTP/1.1" 302 -
 14:54:16.435 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:54:16] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:56:38.243 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:56:38] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:56:38.309 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:56:38] "GET /static/style.css HTTP/1.1" 304 -
+14:56:39.786 - __main__ - INFO - post request in TypeArbitary
+14:56:39.786 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:56:39] "POST /type_arbitary/ HTTP/1.1" 302 -
+14:56:39.796 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:56:39] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:56:40.410 - __main__ - INFO - post request in TypeArbitary
+14:56:40.410 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:56:40] "POST /type_arbitary/ HTTP/1.1" 302 -
+14:56:40.410 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:56:40] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:56:41.040 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:56:41] "GET / HTTP/1.1" 200 -
+14:56:41.824 - __main__ - INFO - post request in Main
+14:56:41.824 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:56:41] "POST / HTTP/1.1" 302 -
+14:56:41.824 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 14:56:41] "GET / HTTP/1.1" 200 -
