@@ -16,6 +16,7 @@ app.secret_key = "bacon"
 
 class View(flask.views.MethodView):
     def get(self):
+        # return flask.render_template('index.html')
         return flask.render_template('index.html')
         
     def post(self):
@@ -46,12 +47,12 @@ class View(flask.views.MethodView):
                     flask.flash(['Введите параметры верно.'])
                     return self.get()
 
-# необходимо реализовать чтение-вывод всех парамтеров из файла настроек
-# на отдельную "экспертную" вкладку
+        # необходимо реализовать чтение-вывод всех парамтеров из файла настроек
+        # на отдельную "экспертную" вкладку
 
 
-# ниже - изменение параметров
-# общих для всех автопарков
+        # ниже - изменение параметров
+        # общих для всех автопарков
         try:
             car_type = [key for key in flask.request.form.keys() if 'type_' in key][0].split('_')[-1]
             if car_type == '':
@@ -118,7 +119,7 @@ class View(flask.views.MethodView):
                 values[6] = "%.1f" % (results_dict['monitoring__recoupment'])
                 headers[6] = 'Срок окупаемости системы, мес'
 
-# print in russian on jinja2 - use "|safe" option
+        # print in russian on jinja2 - use "|safe" option
         # flask.flash(['Русский язык'])
 
         flask.flash(headers)
@@ -129,9 +130,29 @@ class View(flask.views.MethodView):
         # flask.flash(results_keys)
         # flask.flash(results_vals)
 
+        # return flask.redirect(flask.url_for('index'))
         return self.get()
-    
-app.add_url_rule('/', view_func=View.as_view('main'), methods=['GET', 'POST'])
+
+class AllSettings(flask.views.MethodView):
+    def get(self):
+        return flask.render_template('type_arbitary.html')
+        
+    def post(self):
+        data = dict((key, flask.request.form.getlist(key)) for key in flask.request.form.keys())
+        data_keys = [key for key in data.keys()]
+        data_vals = [flask.request.form.getlist(key) for key in  data_keys]
+        flask.flash(data_keys)
+        flask.flash(data_vals)
+        # return flask.redirect(flask.url_for('type_arbitary'))
+        return self.get()
+
+app.add_url_rule('/',
+            view_func=View.as_view('index'),
+            methods=['GET', 'POST'])
+
+app.add_url_rule('/type_arbitary/', 
+            view_func=AllSettings.as_view('type_arbitary'),
+            methods=['GET', 'POST'])
 
 if __name__ == '__main__':
     ct.setup_logging()

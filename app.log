@@ -3049,3 +3049,533 @@ on
 [[''], [''], [''], ['on']]
 21:50:05.755 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:50:05] "POST / HTTP/1.1" 200 -
 21:50:05.821 - werkzeug - INFO - 127.0.0.1 - - [04/Feb/2016 21:50:05] "GET /static/favicon.ico HTTP/1.1" 200 -
+08:12:19.935 - werkzeug - INFO -  * Restarting with stat
+08:12:20.418 - werkzeug - WARNING -  * Debugger is active!
+08:12:20.418 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+08:12:29.104 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:12:29] "GET /favicon.ico HTTP/1.1" 404 -
+08:12:32.120 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:12:32] "GET / HTTP/1.1" 200 -
+08:14:57.243 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:14:57] "GET / HTTP/1.1" 200 -
+08:16:08.940 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:16:08] "GET / HTTP/1.1" 200 -
+08:17:46.239 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:17:46] "GET / HTTP/1.1" 200 -
+08:17:50.921 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:17:50] "GET / HTTP/1.1" 200 -
+08:17:52.603 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:17:52] "GET / HTTP/1.1" 200 -
+08:18:01.204 - werkzeug - INFO -  * Restarting with stat
+08:18:01.714 - werkzeug - WARNING -  * Debugger is active!
+08:18:01.714 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+08:18:02.421 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:18:02] "GET / HTTP/1.1" 200 -
+08:18:05.470 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:18:05] "GET / HTTP/1.1" 200 -
+08:18:07.560 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:18:07] "GET / HTTP/1.1" 200 -
+08:18:07.716 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:18:07] "GET / HTTP/1.1" 200 -
+08:22:44.628 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:22:44] "GET / HTTP/1.1" 200 -
+08:24:30.625 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:24:30] "GET / HTTP/1.1" 200 -
+08:24:37.425 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:24:37] "GET / HTTP/1.1" 200 -
+08:24:59.439 - __main__ - INFO - data_keys
+['firm.average_run_time', 'type_minimal', 'arbitary.dut', 'firm.cars_quantity']
+08:24:59.439 - __main__ - INFO - data_vals
+[[''], [''], ['on'], ['']]
+08:24:59.512 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:24:59] "POST / HTTP/1.1" 200 -
+08:25:07.507 - __main__ - INFO - data_keys
+['firm.average_run_time', 'minimal.temp', 'type_minimal', 'firm.cars_quantity']
+08:25:07.507 - __main__ - INFO - data_vals
+[[''], ['on'], [''], ['']]
+08:25:07.523 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:25:07] "POST / HTTP/1.1" 200 -
+08:25:12.501 - werkzeug - INFO -  * Restarting with stat
+08:25:13.014 - werkzeug - WARNING -  * Debugger is active!
+08:25:13.015 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+08:25:14.392 - __main__ - INFO - data_keys
+['minimal.temp', 'firm.cars_quantity', 'type_minimal', 'firm.average_run_time']
+08:25:14.392 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:25:14.460 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:25:14] "POST / HTTP/1.1" 200 -
+08:25:18.091 - __main__ - INFO - data_keys
+['arbitary.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:25:18.091 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:25:18.107 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:25:18] "POST / HTTP/1.1" 200 -
+08:25:22.254 - __main__ - INFO - data_keys
+['arbitary.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:25:22.254 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:25:22.270 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:25:22] "POST / HTTP/1.1" 200 -
+08:25:28.774 - __main__ - INFO - data_keys
+['arbitary.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:25:28.774 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:25:28.790 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:25:28] "POST / HTTP/1.1" 200 -
+08:25:52.342 - __main__ - INFO - data_keys
+['arbitary.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:25:52.342 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:25:52.381 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:25:52] "POST / HTTP/1.1" 200 -
+08:25:53.540 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_minimal', 'firm.average_run_time']
+08:25:53.540 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+08:25:53.570 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:25:53] "POST / HTTP/1.1" 200 -
+08:25:56.639 - __main__ - INFO - data_keys
+['minimal.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:25:56.639 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:25:56.655 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:25:56] "POST / HTTP/1.1" 200 -
+08:26:01.090 - __main__ - INFO - data_keys
+['minimal.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:26:01.090 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:26:01.105 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:26:01] "POST / HTTP/1.1" 200 -
+08:26:03.754 - __main__ - INFO - data_keys
+['minimal.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:26:03.754 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:26:03.770 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:26:03] "POST / HTTP/1.1" 200 -
+08:26:24.118 - __main__ - INFO - data_keys
+['minimal.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:26:24.118 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:26:24.148 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:26:24] "POST / HTTP/1.1" 200 -
+08:26:31.173 - __main__ - INFO - data_keys
+['minimal.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:26:31.173 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:26:31.205 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:26:31] "POST / HTTP/1.1" 200 -
+08:26:46.631 - __main__ - INFO - data_keys
+['minimal.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:26:46.631 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:26:46.662 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:26:46] "POST / HTTP/1.1" 200 -
+08:34:32.921 - __main__ - INFO - data_keys
+['minimal.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:34:32.921 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:34:32.957 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:34:32] "POST / HTTP/1.1" 200 -
+08:34:39.022 - __main__ - INFO - data_keys
+['minimal.dut', 'firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+08:34:39.022 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+08:34:39.047 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:34:39] "POST / HTTP/1.1" 200 -
+08:34:43.320 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:34:43] "GET / HTTP/1.1" 200 -
+08:34:43.451 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:34:43] "GET / HTTP/1.1" 200 -
+08:39:31.287 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:39:31] "GET / HTTP/1.1" 200 -
+08:39:32.434 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:39:32] "GET / HTTP/1.1" 200 -
+08:40:33.882 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:40:33] "GET / HTTP/1.1" 200 -
+08:41:23.093 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:41:23] "GET / HTTP/1.1" 200 -
+08:44:12.762 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:44:12] "GET / HTTP/1.1" 200 -
+08:44:27.766 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:44:27] "GET / HTTP/1.1" 200 -
+08:46:42.995 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+08:46:43.042 - werkzeug - INFO -  * Restarting with stat
+08:53:58.933 - werkzeug - INFO -  * Restarting with stat
+08:53:59.426 - werkzeug - WARNING -  * Debugger is active!
+08:53:59.429 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+08:54:06.054 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:54:06] "GET / HTTP/1.1" 200 -
+08:54:12.596 - __main__ - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'firm.average_run_time']
+08:54:12.596 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+08:54:12.656 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:54:12] "POST / HTTP/1.1" 200 -
+08:54:57.686 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+08:54:57.731 - werkzeug - INFO -  * Restarting with stat
+08:54:58.214 - werkzeug - WARNING -  * Debugger is active!
+08:54:58.214 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+08:55:00.948 - __main__ - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'firm.average_run_time']
+08:55:00.948 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+08:55:01.029 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 08:55:01] "POST / HTTP/1.1" 200 -
+09:00:39.437 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:00:39.489 - werkzeug - INFO -  * Restarting with stat
+09:00:39.982 - werkzeug - WARNING -  * Debugger is active!
+09:00:39.983 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:00:45.161 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:00:45.214 - werkzeug - INFO -  * Restarting with stat
+09:00:45.697 - werkzeug - WARNING -  * Debugger is active!
+09:00:45.699 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:00:49.409 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_minimal', 'firm.average_run_time']
+09:00:49.409 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:00:49.501 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:00:49] "POST / HTTP/1.1" 200 -
+09:00:55.001 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'type_minimal', 'firm.average_run_time', 'minimal.dut']
+09:00:55.001 - __main__ - INFO - data_vals
+[[''], [''], [''], ['on']]
+09:00:55.017 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:00:55] "POST / HTTP/1.1" 200 -
+09:36:51.207 - werkzeug - INFO -  * Restarting with stat
+09:36:51.690 - werkzeug - WARNING -  * Debugger is active!
+09:36:51.690 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:36:55.161 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:36:55] "GET / HTTP/1.1" 200 -
+09:36:57.234 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:36:57] "GET /type_arbitary HTTP/1.1" 301 -
+09:36:57.247 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:36:57] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:38:35.726 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:38:35] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:38:35.791 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:38:35] "GET /static/favicon.ico HTTP/1.1" 200 -
+09:38:36.996 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity', 'type_freight']
+09:38:36.996 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:38:37.081 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:38:37] "POST / HTTP/1.1" 200 -
+09:38:41.875 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:38:41] "GET /type_arbitary HTTP/1.1" 301 -
+09:38:41.875 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:38:41] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:38:42.992 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:38:42] "GET /type_arbitary/main HTTP/1.1" 404 -
+09:38:55.304 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:38:55] "GET / HTTP/1.1" 200 -
+09:38:57.092 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:38:57] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:38:58.295 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:38:58] "GET /main HTTP/1.1" 404 -
+09:39:04.726 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:04] "GET /main HTTP/1.1" 404 -
+09:39:07.356 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:07] "GET / HTTP/1.1" 200 -
+09:39:09.175 - __main__ - INFO - data_keys
+['firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+09:39:09.175 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:39:09.209 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:09] "POST / HTTP/1.1" 200 -
+09:39:10.222 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:10] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:39:11.343 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:11] "GET / HTTP/1.1" 200 -
+09:39:12.350 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:12] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:39:13.193 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:13] "GET / HTTP/1.1" 200 -
+09:39:14.311 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:14] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:39:15.642 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:15] "GET / HTTP/1.1" 200 -
+09:39:16.832 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:16] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:39:17.492 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:17] "GET / HTTP/1.1" 200 -
+09:39:42.824 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:42] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:39:43.625 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity', 'type_freight']
+09:39:43.625 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:39:43.658 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:39:43] "POST / HTTP/1.1" 200 -
+09:41:42.718 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:41:42.781 - werkzeug - INFO -  * Restarting with stat
+09:41:43.257 - werkzeug - WARNING -  * Debugger is active!
+09:41:43.257 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:43:49.000 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:43:49] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:43:49.984 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:43:49] "GET / HTTP/1.1" 200 -
+09:43:50.902 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:43:50] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:43:51.619 - __main__ - INFO - data_keys
+['type_freight', 'firm.average_run_time', 'firm.cars_quantity']
+09:43:51.619 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:43:51.694 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:43:51] "POST / HTTP/1.1" 200 -
+09:43:54.402 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:43:54] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:45:22.223 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:45:22.285 - werkzeug - INFO -  * Restarting with stat
+09:45:22.769 - werkzeug - WARNING -  * Debugger is active!
+09:45:22.769 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:45:37.708 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:45:37] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:45:37.769 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:45:37] "GET /static/favicon.ico HTTP/1.1" 200 -
+09:45:40.150 - __main__ - INFO - data_keys
+['type_freight', 'firm.average_run_time', 'firm.cars_quantity']
+09:45:40.150 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:45:40.236 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:45:40] "POST / HTTP/1.1" 200 -
+09:45:44.733 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:45:44] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:45:45.733 - __main__ - INFO - data_keys
+['type_freight', 'firm.average_run_time', 'firm.cars_quantity']
+09:45:45.733 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:45:45.766 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:45:45] "POST / HTTP/1.1" 200 -
+09:45:47.035 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:45:47] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:45:53.015 - __main__ - INFO - data_keys
+['type_freight', 'firm.average_run_time', 'firm.cars_quantity']
+09:45:53.015 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:45:53.030 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:45:53] "POST / HTTP/1.1" 200 -
+09:45:57.175 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:45:57] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:46:06.597 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:46:06.644 - werkzeug - INFO -  * Restarting with stat
+09:46:07.128 - werkzeug - WARNING -  * Debugger is active!
+09:46:07.128 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:46:10.880 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:46:10] "GET /type_arbitary/ HTTP/1.1" 404 -
+09:46:14.017 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:46:14] "GET /type_arbitary/ HTTP/1.1" 404 -
+09:46:18.908 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:46:18] "GET / HTTP/1.1" 200 -
+09:46:20.846 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:46:20] "GET /type_arbitary/ HTTP/1.1" 404 -
+09:46:48.773 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:46:48.836 - werkzeug - INFO -  * Restarting with stat
+09:46:49.335 - werkzeug - WARNING -  * Debugger is active!
+09:46:49.335 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:47:09.186 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:47:09.249 - werkzeug - INFO -  * Restarting with stat
+09:47:09.717 - werkzeug - WARNING -  * Debugger is active!
+09:47:09.717 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:47:11.430 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:11] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:47:11.485 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:11] "GET /static/favicon.ico HTTP/1.1" 200 -
+09:47:12.743 - __main__ - INFO - data_keys
+['firm.average_run_time', 'type_freight', 'firm.cars_quantity']
+09:47:12.743 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:47:12.820 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:12] "POST / HTTP/1.1" 200 -
+09:47:14.563 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:14] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:47:15.269 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:15] "GET / HTTP/1.1" 200 -
+09:47:16.294 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:16] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:47:17.149 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:17] "GET / HTTP/1.1" 200 -
+09:47:17.745 - __main__ - INFO - data_keys
+['firm.average_run_time', 'type_minimal', 'firm.cars_quantity']
+09:47:17.745 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:47:17.761 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:17] "POST / HTTP/1.1" 200 -
+09:47:26.362 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:26] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:47:27.047 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:27] "GET / HTTP/1.1" 200 -
+09:47:28.163 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:28] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:47:28.927 - __main__ - INFO - data_keys
+['firm.average_run_time', 'type_freight', 'firm.cars_quantity']
+09:47:28.927 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:47:28.944 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:47:28] "POST / HTTP/1.1" 200 -
+09:47:43.079 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:47:43.126 - werkzeug - INFO -  * Restarting with stat
+09:47:43.609 - werkzeug - WARNING -  * Debugger is active!
+09:47:43.609 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:48:03.491 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:48:03.538 - werkzeug - INFO -  * Restarting with stat
+09:48:04.014 - werkzeug - WARNING -  * Debugger is active!
+09:48:04.014 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:48:06.162 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_freight']
+09:48:06.162 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:48:06.234 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:06] "POST / HTTP/1.1" 500 -
+09:48:06.295 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:06] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+09:48:06.306 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:06] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+09:48:06.317 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:06] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+09:48:06.371 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:06] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+09:48:06.514 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:06] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+09:48:06.552 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:06] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+09:48:30.062 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:48:30.108 - werkzeug - INFO -  * Restarting with stat
+09:48:30.603 - werkzeug - WARNING -  * Debugger is active!
+09:48:30.604 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:48:30.611 - __main__ - INFO - data_keys
+['type_freight', 'firm.cars_quantity', 'firm.average_run_time']
+09:48:30.612 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:48:30.676 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:30] "POST / HTTP/1.1" 500 -
+09:48:30.728 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:30] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+09:48:30.731 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:30] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+09:48:30.734 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:30] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+09:48:30.792 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:30] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+09:48:30.810 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+09:48:30.871 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+09:48:50.140 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:48:50.202 - werkzeug - INFO -  * Restarting with stat
+09:48:50.670 - werkzeug - WARNING -  * Debugger is active!
+09:48:50.670 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:48:52.945 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity', 'type_freight']
+09:48:52.945 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:48:53.013 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:53] "POST / HTTP/1.1" 500 -
+09:48:53.064 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:53] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+09:48:53.066 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:53] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+09:48:53.069 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:53] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+09:48:53.124 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:53] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+09:48:53.133 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+09:48:53.202 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:48:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+09:49:02.138 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:49:02.185 - werkzeug - INFO -  * Restarting with stat
+09:49:02.672 - werkzeug - WARNING -  * Debugger is active!
+09:49:02.672 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:49:06.185 - __main__ - INFO - data_keys
+['type_freight', 'firm.average_run_time', 'firm.cars_quantity']
+09:49:06.185 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:49:06.252 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:06] "POST / HTTP/1.1" 500 -
+09:49:06.306 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:06] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+09:49:06.309 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:06] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+09:49:06.313 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:06] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+09:49:06.365 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:06] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+09:49:06.374 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:06] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+09:49:06.438 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:06] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+09:49:39.157 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:49:39.204 - werkzeug - INFO -  * Restarting with stat
+09:49:39.687 - werkzeug - WARNING -  * Debugger is active!
+09:49:39.687 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:49:42.161 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_freight']
+09:49:42.162 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:49:42.236 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:42] "POST / HTTP/1.1" 200 -
+09:49:42.289 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:42] "GET /static/favicon.ico HTTP/1.1" 200 -
+09:49:43.765 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:43] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:49:44.926 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:44] "GET / HTTP/1.1" 200 -
+09:49:46.045 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:46] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:49:47.123 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_freight']
+09:49:47.123 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:49:47.143 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:47] "POST / HTTP/1.1" 200 -
+09:49:48.776 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:49:48] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:50:08.868 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:50:08.915 - werkzeug - INFO -  * Restarting with stat
+09:50:09.399 - werkzeug - WARNING -  * Debugger is active!
+09:50:09.399 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:50:20.986 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:50:20] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:50:21.056 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:50:21] "GET /static/favicon.ico HTTP/1.1" 200 -
+09:50:23.392 - __main__ - INFO - data_keys
+['type_freight', 'firm.cars_quantity', 'firm.average_run_time']
+09:50:23.408 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:50:23.478 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:50:23] "POST / HTTP/1.1" 200 -
+09:50:24.841 - __main__ - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'firm.average_run_time']
+09:50:24.841 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:50:24.857 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:50:24] "POST / HTTP/1.1" 200 -
+09:50:26.058 - __main__ - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'firm.average_run_time']
+09:50:26.058 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:50:26.073 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:50:26] "POST / HTTP/1.1" 200 -
+09:50:26.424 - __main__ - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'firm.average_run_time']
+09:50:26.424 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:50:26.444 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:50:26] "POST / HTTP/1.1" 200 -
+09:50:26.957 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:50:26] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:50:27.858 - __main__ - INFO - data_keys
+['type_freight', 'firm.cars_quantity', 'firm.average_run_time']
+09:50:27.858 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:50:27.890 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:50:27] "POST / HTTP/1.1" 200 -
+09:50:29.008 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:50:29] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:50:29.806 - __main__ - INFO - data_keys
+['type_freight', 'firm.cars_quantity', 'firm.average_run_time']
+09:50:29.806 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:50:29.821 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:50:29] "POST / HTTP/1.1" 200 -
+09:51:43.310 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:51:43.357 - werkzeug - INFO -  * Restarting with stat
+09:51:43.840 - werkzeug - WARNING -  * Debugger is active!
+09:51:43.840 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:53:27.142 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:53:27.189 - werkzeug - INFO -  * Restarting with stat
+09:53:27.672 - werkzeug - WARNING -  * Debugger is active!
+09:53:27.688 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:53:33.027 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity', 'type_freight']
+09:53:33.027 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:53:33.101 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:53:33] "POST / HTTP/1.1" 200 -
+09:53:33.156 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:53:33] "GET /static/favicon.ico HTTP/1.1" 200 -
+09:53:34.723 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:53:34] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:53:35.601 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:53:35] "GET / HTTP/1.1" 200 -
+09:53:36.404 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:53:36] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:53:37.155 - __main__ - INFO - data_keys
+['firm.average_run_time', 'firm.cars_quantity', 'type_freight']
+09:53:37.155 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:53:37.188 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:53:37] "POST / HTTP/1.1" 200 -
+09:54:30.267 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:54:30.314 - werkzeug - INFO -  * Restarting with stat
+09:54:30.798 - werkzeug - WARNING -  * Debugger is active!
+09:54:30.798 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:54:40.858 - __main__ - INFO - data_keys
+['type_freight', 'firm.average_run_time', 'firm.cars_quantity']
+09:54:40.859 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:54:40.925 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:54:40] "POST / HTTP/1.1" 500 -
+09:54:40.978 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:54:40] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+09:54:40.981 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:54:40] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+09:54:40.982 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:54:40] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+09:54:41.040 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:54:41] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+09:54:41.050 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:54:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+09:54:41.116 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:54:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+09:58:28.406 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:58:28.452 - werkzeug - INFO -  * Restarting with stat
+09:58:28.936 - werkzeug - WARNING -  * Debugger is active!
+09:58:28.936 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:59:38.823 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+09:59:38.870 - werkzeug - INFO -  * Restarting with stat
+09:59:39.338 - werkzeug - WARNING -  * Debugger is active!
+09:59:39.353 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+09:59:42.476 - __main__ - INFO - data_keys
+['minimal.dut', 'firm.cars_quantity', 'firm.average_run_time', 'type_minimal']
+09:59:42.476 - __main__ - INFO - data_vals
+[['on'], [''], [''], ['']]
+09:59:42.538 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:59:42] "POST / HTTP/1.1" 200 -
+09:59:44.528 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:59:44] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:59:45.655 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_freight']
+09:59:45.655 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:59:45.671 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:59:45] "POST / HTTP/1.1" 200 -
+09:59:46.878 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:59:46] "GET /type_arbitary/ HTTP/1.1" 200 -
+09:59:52.417 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_freight']
+09:59:52.417 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+09:59:52.435 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 09:59:52] "POST / HTTP/1.1" 200 -
+10:01:31.622 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_freight']
+10:01:31.622 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+10:01:31.647 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:01:31] "POST / HTTP/1.1" 200 -
+10:01:33.806 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:01:33] "GET /type_arbitary/ HTTP/1.1" 200 -
+10:01:35.121 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_freight']
+10:01:35.121 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+10:01:35.141 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:01:35] "POST / HTTP/1.1" 200 -
+10:01:36.239 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:01:36] "GET /type_arbitary/ HTTP/1.1" 200 -
+10:01:37.910 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_freight']
+10:01:37.910 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+10:01:37.942 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:01:37] "POST / HTTP/1.1" 200 -
+10:02:17.574 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:02:17] "GET /type_arbitary/ HTTP/1.1" 200 -
+10:02:18.743 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:02:18] "GET / HTTP/1.1" 200 -
+10:02:20.057 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:02:20] "GET /type_arbitary/ HTTP/1.1" 200 -
+10:02:21.321 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:02:21] "GET /type_arbitary/ HTTP/1.1" 200 -
+10:02:24.897 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:02:24] "GET /type_arbitary/ HTTP/1.1" 200 -
+10:02:27.273 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_freight']
+10:02:27.273 - __main__ - INFO - data_vals
+[['456'], [''], ['']]
+10:02:27.288 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:02:27] "POST / HTTP/1.1" 200 -
+10:02:36.155 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:02:36] "GET / HTTP/1.1" 200 -
+10:02:38.190 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_minimal']
+10:02:38.190 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+10:02:38.206 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:02:38] "POST / HTTP/1.1" 200 -
+10:02:39.156 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_minimal']
+10:02:39.156 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+10:02:39.171 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:02:39] "POST / HTTP/1.1" 200 -
+10:02:39.722 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:02:39] "GET /type_arbitary/ HTTP/1.1" 200 -
+10:05:49.141 - werkzeug - INFO -  * Restarting with stat
+10:05:49.640 - werkzeug - WARNING -  * Debugger is active!
+10:05:49.640 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+10:05:55.033 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:05:55] "GET /remote/ HTTP/1.1" 404 -
+10:05:57.360 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:05:57] "GET / HTTP/1.1" 200 -
+10:05:59.015 - __main__ - INFO - data_keys
+['type_minimal', 'firm.average_run_time', 'firm.cars_quantity']
+10:05:59.015 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+10:05:59.069 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:05:59] "POST / HTTP/1.1" 200 -
+10:06:00.218 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:06:00] "GET /type_arbitary/ HTTP/1.1" 200 -
+10:06:01.999 - __main__ - INFO - data_keys
+['type_freight', 'firm.average_run_time', 'firm.cars_quantity']
+10:06:01.999 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+10:06:02.036 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:06:02] "POST / HTTP/1.1" 200 -
+10:20:47.742 - __main__ - INFO - data_keys
+['type_freight', 'firm.average_run_time', 'firm.cars_quantity']
+10:20:47.743 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+10:20:47.780 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:20:47] "POST / HTTP/1.1" 500 -
+10:20:47.825 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:20:47] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10:20:47.834 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:20:47] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10:20:47.844 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:20:47] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10:20:47.888 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:20:47] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10:20:48.029 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:20:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10:20:48.099 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:20:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10:21:17.383 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrixcalc\\app.py', reloading
+10:21:17.443 - werkzeug - INFO -  * Restarting with stat
+10:21:17.933 - werkzeug - WARNING -  * Debugger is active!
+10:21:17.933 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+10:21:21.329 - __main__ - INFO - data_keys
+['firm.cars_quantity', 'firm.average_run_time', 'type_freight']
+10:21:21.329 - __main__ - INFO - data_vals
+[[''], [''], ['']]
+10:21:21.411 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:21:21] "POST / HTTP/1.1" 500 -
+10:21:21.473 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:21:21] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10:21:21.474 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:21:21] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10:21:21.475 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:21:21] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10:21:21.533 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:21:21] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10:21:21.544 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:21:21] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10:21:21.603 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2016 10:21:21] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
