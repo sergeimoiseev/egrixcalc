@@ -1,5 +1,43 @@
 {% extends "base.html" %}
 {% block body %}
+  <form action="{{url_for('type_arbitary')}}" method="post">
+    <fieldset>
+        <legend>Сведения о составе автопарка</legend>
+          <table class=basic_params_table border="0">
+            <tr>
+            <td><label for=first-name>Количество машин</label> </td>
+            <td><input type=text class=text-input id=first-name name=firm.cars_quantity></td>
+            </tr>
+            <tr>
+            <td><label for=first-name>Среднее время работы автомобиля в день</label></td>
+            <td><input type=text class=text-input id=average_run_time name=firm.average_run_time></td>
+            </tr>
+          </table>
+    </fieldset>
+    <fieldset>
+        <legend>Выберите дополнительное оборудование:</legend>
+            <div>
+              <input type=checkbox id=dut name=freight.dut>
+                ДУТ 
+              </input><br>
+              <input type=checkbox id=temp name=freight.temp>
+                Датчик температуры 
+              </input><br>
+              <input type=checkbox id=block_eng name=freight.block_eng>
+                Реле блокировки двигателя 
+              </input><br>
+              <input type=checkbox id=alarm_btn name=freight.alarm_btn>
+                Тревожная кнопка
+              </input><br>
+              <input type=checkbox id=pp name=freight.pp>
+                ПП
+              </input><br>
+              <button type=submit1 name=type_freight>Рассчитать</button>
+            </div>
+    </fieldset>
+  </form>
+  <div class="hyperlink" id=main> <a href="{{url_for('index')}}">Вернуться к типовым наборам оборудования</a>
+  </div>    
 
 <p>arb page</p>
 

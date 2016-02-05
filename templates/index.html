@@ -14,9 +14,143 @@
             </tr>
           </table>
     </fieldset>
+    <fieldset>
+        <legend>Выберите дополнительное оборудование:</legend>
+        <div class=tabs>
+           <div id=type_freight> <a href="#type_freight">Грузоперевозки</a>
+              <div>
+                <input type=checkbox id=dut name=freight.dut>
+                  ДУТ 
+                </input><br>
+                <input type=checkbox id=temp name=freight.temp>
+                  Датчик температуры 
+                </input><br>
+                <input type=checkbox id=block_eng name=freight.block_eng>
+                  Реле блокировки двигателя 
+                </input><br>
+                <input type=checkbox id=alarm_btn name=freight.alarm_btn>
+                  Тревожная кнопка
+                </input><br>
+                <input type=checkbox id=pp name=freight.pp>
+                  ПП
+                </input><br>
+                <button type=submit name=type_freight>Рассчитать</button>
+              </div>
+          </div>
 
+          <div id=type_fridge> <a href="#type_fridge">Перевозка заморозки</a>
+              <div>
+                <input type=checkbox id=dut name=fridge.dut>
+                  ДУТ 
+                </input><br>
+                <input type=checkbox id=temp name=fridge.temp>
+                  Датчик температуры 
+                </input><br>
+                <input type=checkbox id=block_eng name=fridge.block_eng>
+                  Реле блокировки двигателя 
+                </input><br>
+                <input type=checkbox id=alarm_btn name=fridge.alarm_btn>
+                  Тревожная кнопка
+                </input><br>
+                <input type=checkbox id=pp name=fridge.pp>
+                  ПП
+                </input><br>
+                <button type=submit name=type_fridge>Рассчитать</button>
+              </div>
+          </div>
 
+          <div id=type_passenger> <a href="#type_passenger">Пассажироперевозки</a>
+              <div>
+                <input type=checkbox id=dut name=passenger.dut>
+                  ДУТ 
+                </input><br>
+                <input type=checkbox id=temp name=passenger.temp>
+                  Датчик температуры 
+                </input><br>
+                <input type=checkbox id=block_eng name=passenger.block_eng>
+                  Реле блокировки двигателя 
+                </input><br>
+                <input type=checkbox id=alarm_btn name=passenger.alarm_btn>
+                  Тревожная кнопка
+                </input><br>
+                <input type=checkbox id=pp name=passenger.pp>
+                  ПП
+                </input><br>
+                <button type=submit name=type_passenger>Рассчитать</button>
+              </div>
+          </div>
+
+          <div id=type_taxi> <a href="#type_taxi">Такси</a>
+              <div>
+                <input type=checkbox id=dut name=taxi.dut>
+                  ДУТ 
+                </input><br>
+                <input type=checkbox id=temp name=taxi.temp>
+                  Датчик температуры 
+                </input><br>
+                <input type=checkbox id=block_eng name=taxi.block_eng>
+                  Реле блокировки двигателя 
+                </input><br>
+                <input type=checkbox id=alarm_btn name=taxi.alarm_btn>
+                  Тревожная кнопка
+                </input><br>
+                <input type=checkbox id=pp name=taxi.pp>
+                  ПП
+                </input><br>
+                <button type=submit name=type_taxi>Рассчитать</button>
+              </div>
+          </div>
+
+          <div id=type_machinery> <a href="#type_machinery">Спец. техника</a>
+              <div>
+                <input type=checkbox id=dut name=machinery.dut>
+                  ДУТ 
+                </input><br>
+                <input type=checkbox id=temp name=machinery.temp>
+                  Датчик температуры 
+                </input><br>
+                <input type=checkbox id=block_eng name=machinery.block_eng>
+                  Реле блокировки двигателя 
+                </input><br>
+                <input type=checkbox id=alarm_btn name=machinery.alarm_btn>
+                  Тревожная кнопка
+                </input><br>
+                <input type=checkbox id=pp name=machinery.pp>
+                  ПП
+                </input><br>
+                <button type=submit name=type_machinery>Рассчитать</button>
+              </div>
+          </div>
+          
+
+          <div id=type_minimal> <a href="#type_minimal">Без дополнительных датчиков</a>
+            <div>Выберите одну из первых вкладок, если вы хотите оборудовать типовой автопарк<br><br>
+              <input type=checkbox id=dut name=minimal.dut>
+                ДУТ 
+              </input><br>
+              <input type=checkbox id=temp name=minimal.temp>
+                Датчик температуры 
+              </input><br>
+              <input type=checkbox id=block_eng name=minimal.block_eng>
+                Реле блокировки двигателя 
+              </input><br>
+              <input type=checkbox id=alarm_btn name=minimal.alarm_btn>
+                Тревожная кнопка
+              </input><br>
+              <input type=checkbox id=pp name=minimal.pp>
+                ПП
+              </input><br>
+              <button type=submit name=type_minimal>Рассчитать</button>
+            </div>
+          </div>
+
+        </div>
+    </fieldset>
   </form>
-<p>index page</p>
+  
+  <div class="hyperlink" id=type_arbitary> <a href="{{url_for('type_arbitary')}}">Все настройки</a>
+  </div>
+  
+  <p>index page</p>
 
 {% endblock %}
