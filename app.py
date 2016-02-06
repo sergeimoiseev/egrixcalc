@@ -10,6 +10,8 @@ app = flask.Flask(__name__)
 app.debug = True
 app.secret_key = "bacon"
 
+default_params, params_comments = ct.get_and_store_params(load_from_dropbox=False)
+
 class Main(proc.EgrixCalcView):
     def get(self):
         return flask.render_template('index.html')

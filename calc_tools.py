@@ -79,6 +79,7 @@ def read_params_dict(from_dropbox=True):
     logger.debug(get_string_caller_objclass_method(read_params_dict,inspect.stack()))
 
     d = {}
+    c = {}
 
     if from_dropbox:
         logger.debug("reading from dropbox")
@@ -105,7 +106,8 @@ def read_params_dict(from_dropbox=True):
         # else:
         #     float_value = bool(tmp_list[1])  # wont work
         d[tmp_list[0]] = float_value
-    return d
+        c[tmp_list[0]] = comment
+    return d,c
 
 def get_and_store_params(load_from_dropbox=True):
     logger.debug(get_string_caller_objclass_method(get_and_store_params,inspect.stack()))
@@ -113,7 +115,7 @@ def get_and_store_params(load_from_dropbox=True):
     params_dict = {}
     #try to load prarms from dropbox
     try:
-        params_dict = read_params_dict(from_dropbox=load_from_dropbox)
+        params_dict, comments_dict = read_params_dict(from_dropbox=load_from_dropbox)
         read_dropbox_successfully = True
     except Exception as e: 
         read_dropbox_successfully = False
@@ -127,4 +129,4 @@ def get_and_store_params(load_from_dropbox=True):
 
     with open('params.yml', 'w') as outfile:
         outfile.write( yaml.dump(params_dict, default_flow_style=True) )
-    return params_dict
+    return params_dict, comments_dict

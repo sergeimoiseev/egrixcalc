@@ -7,9 +7,11 @@
               <input type=checkbox id=block_eng name=arbitary.block_eng>
                 Реле блокировки двигателя 
               </input><br>
-              cars_quantity = 
-              <input type=text name=cars_quantity value=1>Число машин</input>
-              <br>
+              {% for item in p %}
+                cars_quantity = 
+                <input type=text name=cars_quantity value=1>Число машин</input>
+                <br>
+              {% endfor %}
               <button type=submit1 name=type_arbitary>Рассчитать</button>
             </div>
     </fieldset>

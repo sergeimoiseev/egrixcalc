@@ -18,7 +18,7 @@ class EgrixCalcView(flask.views.MethodView):
         logger.info("data_keys\n%s" % (data_keys,))
         logger.info("data_vals\n%s" % (data_vals,))
 
-        params_dict = ct.get_and_store_params(load_from_dropbox=False)
+        params_dict, comments_dict = ct.get_and_store_params(load_from_dropbox=False)
 
         if 'firm.cars_quantity' in data.keys():
             if data['firm.cars_quantity'][0] != '':
