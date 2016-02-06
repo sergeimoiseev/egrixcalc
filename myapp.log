@@ -387,3 +387,325 @@
 21:22:36.052 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:22:36] "POST /type_arbitary/ HTTP/1.1" 302 -
 21:22:36.065 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:22:36] "GET /type_arbitary/ HTTP/1.1" 200 -
 21:23:08.056 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:23:08] "GET / HTTP/1.1" 200 -
+21:27:11.108 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:27:11.349 - werkzeug - INFO -  * Restarting with stat
+21:27:16.928 - werkzeug - WARNING -  * Debugger is active!
+21:27:16.930 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:27:16.948 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:29:25.612 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:29:25.664 - werkzeug - INFO -  * Restarting with stat
+21:29:27.101 - werkzeug - WARNING -  * Debugger is active!
+21:29:27.105 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:29:27.122 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:31:37.051 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:31:37.101 - werkzeug - INFO -  * Restarting with stat
+21:31:38.528 - werkzeug - WARNING -  * Debugger is active!
+21:31:38.529 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:31:38.546 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:32:44.750 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+21:32:44.801 - werkzeug - INFO -  * Restarting with stat
+21:32:46.163 - werkzeug - WARNING -  * Debugger is active!
+21:32:46.164 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:32:46.184 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:32:55.776 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+21:32:55.825 - werkzeug - INFO -  * Restarting with stat
+21:32:57.134 - werkzeug - WARNING -  * Debugger is active!
+21:32:57.137 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:32:57.153 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:33:58.427 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:33:58] "GET / HTTP/1.1" 200 -
+21:33:59.023 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:33:59] "GET /static/style.css HTTP/1.1" 304 -
+21:34:00.836 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:00] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:34:03.536 - __main__ - INFO - post request in TypeArbitary
+21:34:03.543 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'flagTracker', 'x_k', 'monitoring__pp', 'cars_quantity', 'accu', 'fuel__usage_increase_by_time_of_workout', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'payload', 'cost_loss_by_car_sell', 'motorhours_per_day', 'fridge__spoil_fee', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'fuel__stealing_rate', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'monitoring__dut_cost', 'fuel__type']
+21:34:03.546 - params_processor - INFO - data_vals
+[[u'0.05'], [u'on'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.275'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'5.0'], [u'1000000.0'], [u'5.0'], [u'50000.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'0.05'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'2500.0'], [u'35.0']]
+21:34:03.792 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:03] "POST /type_arbitary/ HTTP/1.1" 500 -
+21:34:03.928 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:03] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21:34:03.946 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:03] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21:34:03.993 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:03] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21:34:03.999 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:03] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:34:04.107 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:04] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:34:04.540 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:04] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+21:34:04.548 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:04] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:34:24.760 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+21:34:24.836 - werkzeug - INFO -  * Restarting with stat
+21:34:26.213 - werkzeug - WARNING -  * Debugger is active!
+21:34:26.214 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:34:26.230 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:34:34.517 - __main__ - INFO - post request in TypeArbitary
+21:34:34.529 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'flagTracker', 'x_k', 'monitoring__pp', 'cars_quantity', 'accu', 'fuel__usage_increase_by_time_of_workout', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'payload', 'cost_loss_by_car_sell', 'motorhours_per_day', 'fridge__spoil_fee', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'fuel__stealing_rate', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'monitoring__dut_cost', 'fuel__type']
+21:34:34.532 - params_processor - INFO - data_vals
+[[u'0.05'], [u'on'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.275'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'5.0'], [u'1000000.0'], [u'5.0'], [u'50000.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'0.05'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'2500.0'], [u'35.0']]
+21:34:34.721 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:34] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:34:34.828 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:34] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:34:35.355 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:35] "GET /static/style.css HTTP/1.1" 304 -
+21:34:43.592 - __main__ - INFO - post request in TypeArbitary
+21:34:43.598 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'flagTracker', 'monitoring__abonent_pays_per_month', 'x_k', 'monitoring__pp', 'cars_quantity', 'accu', 'fuel__usage_increase_by_time_of_workout', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'payload', 'cost_loss_by_car_sell', 'motorhours_per_day', 'fridge__spoil_fee', 'prob', 'monitoring__termometr_cost', 'flagDut', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'fuel__type', 'monitoring__dut_cost', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fuel__stealing_rate']
+21:34:43.599 - params_processor - INFO - data_vals
+[[u'0.05'], [u'on'], [u'300.0'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.275'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'5.0'], [u'1000000.0'], [u'5.0'], [u'50000.0'], [u'500000.0'], [u'2000.0'], [u'on'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'35.0'], [u'2500.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'0.05']]
+21:34:43.667 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:43] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:34:43.680 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:43] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:34:50.302 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:50] "GET / HTTP/1.1" 200 -
+21:34:56.203 - __main__ - INFO - post request in Main
+21:34:56.206 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'fuel__cost_per_liter', 'type_minimal', 'minimal.dut', 'fuel__type', 'firm.average_run_time']
+21:34:56.207 - params_processor - INFO - data_vals
+[[u'1'], [u'35'], [u''], [u'on'], [u'diesel'], [u'8']]
+21:34:56.273 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:56] "POST / HTTP/1.1" 302 -
+21:34:56.286 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:34:56] "GET / HTTP/1.1" 200 -
+21:35:43.441 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:35:43] "GET / HTTP/1.1" 200 -
+21:35:43.477 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:35:43] "GET /static/style.css HTTP/1.1" 304 -
+21:35:45.127 - __main__ - INFO - post request in Main
+21:35:45.130 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+21:35:45.131 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+21:35:45.197 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:35:45] "POST / HTTP/1.1" 302 -
+21:35:45.210 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:35:45] "GET / HTTP/1.1" 200 -
+21:35:48.305 - __main__ - INFO - post request in Main
+21:35:48.309 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'fuel__cost_per_liter', 'type_minimal', 'minimal.dut', 'fuel__type', 'firm.average_run_time']
+21:35:48.332 - params_processor - INFO - data_vals
+[[u'1'], [u'35'], [u''], [u'on'], [u'diesel'], [u'8']]
+21:35:48.401 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:35:48] "POST / HTTP/1.1" 302 -
+21:35:48.415 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:35:48] "GET / HTTP/1.1" 200 -
+21:37:07.063 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:37:07.134 - werkzeug - INFO -  * Restarting with stat
+21:37:08.546 - werkzeug - WARNING -  * Debugger is active!
+21:37:08.549 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:37:08.568 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:37:08.835 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:37:08] "GET / HTTP/1.1" 200 -
+21:37:09.362 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:37:09] "GET /static/style.css HTTP/1.1" 304 -
+21:37:10.614 - __main__ - INFO - post request in Main
+21:37:10.617 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+21:37:10.618 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+21:37:10.710 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:37:10] "POST / HTTP/1.1" 302 -
+21:37:10.723 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:37:10] "GET / HTTP/1.1" 200 -
+21:37:13.178 - __main__ - INFO - post request in Main
+21:37:13.181 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'fuel__cost_per_liter', 'type_minimal', 'minimal.dut', 'fuel__type', 'firm.average_run_time']
+21:37:13.184 - params_processor - INFO - data_vals
+[[u'1'], [u'35'], [u''], [u'on'], [u'diesel'], [u'8']]
+21:37:13.249 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:37:13] "POST / HTTP/1.1" 302 -
+21:37:13.308 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:37:13] "GET / HTTP/1.1" 200 -
+21:37:21.361 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:37:21] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:39:31.384 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+21:39:31.438 - werkzeug - INFO -  * Restarting with stat
+21:39:34.171 - werkzeug - WARNING -  * Debugger is active!
+21:39:34.173 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:39:34.190 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:39:40.221 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+21:39:40.269 - werkzeug - INFO -  * Restarting with stat
+21:39:41.565 - werkzeug - WARNING -  * Debugger is active!
+21:39:41.566 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:39:41.581 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:40:28.242 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:40:28] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:40:28.773 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:40:28] "GET /static/style.css HTTP/1.1" 304 -
+21:40:31.084 - __main__ - INFO - post request in TypeArbitary
+21:40:31.089 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'flagTracker', 'x_k', 'monitoring__pp', 'cars_quantity', 'accu', 'fuel__usage_increase_by_time_of_workout', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'payload', 'cost_loss_by_car_sell', 'motorhours_per_day', 'fridge__spoil_fee', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'fuel__stealing_rate', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'monitoring__dut_cost', 'fuel__type']
+21:40:31.092 - params_processor - INFO - data_vals
+[[u'0.05'], [u'on'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.275'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'5.0'], [u'1000000.0'], [u'5.0'], [u'50000.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'0.05'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'2500.0'], [u'35.0']]
+21:40:31.216 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:40:31] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:40:31.236 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:40:31] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:40:39.378 - __main__ - INFO - post request in TypeArbitary
+21:40:39.384 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'fridge__spoil_fee', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'fuel__type', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'monitoring__abonent_pays_per_month']
+21:40:39.387 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'50000.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'35.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'300.0']]
+21:40:39.473 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:40:39] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:40:39.492 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:40:39] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:41:05.042 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:41:05] "GET / HTTP/1.1" 200 -
+21:41:06.342 - __main__ - INFO - post request in Main
+21:41:06.345 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+21:41:06.345 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+21:41:06.414 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:41:06] "POST / HTTP/1.1" 302 -
+21:41:06.428 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:41:06] "GET / HTTP/1.1" 200 -
+21:41:16.107 - __main__ - INFO - post request in Main
+21:41:16.111 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+21:41:16.111 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+21:41:16.214 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:41:16] "POST / HTTP/1.1" 302 -
+21:41:16.233 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:41:16] "GET / HTTP/1.1" 200 -
+21:41:30.441 - __main__ - INFO - post request in Main
+21:41:30.444 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'fuel__cost_per_liter', 'type_minimal', 'minimal.dut', 'fuel__type', 'firm.average_run_time']
+21:41:30.446 - params_processor - INFO - data_vals
+[[u'1'], [u'35'], [u''], [u'on'], [u'diesel'], [u'8']]
+21:41:30.515 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:41:30] "POST / HTTP/1.1" 302 -
+21:41:30.528 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:41:30] "GET / HTTP/1.1" 200 -
+21:42:12.832 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\app.py', reloading
+21:42:12.885 - werkzeug - INFO -  * Restarting with stat
+21:42:18.230 - werkzeug - WARNING -  * Debugger is active!
+21:42:18.233 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:42:18.246 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:42:47.914 - __main__ - INFO - post request in Main
+21:42:47.918 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+21:42:47.921 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+21:42:48.019 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:42:48] "POST / HTTP/1.1" 302 -
+21:42:48.124 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:42:48] "GET / HTTP/1.1" 200 -
+21:42:53.142 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:42:53] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:42:55.694 - __main__ - INFO - post request in TypeArbitary
+21:42:55.698 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'flagTracker', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+21:42:55.700 - params_processor - INFO - data_vals
+[[u'0.05'], [u'on'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+21:42:55.769 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:42:55] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:42:55.782 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:42:55] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:43:15.506 - __main__ - INFO - post request in TypeArbitary
+21:43:15.513 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'flagTracker', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+21:43:15.515 - params_processor - INFO - data_vals
+[[u'0.05'], [u'on'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+21:43:15.582 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:43:15] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:43:15.595 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:43:15] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:43:18.848 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:43:18] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:43:19.394 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:43:19] "GET /static/style.css HTTP/1.1" 304 -
+21:43:21.881 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:43:21] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:43:21.941 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:43:21] "GET /static/style.css HTTP/1.1" 304 -
+21:43:26.759 - __main__ - INFO - post request in TypeArbitary
+21:43:26.765 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'flagTracker', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+21:43:26.766 - params_processor - INFO - data_vals
+[[u'0.05'], [u'on'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+21:43:26.868 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:43:26] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:43:26.887 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:43:26] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:43:31.401 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:43:31] "GET / HTTP/1.1" 200 -
+21:43:33.226 - __main__ - INFO - post request in Main
+21:43:33.229 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+21:43:33.230 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+21:43:33.301 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:43:33] "POST / HTTP/1.1" 302 -
+21:43:33.313 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:43:33] "GET / HTTP/1.1" 200 -
+21:44:01.188 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+21:44:01.279 - werkzeug - INFO -  * Restarting with stat
+21:44:06.351 - werkzeug - WARNING -  * Debugger is active!
+21:44:06.354 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:44:06.368 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:44:07.015 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:44:07] "GET / HTTP/1.1" 200 -
+21:44:07.555 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:44:07] "GET /static/style.css HTTP/1.1" 304 -
+21:44:08.911 - __main__ - INFO - post request in Main
+21:44:08.914 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+21:44:08.915 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+21:44:09.709 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:44:09] "POST / HTTP/1.1" 302 -
+21:44:09.723 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:44:09] "GET / HTTP/1.1" 200 -
+21:44:12.592 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:44:12] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:44:16.575 - __main__ - INFO - post request in TypeArbitary
+21:44:16.582 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+21:44:16.584 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+21:44:17.721 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:44:17] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:44:17.736 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:44:17] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:45:19.757 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:45:19.864 - werkzeug - INFO -  * Restarting with stat
+21:45:25.548 - werkzeug - WARNING -  * Debugger is active!
+21:45:25.549 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:45:25.563 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:46:03.433 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+21:46:03.483 - werkzeug - INFO -  * Restarting with stat
+21:46:08.296 - werkzeug - WARNING -  * Debugger is active!
+21:46:08.299 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:46:08.312 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:46:08.638 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:08] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:46:09.164 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:09] "GET /static/style.css HTTP/1.1" 304 -
+21:46:10.854 - __main__ - INFO - post request in TypeArbitary
+21:46:10.859 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+21:46:10.861 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+21:46:11.661 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:11] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:46:11.683 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:11] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:46:14.729 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:14] "GET / HTTP/1.1" 200 -
+21:46:15.928 - __main__ - INFO - post request in Main
+21:46:15.931 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+21:46:15.934 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+21:46:16.815 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:16] "POST / HTTP/1.1" 302 -
+21:46:16.867 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:16] "GET / HTTP/1.1" 200 -
+21:46:29.727 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+21:46:29.828 - werkzeug - INFO -  * Restarting with stat
+21:46:37.213 - werkzeug - WARNING -  * Debugger is active!
+21:46:37.214 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:46:37.226 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:46:45.736 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:45] "GET / HTTP/1.1" 200 -
+21:46:46.332 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:46] "GET /static/style.css HTTP/1.1" 304 -
+21:46:48.401 - __main__ - INFO - post request in Main
+21:46:48.404 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+21:46:48.407 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+21:46:49.230 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:49] "POST / HTTP/1.1" 302 -
+21:46:49.250 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:49] "GET / HTTP/1.1" 200 -
+21:46:53.917 - __main__ - INFO - post request in Main
+21:46:53.923 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'fuel__cost_per_liter', 'type_minimal', 'minimal.dut', 'fuel__type', 'firm.average_run_time']
+21:46:53.924 - params_processor - INFO - data_vals
+[[u'1'], [u'35'], [u''], [u'on'], [u'diesel'], [u'8']]
+21:46:54.798 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:54] "POST / HTTP/1.1" 302 -
+21:46:54.811 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:54] "GET / HTTP/1.1" 200 -
+21:46:56.861 - __main__ - INFO - post request in Main
+21:46:56.865 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'fuel__cost_per_liter', 'minimal.pp', 'type_minimal', 'fuel__type', 'firm.average_run_time']
+21:46:56.865 - params_processor - INFO - data_vals
+[[u'1'], [u'35'], [u'on'], [u''], [u'diesel'], [u'8']]
+21:46:57.651 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:57] "POST / HTTP/1.1" 302 -
+21:46:57.665 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:46:57] "GET / HTTP/1.1" 200 -
+21:47:00.973 - __main__ - INFO - post request in Main
+21:47:00.974 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'fuel__cost_per_liter', 'minimal.pp', 'type_minimal', 'fuel__type', 'firm.average_run_time']
+21:47:00.976 - params_processor - INFO - data_vals
+[[u'1'], [u'35'], [u'on'], [u''], [u'diesel'], [u'8']]
+21:47:01.802 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:47:01] "POST / HTTP/1.1" 302 -
+21:47:01.815 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:47:01] "GET / HTTP/1.1" 200 -
+21:47:05.871 - __main__ - INFO - post request in Main
+21:47:05.877 - params_processor - INFO - data_keys
+['firm.cars_quantity', 'fuel__cost_per_liter', 'freight.pp', 'fuel__type', 'firm.average_run_time', 'type_freight']
+21:47:05.878 - params_processor - INFO - data_vals
+[[u'1'], [u'35'], [u'on'], [u'diesel'], [u'8'], [u'']]
+21:47:06.661 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:47:06] "POST / HTTP/1.1" 302 -
+21:47:06.674 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:47:06] "GET / HTTP/1.1" 200 -
+21:48:19.269 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+21:48:19.325 - werkzeug - INFO -  * Restarting with stat
+21:48:25.700 - werkzeug - WARNING -  * Debugger is active!
+21:48:25.703 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:48:25.716 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:48:32.459 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:32] "GET / HTTP/1.1" 200 -
+21:48:33.078 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:33] "GET /static/style.css HTTP/1.1" 304 -
+21:48:34.443 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:34] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:48:36.494 - __main__ - INFO - post request in TypeArbitary
+21:48:36.526 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+21:48:36.538 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+21:48:37.359 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:37] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:48:37.375 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:37] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:48:39.713 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:39] "GET / HTTP/1.1" 200 -
+21:48:40.970 - __main__ - INFO - post request in Main
+21:48:40.973 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+21:48:40.974 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+21:48:42.131 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:42] "POST / HTTP/1.1" 302 -
+21:48:42.144 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:42] "GET / HTTP/1.1" 200 -
+21:48:46.441 - __main__ - INFO - post request in Main
+21:48:46.444 - params_processor - INFO - data_keys
+['minimal.dut', 'fuel__cost_per_liter', 'minimal.pp', 'type_minimal', 'firm.cars_quantity', 'fuel__type', 'firm.average_run_time']
+21:48:46.447 - params_processor - INFO - data_vals
+[[u'on'], [u'35'], [u'on'], [u''], [u'1'], [u'diesel'], [u'8']]
+21:48:47.273 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:47] "POST / HTTP/1.1" 302 -
+21:48:47.288 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:47] "GET / HTTP/1.1" 200 -

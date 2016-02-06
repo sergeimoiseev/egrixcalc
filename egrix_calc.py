@@ -138,6 +138,9 @@ def calc(params_dict):
     calc_results_dict['monitoring__setup_cost'] = monitoring__setup_cost
     calc_results_dict['monitoring__cost_by_workout'] = monitoring__cost_by_workout
     
+    calc_results_dict['fuel__stolen_workout_cost'] = fuel__stolen_workout_cost
+    calc_results_dict['fuel__total_usage_cost'] = fuel__total_usage_cost
+    calc_results_dict['driver__salaries_by_workout'] = driver__salaries_by_workout
     # все аддитивные величины домножить на число машин
     # (скидки делать здесь)
     calc_results_dict.update((x, y*cars_quantity) for x, y in calc_results_dict.items())
@@ -172,6 +175,18 @@ def compare(par_dict):
                                      results_wo_monitoring['workout_profit']
     monitoring__additional_profit_per_month = monitoring__additional_profit / (12*srok)
 
+    monitoring__dut_additional_profit = - results_with_monitoring['fuel__stolen_workout_cost'] \
+                                      + results_wo_monitoring['fuel__stolen_workout_cost']
+    monitoring__dut_additional_profit_per_month = monitoring__dut_additional_profit / (12*srok)
+
+    monitoring__pp_additional_profit = - results_with_monitoring['workout_profit'] \
+                                      + results_wo_monitoring['workout_profit']
+    monitoring__pp_additional_profit_per_month = monitoring__pp_additional_profit / (12*srok)
+
+    monitoring__monitoring_additional_profit = - results_with_monitoring['fuel__total_usage_cost'] \
+                                     + results_wo_monitoring['fuel__total_usage_cost']
+    monitoring__monitoring_additional_profit_per_month = monitoring__monitoring_additional_profit / (12*srok)
+
     if monitoring__additional_profit != 0.:
         monitoring__recoupment = \
                 results_wo_monitoring['monitoring__cost_by_workout'] \
@@ -180,6 +195,9 @@ def compare(par_dict):
         monitoring__recoupment = 0.
     results_with_monitoring['monitoring__recoupment'] = monitoring__recoupment
     results_with_monitoring['monitoring__additional_profit_per_month'] = monitoring__additional_profit_per_month
+    results_with_monitoring['monitoring__dut_additional_profit_per_month'] = monitoring__dut_additional_profit_per_month
+    results_with_monitoring['monitoring__monitoring_additional_profit'] = monitoring__monitoring_additional_profit
+    results_with_monitoring['monitoring__pp_additional_profit'] = monitoring__pp_additional_profit
     # results_with_monitoring[''] = 
     return results_with_monitoring
 

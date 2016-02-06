@@ -18,7 +18,7 @@ class EgrixCalcView(flask.views.MethodView):
         logger.info("data_keys\n%s" % (data_keys,))
         logger.info("data_vals\n%s" % (data_vals,))
 
-        params_dict, comments_dict = ct.get_and_store_params(load_from_dropbox=False)
+        params_dict, comments_dict = ct.get_and_store_params(load_from_dropbox=True)
 
         if 'firm.cars_quantity' in data.keys():
             if data['firm.cars_quantity'][0] != '':
@@ -65,8 +65,8 @@ class EgrixCalcView(flask.views.MethodView):
                 if 'equip.pp' in data.keys():
                     if data['equip.pp'][0] == 'on':
                         params_dict['flagPP'] = 1.
-        if 'equip.pp' in data.keys():
-            if data['equip.pp'][0] == 'on':
+        if 'minimal.pp' in data.keys():
+            if data['minimal.pp'][0] == 'on':
                 params_dict['flagPP'] = 1.
         if 'equip.block_eng' in data.keys():
             if data['equip.block_eng'][0] == 'on':
@@ -80,8 +80,8 @@ class EgrixCalcView(flask.views.MethodView):
         results_keys = [key for key in results_dict.keys() if key in results_dict]
         results_vals = [results_dict[key] for key in results_keys if key in results_dict]
 
-        headers = ['','','','','','','']
-        values = [0.,0.,0.,0.,0.,0.,0.]
+        headers = ['','','','','','','','','','']
+        values = [0.,0.,0.,0.,0.,0.,0.,0.,0.,0.]
         for key in results_keys:
             if key == 'workout_expenditure_per_month':
                 values[0] = "%.1f" % (results_dict['workout_expenditure_per_month'])
@@ -104,6 +104,15 @@ class EgrixCalcView(flask.views.MethodView):
             if key == 'monitoring__recoupment':
                 values[6] = "%.1f" % (results_dict['monitoring__recoupment'])
                 headers[6] = u'Срок окупаемости системы, мес'
+            if key == 'monitoring__dut_additional_profit_per_month':
+                values[7] = "%.1f" % (results_dict['monitoring__dut_additional_profit_per_month'])
+                headers[7] = u'Экономия за счет ДУТ-а в мес, руб'
+            if key == 'monitoring__dut_additional_profit_per_month':
+                values[8] = "%.1f" % (results_dict['monitoring__monitoring_additional_profit'])
+                headers[8] = u'Экономия за счет контроля перемещений и моточасов в мес, руб'
+            if key == 'monitoring__dut_additional_profit_per_month':
+                values[9] = "%.1f" % (results_dict['monitoring__monitoring_additional_profit'])
+                headers[9] = u'Экономия за счет контроля пассажиропотока в мес, руб'
 
         full_messages_list = [headers,values]
         return full_messages_list
