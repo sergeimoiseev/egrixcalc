@@ -1,0 +1,22 @@
+16:59:31.891 - werkzeug - INFO -  * Restarting with stat
+16:59:33.186 - werkzeug - WARNING -  * Debugger is active!
+16:59:33.188 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+16:59:33.275 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+16:59:48.357 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 16:59:48] "GET / HTTP/1.1" 200 -
+16:59:49.019 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 16:59:49] "GET /static/style.css HTTP/1.1" 200 -
+16:59:49.220 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 16:59:49] "GET /favicon.ico HTTP/1.1" 404 -
+16:59:49.233 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 16:59:49] "GET /favicon.ico HTTP/1.1" 404 -
+17:02:18.950 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 17:02:18] "GET / HTTP/1.1" 200 -
+17:02:18.996 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 17:02:18] "GET /static/style.css HTTP/1.1" 304 -
+17:02:19.012 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 17:02:19] "GET /static/favicon.ico HTTP/1.1" 200 -
+17:09:24.391 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 17:09:24] "GET / HTTP/1.1" 200 -
+17:09:24.437 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 17:09:24] "GET /static/style.css HTTP/1.1" 304 -
+17:09:34.694 - werkzeug - INFO -  * Restarting with stat
+17:09:35.905 - werkzeug - WARNING -  * Debugger is active!
+17:09:35.907 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+17:09:35.923 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+17:09:36.394 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 17:09:36] "GET / HTTP/1.1" 200 -
+17:09:37.022 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 17:09:37] "GET /static/style.css HTTP/1.1" 304 -
+17:10:05.467 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 17:10:05] "GET / HTTP/1.1" 200 -
+17:10:33.154 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 17:10:33] "GET / HTTP/1.1" 200 -
+17:10:34.055 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 17:10:34] "GET /static/favicon.ico HTTP/1.1" 200 -
