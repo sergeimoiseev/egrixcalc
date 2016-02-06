@@ -1,27 +1,13 @@
 {% extends "base.html" %}
 {% block body %}
   <form action="{{url_for('index')}}" method="post">
-    <fieldset>
-        <legend>Сведения о составе автопарка</legend>
-          <table class=basic_params_table border="0">
-            <tr>
-            <td><label for=first-name>Количество машин</label> </td>
-            <td><input type=text class=text-input id=first-name name=firm.cars_quantity></td>
-            </tr>
-            <tr>
-            <td><label for=first-name>Среднее время работы автомобиля в день</label></td>
-            <td><input type=text class=text-input id=average_run_time name=firm.average_run_time></td>
-            </tr>
-          </table>
-    </fieldset>
+    {% include 'fields/firm_fields.html' %}
     <fieldset>
         <legend>Выберите дополнительное оборудование:</legend>
         <div class=tabs>
            <div id=type_freight> <a href="#type_freight">Грузоперевозки</a>
               <div>
-                <input type=checkbox id=dut name=freight.dut>
-                  ДУТ 
-                </input><br>
+                {% include 'dut_fields.html' %}
                 <input type=checkbox id=temp name=freight.temp>
                   Датчик температуры 
                 </input><br>
