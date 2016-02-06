@@ -86,8 +86,8 @@ class EgrixCalcView(flask.views.MethodView):
             if key == 'workout_expenditure_per_month':
                 values[0] = "%.1f" % (results_dict['workout_expenditure_per_month'])
                 headers[0] = u'Затраты на эксплуатацию в мес, руб'
-            if key == 'work__cost_by_workout':
-                values[1] = "%.1f" % (results_dict['work__cost_by_workout'])
+            if key == 'workout_profit_per_month':
+                values[1] = "%.1f" % (results_dict['workout_profit_per_month'])
                 headers[1] = u'Доходы от эксплуатации в мес, руб'
             if key == 'workout_profit_per_month':
                 values[2] = "%.1f" % (results_dict['workout_profit_per_month'])

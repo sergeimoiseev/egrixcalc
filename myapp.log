@@ -253,3 +253,137 @@
 20:47:58.388 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:47:58] "POST / HTTP/1.1" 302 -
 20:47:58.401 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:47:58] "GET / HTTP/1.1" 200 -
 20:48:00.543 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:48:00] "GET /type_arbitary/ HTTP/1.1" 200 -
+20:50:24.851 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\app.py', reloading
+20:50:24.914 - werkzeug - INFO -  * Restarting with stat
+20:50:27.552 - werkzeug - WARNING -  * Debugger is active!
+20:50:27.555 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+20:50:27.571 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+20:56:40.312 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\calc_tools.py', reloading
+20:56:40.364 - werkzeug - INFO -  * Restarting with stat
+20:56:42.434 - werkzeug - WARNING -  * Debugger is active!
+20:56:42.437 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+20:56:42.457 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+20:59:01.552 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:01] "GET /type_arbitary/ HTTP/1.1" 500 -
+20:59:02.163 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:02] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+20:59:02.167 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:02] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+20:59:02.171 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:02] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+20:59:02.176 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:02] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+20:59:02.226 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:02] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+20:59:02.500 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:02] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+20:59:02.503 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:02] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+20:59:26.500 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\app.py', reloading
+20:59:26.552 - werkzeug - INFO -  * Restarting with stat
+20:59:28.059 - werkzeug - WARNING -  * Debugger is active!
+20:59:28.062 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+20:59:28.078 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+20:59:28.210 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:28] "GET /type_arbitary/ HTTP/1.1" 500 -
+20:59:28.671 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:28] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+20:59:28.676 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:28] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+20:59:28.680 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:28] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+20:59:28.683 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:28] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+20:59:28.734 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:28] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+20:59:29.206 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 20:59:29] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:00:16.563 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\app.py', reloading
+21:00:16.618 - werkzeug - INFO -  * Restarting with stat
+21:00:17.875 - werkzeug - WARNING -  * Debugger is active!
+21:00:17.878 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:00:17.891 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:00:18.510 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:00:18] "GET /type_arbitary/ HTTP/1.1" 500 -
+21:00:19.058 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:00:19] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21:00:19.063 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:00:19] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21:00:19.068 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:00:19] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21:00:19.073 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:00:19] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:00:19.216 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:00:19] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:00:19.463 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:00:19] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:01:03.767 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:03] "GET /type_arbitary/ HTTP/1.1" 500 -
+21:01:03.805 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:03] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21:01:03.809 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:03] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21:01:03.815 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:03] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21:01:03.818 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:03] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:01:03.872 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:03] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:01:04.246 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:04] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:01:17.864 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:17] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:01:17.897 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:17] "GET /static/style.css HTTP/1.1" 304 -
+21:01:19.904 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:19] "GET / HTTP/1.1" 200 -
+21:01:21.240 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:21] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:01:22.154 - __main__ - INFO - post request in TypeArbitary
+21:01:22.157 - params_processor - INFO - data_keys
+['cars_quantity', 'type_arbitary']
+21:01:22.158 - params_processor - INFO - data_vals
+[[u''], [u'']]
+21:01:22.273 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:22] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:01:22.285 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:01:22] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:03:09.023 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:03:09] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:03:09.061 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:03:09] "GET /static/style.css HTTP/1.1" 304 -
+21:03:43.503 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\app.py', reloading
+21:03:43.559 - werkzeug - INFO -  * Restarting with stat
+21:03:45.608 - werkzeug - WARNING -  * Debugger is active!
+21:03:45.611 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:03:45.625 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:03:46.030 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:03:46] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:03:46.559 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:03:46] "GET /static/style.css HTTP/1.1" 304 -
+21:04:31.625 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:04:31] "GET /type_arbitary/ HTTP/1.1" 500 -
+21:04:31.759 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:04:31] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21:04:31.946 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:04:31] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21:04:32.006 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:04:32] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21:04:32.012 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:04:32] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:04:32.029 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:04:32] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:04:32.384 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:04:32] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+21:04:32.390 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:04:32] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:07:25.341 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\app.py', reloading
+21:07:25.536 - werkzeug - INFO -  * Restarting with stat
+21:07:30.282 - werkzeug - WARNING -  * Debugger is active!
+21:07:30.286 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:07:30.305 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:07:49.229 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:07:49] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:07:49.796 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:07:49] "GET /static/style.css HTTP/1.1" 304 -
+21:08:52.395 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:08:52] "GET /type_arbitary/ HTTP/1.1" 500 -
+21:08:52.438 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:08:52] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21:08:52.443 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:08:52] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21:08:52.447 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:08:52] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21:08:52.457 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:08:52] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:08:52.528 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:08:52] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:08:52.960 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\app.py', reloading
+21:08:53.026 - werkzeug - INFO -  * Restarting with stat
+21:08:54.216 - werkzeug - WARNING -  * Debugger is active!
+21:08:54.217 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:08:54.233 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:08:54.961 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:08:54] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+21:08:54.967 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:08:54] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:09:14.342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\app.py', reloading
+21:09:14.391 - werkzeug - INFO -  * Restarting with stat
+21:09:15.790 - werkzeug - WARNING -  * Debugger is active!
+21:09:15.792 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:09:15.811 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:09:16.022 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:09:16] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:09:16.562 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:09:16] "GET /static/style.css HTTP/1.1" 304 -
+21:11:37.973 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:11:37] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:11:38.023 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:11:38] "GET /static/style.css HTTP/1.1" 304 -
+21:14:45.549 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:14:45] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:14:45.586 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:14:45] "GET /static/style.css HTTP/1.1" 304 -
+21:15:04.447 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:15:04] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:15:04.487 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:15:04] "GET /static/style.css HTTP/1.1" 304 -
+21:20:34.726 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:20:34] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:20:34.763 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:20:34] "GET /static/style.css HTTP/1.1" 304 -
+21:20:53.250 - __main__ - INFO - post request in TypeArbitary
+21:20:53.256 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'flagTracker', 'x_k', 'monitoring__pp', 'cars_quantity', 'accu', 'fuel__usage_increase_by_time_of_workout', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'payload', 'cost_loss_by_car_sell', 'motorhours_per_day', 'fridge__spoil_fee', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'fuel__stealing_rate', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'monitoring__dut_cost', 'fuel__type']
+21:20:53.259 - params_processor - INFO - data_vals
+[[u'0.05'], [u'on'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.275'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'5.0'], [u'1000000.0'], [u'5.0'], [u'50000.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'0.05'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'2500.0'], [u'35.0']]
+21:20:53.709 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:20:53] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:20:53.776 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:20:53] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:22:27.980 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+21:22:28.121 - werkzeug - INFO -  * Restarting with stat
+21:22:33.160 - werkzeug - WARNING -  * Debugger is active!
+21:22:33.161 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:22:33.180 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:22:33.844 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:22:33] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:22:34.420 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:22:34] "GET /static/style.css HTTP/1.1" 304 -
+21:22:35.947 - __main__ - INFO - post request in TypeArbitary
+21:22:35.954 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'flagTracker', 'x_k', 'monitoring__pp', 'cars_quantity', 'accu', 'fuel__usage_increase_by_time_of_workout', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'payload', 'cost_loss_by_car_sell', 'motorhours_per_day', 'fridge__spoil_fee', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'fuel__stealing_rate', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'monitoring__dut_cost', 'fuel__type']
+21:22:35.957 - params_processor - INFO - data_vals
+[[u'0.05'], [u'on'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.275'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'5.0'], [u'1000000.0'], [u'5.0'], [u'50000.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'0.05'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'2500.0'], [u'35.0']]
+21:22:36.052 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:22:36] "POST /type_arbitary/ HTTP/1.1" 302 -
+21:22:36.065 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:22:36] "GET /type_arbitary/ HTTP/1.1" 200 -
+21:23:08.056 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:23:08] "GET / HTTP/1.1" 200 -

@@ -28,7 +28,8 @@ class Main(proc.EgrixCalcView):
 
 class TypeArbitary(proc.EgrixCalcView):
     def get(self):
-        return flask.render_template('type_arbitary.html')
+        global default_params, params_comments
+        return flask.render_template('type_arbitary.html',d = default_params, c = params_comments)
 
     def post(self):
         logger.info("post request in TypeArbitary")

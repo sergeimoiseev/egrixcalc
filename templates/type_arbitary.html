@@ -4,12 +4,18 @@
     <fieldset>
         <legend>Выберите дополнительное оборудование и укажите необходиые параметры:</legend>
             <div>
-              <input type=checkbox id=block_eng name=arbitary.block_eng>
-                Реле блокировки двигателя 
-              </input><br>
-              {% for item in p %}
-                cars_quantity = 
-                <input type=text name=cars_quantity value=1>Число машин</input>
+              {% for key, val in d.iteritems() %}
+                {% if 'flag' in key %}
+                Флаг {{ key }}
+                  {% if val == 1.0 %}
+                    <input type=checkbox name={{ key }} checked>{{ c[key] }}</input>
+                  {% else %}
+                    <input type=checkbox name={{ key }}>{{ c[key] }}</input>
+                  {% endif %}
+                {% else %}
+                {{ key }} =
+                <input type=text name={{ key }} value={{ val }}>{{ c[key] }}</input>
+                {% endif %}
                 <br>
               {% endfor %}
               <button type=submit1 name=type_arbitary>Рассчитать</button>

@@ -70,6 +70,7 @@ def pairwise(iterable):
 
 import re, yaml, logging, inspect
 import dropboxm
+import collections
 
 import re
 def hasNumbers(inputString):
@@ -78,8 +79,10 @@ def hasNumbers(inputString):
 def read_params_dict(from_dropbox=True):
     logger.debug(get_string_caller_objclass_method(read_params_dict,inspect.stack()))
 
-    d = {}
-    c = {}
+    d = collections.OrderedDict([])
+    # d = {}
+    c = collections.OrderedDict([])
+    # c = {}
 
     if from_dropbox:
         logger.debug("reading from dropbox")
@@ -112,7 +115,7 @@ def read_params_dict(from_dropbox=True):
 def get_and_store_params(load_from_dropbox=True):
     logger.debug(get_string_caller_objclass_method(get_and_store_params,inspect.stack()))
 
-    params_dict = {}
+    params_dict = collections.OrderedDict([])
     #try to load prarms from dropbox
     try:
         params_dict, comments_dict = read_params_dict(from_dropbox=load_from_dropbox)
