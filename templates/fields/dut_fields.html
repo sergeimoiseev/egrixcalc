@@ -8,10 +8,24 @@
   <td>
     Тип топлива:
     <select name=fuel__type>
-      <option value="diesel">Дизель</option>
-      <option value="petrol98">Бензин 98-й</option>
-      <option value="petrol95">Бензин 95-й</option>
+      <option value=1 selected>Дизель</option>
+      <option value=98>Бензин 98-й</option>
+      <option value=95>Бензин 95-й</option>
     </select>
+  </td>
+</tr>
+<tr>
+  <td>
+    {{c['fuel__liters_per_100km']}}
+    <input type=text name=fuel__liters_per_100km value={{d['fuel__liters_per_100km']}}>
+    л
+    </input>
+  </td>
+  <td>
+    {{c['motorhours_per_day_machinery']}}
+    <input type=text name=motorhours_per_day_machinery value={{d['motorhours_per_day_machinery']}}>
+    ч
+    </input>
   </td>
 </tr>
 </table>

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import re, yaml, logging, inspect, math
+import re, yaml, logging, inspect, math, copy
 import dropboxm
 import calc_tools as ct
 logger = logging.getLogger(__name__)
@@ -21,7 +21,6 @@ def calc(params_dict):
         b =  0. if flagB else accu # коэфф-т "левых" ходок
     # флаги берутся из params_dict
 
-
 # Базовые величины для расчетов
     workout_cost_per_km = cost_loss_by_car_sell/prob # просто из головы. Ниакой оптимизации пока
     C0 = cost_loss_by_car_sell/x_k # себестоимость машины
@@ -33,7 +32,7 @@ def calc(params_dict):
 # fullrun - полный пробег - он больше, чем prob (пробег на износ (workout)
 
 # Топливо - fuel section
-    fuel__cost_per_km = fuel__liters_per_km * fuel__cost_per_liter
+    fuel__cost_per_km =(fuel__liters_per_100km/100.) * fuel__cost_per_liter
     fuel__fullrun_cost = fuel__cost_per_km*prob/x_k  # это в случае среднего вождения (a=1)
     q_0 = fuel__fullrun_cost
     fuel__workout_cost = a*q_0*x_k # ревльная стоимость всего сожженого бензина за пробег до продажи авто
@@ -132,22 +131,23 @@ def calc(params_dict):
     workout_expenditure_per_month = workout_expenditure / (12*srok)
     workout_profit_per_month = workout_profit / (12*srok)
 
-    calc_results_dict['workout_profit'] = workout_profit
-    calc_results_dict['work__cost_by_workout_per_month'] = work__cost_by_workout_per_month
-    calc_results_dict['workout_expenditure_per_month'] = workout_expenditure_per_month
-    calc_results_dict['workout_profit_per_month'] = workout_profit_per_month
-    calc_results_dict['monitoring__setup_cost'] = monitoring__setup_cost
-    calc_results_dict['monitoring__cost_by_workout'] = monitoring__cost_by_workout
+    calc_results_dict = copy.deepcopy(locals())
+    # calc_results_dict['workout_profit'] = workout_profit
+    # calc_results_dict['work__cost_by_workout_per_month'] = work__cost_by_workout_per_month
+    # calc_results_dict['workout_expenditure_per_month'] = workout_expenditure_per_month
+    # calc_results_dict['workout_profit_per_month'] = workout_profit_per_month
+    # calc_results_dict['monitoring__setup_cost'] = monitoring__setup_cost
+    # calc_results_dict['monitoring__cost_by_workout'] = monitoring__cost_by_workout
     
-    calc_results_dict['fuel__stolen_workout_cost'] = fuel__stolen_workout_cost
-    calc_results_dict['fuel__total_usage_cost'] = fuel__total_usage_cost
-    calc_results_dict['driver__salaries_by_workout'] = driver__salaries_by_workout
+    # calc_results_dict['fuel__stolen_workout_cost'] = fuel__stolen_workout_cost
+    # calc_results_dict['fuel__total_usage_cost'] = fuel__total_usage_cost
+    # calc_results_dict['driver__salaries_by_workout'] = driver__salaries_by_workout
     # все аддитивные величины домножить на число машин
     # (скидки делать здесь)
-    calc_results_dict.update((x, y*cars_quantity) for x, y in calc_results_dict.items())
+    # calc_results_dict.update((x, y*cars_quantity) for x, y in calc_results_dict.items())
     
-    calc_results_dict['car_efficiency'] = car_efficiency
-    calc_results_dict['srok'] = srok
+    # calc_results_dict['car_efficiency'] = car_efficiency
+    # calc_results_dict['srok'] = srok
     return calc_results_dict
 
 def compare(par_dict):
@@ -171,6 +171,7 @@ def compare(par_dict):
     logger.debug("results_wo_monitoring['car_efficiency']\n%s" % (results_wo_monitoring['car_efficiency'],))
 
     srok = results_with_monitoring['srok'] 
+    #why error?: cars_quantity = results_with_monitoring['cars_quantity'] 
 
     monitoring__additional_profit = results_with_monitoring['workout_profit'] - \
                                      results_wo_monitoring['workout_profit']
@@ -190,15 +191,17 @@ def compare(par_dict):
 
     if monitoring__additional_profit != 0.:
         monitoring__recoupment = \
-                results_wo_monitoring['monitoring__cost_by_workout'] \
-                 / monitoring__additional_profit_per_month
+        results_with_monitoring['monitoring__cost_by_workout'] \
+         / monitoring__additional_profit_per_month
     else:
         monitoring__recoupment = 0.
+
     results_with_monitoring['monitoring__recoupment'] = monitoring__recoupment
     results_with_monitoring['monitoring__additional_profit_per_month'] = monitoring__additional_profit_per_month
     results_with_monitoring['monitoring__dut_additional_profit_per_month'] = monitoring__dut_additional_profit_per_month
     results_with_monitoring['monitoring__monitoring_additional_profit'] = monitoring__monitoring_additional_profit
     results_with_monitoring['monitoring__pp_additional_profit'] = monitoring__pp_additional_profit
+    # results_with_monitoring['check'] = flagDut
     # results_with_monitoring[''] = 
     return results_with_monitoring
 

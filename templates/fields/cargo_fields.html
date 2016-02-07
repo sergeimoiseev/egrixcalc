@@ -1,0 +1,33 @@
+<table class=fullwidth_table>
+  <tr>
+    <td>
+      <input type=checkbox name=flagCargo {{ 'checked' if d['flagCargo'] else '' }}>
+      {{c['flagCargo']}}
+      </input>
+    </td>
+    <td>
+      <input type=checkbox name=flagOpenningSensor {{ 'checked' if d['flagOpenningSensor'] else '' }}>
+      {{c['flagOpenningSensor']}}
+      </input>
+    </td>
+    <td>
+      <input type=checkbox name=flagOpenningAlarm {{ 'checked' if d['flagOpenningAlarm'] else '' }}>
+      {{c['flagOpenningAlarm']}}
+      </input>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {{c['cargo__cost']}}
+      <input type=text name=cargo__cost value={{d['cargo__cost']}}>
+      руб
+      </input>
+    </td>
+    <td>
+      {{c['cargo__loss_probability']}}
+      <input type=text name=cargo__loss_probability value={{d['cargo__loss_probability']}}>
+      руб
+      </input>
+    </td>
+  </tr>
+</table>

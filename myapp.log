@@ -1618,3 +1618,559 @@
 <type 'unicode'>
 18:33:26.299 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:26] "POST / HTTP/1.1" 302 -
 18:33:26.315 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:26] "GET / HTTP/1.1" 200 -
+20:37:21.489 - werkzeug - INFO -  * Restarting with stat
+20:37:27.405 - werkzeug - WARNING -  * Debugger is active!
+20:37:27.483 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+20:37:27.608 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+20:37:43.055 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:37:43] "GET / HTTP/1.1" 200 -
+20:37:44.957 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:37:44] "GET /static/style.css HTTP/1.1" 304 -
+20:38:54.299 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\calc_tools.py', reloading
+20:38:54.456 - werkzeug - INFO -  * Restarting with stat
+20:39:00.013 - werkzeug - WARNING -  * Debugger is active!
+20:39:00.013 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+20:39:00.029 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+20:43:27.698 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+20:43:27.760 - werkzeug - INFO -  * Restarting with stat
+20:43:38.105 - werkzeug - WARNING -  * Debugger is active!
+20:43:38.105 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+20:43:38.121 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+20:55:35.032 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:55:35] "GET / HTTP/1.1" 200 -
+20:55:35.594 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:55:35] "GET /static/style.css HTTP/1.1" 304 -
+20:55:39.982 - __main__ - INFO - post request in Main
+20:55:40.480 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:55:40] "POST / HTTP/1.1" 302 -
+20:55:40.496 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:55:40] "GET / HTTP/1.1" 200 -
+20:55:52.461 - __main__ - INFO - post request in Main
+20:55:52.571 - params_processor - INFO - ERROR on params_dict['flagDut']
+0.0
+20:55:52.571 - params_processor - INFO - ERROR: could not convert string to float: on
+20:55:52.571 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+20:55:52.571 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+20:55:52.586 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:55:52] "POST / HTTP/1.1" 302 -
+20:55:52.601 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:55:52] "GET / HTTP/1.1" 200 -
+20:56:21.687 - __main__ - INFO - post request in Main
+20:56:21.796 - params_processor - INFO - ERROR on params_dict['flagDut']
+0.0
+20:56:21.796 - params_processor - INFO - ERROR: could not convert string to float: on
+20:56:21.812 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+20:56:21.812 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+20:56:21.826 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:56:21] "POST / HTTP/1.1" 302 -
+20:56:21.826 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:56:21] "GET / HTTP/1.1" 200 -
+20:56:39.677 - __main__ - INFO - post request in Main
+20:56:39.786 - params_processor - INFO - ERROR on params_dict['flagDut']
+0.0
+20:56:39.786 - params_processor - INFO - ERROR: could not convert string to float: on
+20:56:39.802 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+20:56:39.802 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+20:56:39.818 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:56:39] "POST / HTTP/1.1" 302 -
+20:56:39.834 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:56:39] "GET / HTTP/1.1" 200 -
+20:57:06.186 - __main__ - INFO - post request in Main
+20:57:06.311 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:57:06] "POST / HTTP/1.1" 302 -
+20:57:06.326 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:57:06] "GET / HTTP/1.1" 200 -
+20:57:09.137 - __main__ - INFO - post request in Main
+20:57:09.246 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:57:09] "POST / HTTP/1.1" 302 -
+20:57:09.260 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:57:09] "GET / HTTP/1.1" 200 -
+20:57:12.414 - __main__ - INFO - post request in Main
+20:57:12.539 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:57:12] "POST / HTTP/1.1" 302 -
+20:57:12.555 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:57:12] "GET / HTTP/1.1" 200 -
+20:57:18.048 - __main__ - INFO - post request in Main
+20:57:18.173 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:57:18] "POST / HTTP/1.1" 302 -
+20:57:18.188 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:57:18] "GET / HTTP/1.1" 200 -
+20:57:21.588 - __main__ - INFO - post request in Main
+20:57:21.713 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:57:21] "POST / HTTP/1.1" 302 -
+20:57:21.730 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:57:21] "GET / HTTP/1.1" 200 -
+20:58:25.450 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+20:58:25.499 - werkzeug - INFO -  * Restarting with stat
+20:58:31.960 - werkzeug - WARNING -  * Debugger is active!
+20:58:31.974 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+20:58:31.974 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+20:58:43.526 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+20:58:43.572 - werkzeug - INFO -  * Restarting with stat
+20:58:52.046 - werkzeug - WARNING -  * Debugger is active!
+20:58:52.046 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+20:58:52.062 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+20:59:18.684 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+20:59:18.746 - werkzeug - INFO -  * Restarting with stat
+20:59:27.388 - werkzeug - WARNING -  * Debugger is active!
+20:59:27.388 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+20:59:27.404 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+20:59:51.811 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:59:51] "GET / HTTP/1.1" 200 -
+20:59:52.309 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:59:52] "GET /static/style.css HTTP/1.1" 304 -
+20:59:54.243 - __main__ - INFO - post request in Main
+20:59:54.400 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:59:54] "POST / HTTP/1.1" 302 -
+20:59:54.415 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:59:54] "GET / HTTP/1.1" 200 -
+20:59:58.362 - __main__ - INFO - post request in Main
+20:59:58.486 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:59:58] "POST / HTTP/1.1" 302 -
+20:59:58.503 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 20:59:58] "GET / HTTP/1.1" 200 -
+21:00:02.684 - __main__ - INFO - post request in Main
+21:00:02.792 - params_processor - INFO - ERROR on params_dict['flagDut']
+0.0
+21:00:02.792 - params_processor - INFO - ERROR: could not convert string to float: on
+21:00:02.792 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+21:00:02.792 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+21:00:02.809 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:00:02] "POST / HTTP/1.1" 302 -
+21:00:02.823 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:00:02] "GET / HTTP/1.1" 200 -
+21:00:28.940 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:00:28] "GET /all_params/ HTTP/1.1" 200 -
+21:00:35.369 - __main__ - INFO - post request in AllParams
+21:00:35.479 - params_processor - INFO - ERROR on params_dict['flagDut']
+0.0
+21:00:35.479 - params_processor - INFO - ERROR: could not convert string to float: on
+21:00:35.479 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+21:00:35.479 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+21:00:35.494 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:00:35] "POST /all_params/ HTTP/1.1" 302 -
+21:00:35.526 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:00:35] "GET /all_params/ HTTP/1.1" 200 -
+21:00:42.062 - __main__ - INFO - post request in AllParams
+21:00:42.171 - params_processor - INFO - ERROR on params_dict['flagDut']
+0.0
+21:00:42.171 - params_processor - INFO - ERROR: could not convert string to float: on
+21:00:42.171 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+21:00:42.171 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+21:00:42.187 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:00:42] "POST /all_params/ HTTP/1.1" 302 -
+21:00:42.203 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:00:42] "GET /all_params/ HTTP/1.1" 200 -
+21:01:20.572 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:01:20.634 - werkzeug - INFO -  * Restarting with stat
+21:01:33.119 - werkzeug - WARNING -  * Debugger is active!
+21:01:33.119 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:01:33.135 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:01:36.209 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:01:36] "GET /all_params/ HTTP/1.1" 200 -
+21:01:36.786 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:01:36] "GET /static/style.css HTTP/1.1" 304 -
+21:01:38.329 - __main__ - INFO - post request in AllParams
+21:01:38.486 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:01:38] "POST /all_params/ HTTP/1.1" 302 -
+21:01:38.502 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:01:38] "GET /all_params/ HTTP/1.1" 200 -
+21:01:45.834 - __main__ - INFO - post request in AllParams
+21:01:46.020 - params_processor - INFO - ERROR on params_dict['flagDut']
+0.0
+21:01:46.020 - params_processor - INFO - ERROR: could not convert string to float: on
+21:01:46.020 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+21:01:46.020 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+21:01:46.052 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:01:46] "POST /all_params/ HTTP/1.1" 302 -
+21:01:46.068 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:01:46] "GET /all_params/ HTTP/1.1" 200 -
+21:09:04.071 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:09:04.117 - werkzeug - INFO -  * Restarting with stat
+21:09:10.345 - werkzeug - WARNING -  * Debugger is active!
+21:09:10.345 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:09:10.359 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:11:54.628 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:11:54.676 - werkzeug - INFO -  * Restarting with stat
+21:12:01.164 - werkzeug - WARNING -  * Debugger is active!
+21:12:01.164 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:12:01.164 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:12:01.476 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:12:01] "GET /all_params/ HTTP/1.1" 200 -
+21:12:01.994 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:12:01] "GET /static/style.css HTTP/1.1" 304 -
+21:12:07.688 - __main__ - INFO - post request in AllParams
+21:12:07.845 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:12:07] "POST /all_params/ HTTP/1.1" 302 -
+21:12:07.861 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:12:07] "GET /all_params/ HTTP/1.1" 200 -
+21:12:21.548 - __main__ - INFO - post request in AllParams
+21:12:21.688 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:12:21] "POST /all_params/ HTTP/1.1" 302 -
+21:12:21.703 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:12:21] "GET /all_params/ HTTP/1.1" 200 -
+21:12:31.423 - __main__ - INFO - post request in AllParams
+21:12:31.548 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:12:31] "POST /all_params/ HTTP/1.1" 302 -
+21:12:31.562 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:12:31] "GET /all_params/ HTTP/1.1" 200 -
+21:13:06.967 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:13:07.029 - werkzeug - INFO -  * Restarting with stat
+21:13:19.342 - werkzeug - WARNING -  * Debugger is active!
+21:13:19.357 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:13:19.357 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:13:19.450 - __main__ - INFO - post request in AllParams
+21:13:19.638 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:13:19] "POST /all_params/ HTTP/1.1" 302 -
+21:13:19.746 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:13:19] "GET /all_params/ HTTP/1.1" 200 -
+21:13:30.778 - __main__ - INFO - post request in AllParams
+21:13:30.903 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:13:30] "POST /all_params/ HTTP/1.1" 302 -
+21:13:30.918 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:13:30] "GET /all_params/ HTTP/1.1" 200 -
+21:14:06.730 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:14:06.825 - werkzeug - INFO -  * Restarting with stat
+21:14:13.500 - werkzeug - WARNING -  * Debugger is active!
+21:14:13.500 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:14:13.516 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:16:07.194 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:16:07.257 - werkzeug - INFO -  * Restarting with stat
+21:16:12.624 - werkzeug - WARNING -  * Debugger is active!
+21:16:12.640 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:16:12.640 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:22:35.282 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:22:35.345 - werkzeug - INFO -  * Restarting with stat
+21:22:42.243 - werkzeug - WARNING -  * Debugger is active!
+21:22:42.243 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:22:42.259 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:22:52.711 - __main__ - INFO - post request in AllParams
+21:22:52.946 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:22:52] "POST /all_params/ HTTP/1.1" 500 -
+21:22:53.585 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:22:53] "GET /all_params/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21:22:53.601 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:22:53] "GET /all_params/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21:22:53.648 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:22:53] "GET /all_params/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21:22:53.648 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:22:53] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:22:53.710 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:22:53] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:22:54.115 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:22:54] "GET /all_params/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+21:22:54.115 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:22:54] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:25:11.392 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:25:11.470 - werkzeug - INFO -  * Restarting with stat
+21:25:17.211 - werkzeug - WARNING -  * Debugger is active!
+21:25:17.211 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:25:17.227 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:25:18.881 - __main__ - INFO - post request in AllParams
+21:25:19.036 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:25:19] "POST /all_params/ HTTP/1.1" 302 -
+21:25:19.161 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:25:19] "GET /all_params/ HTTP/1.1" 200 -
+21:25:19.691 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:25:19] "GET /static/style.css HTTP/1.1" 304 -
+21:25:21.875 - __main__ - INFO - post request in AllParams
+21:25:22.016 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:25:22] "POST /all_params/ HTTP/1.1" 302 -
+21:25:22.032 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:25:22] "GET /all_params/ HTTP/1.1" 200 -
+21:25:36.891 - __main__ - INFO - post request in AllParams
+21:25:37.030 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:25:37] "POST /all_params/ HTTP/1.1" 302 -
+21:25:37.046 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:25:37] "GET /all_params/ HTTP/1.1" 200 -
+21:26:12.388 - __main__ - INFO - post request in AllParams
+21:26:12.528 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:26:12] "POST /all_params/ HTTP/1.1" 302 -
+21:26:12.543 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:26:12] "GET /all_params/ HTTP/1.1" 200 -
+21:26:28.565 - __main__ - INFO - post request in AllParams
+21:26:28.690 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:26:28] "POST /all_params/ HTTP/1.1" 302 -
+21:26:28.704 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:26:28] "GET /all_params/ HTTP/1.1" 200 -
+21:26:44.375 - __main__ - INFO - post request in AllParams
+21:26:44.500 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:26:44] "POST /all_params/ HTTP/1.1" 302 -
+21:26:44.515 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:26:44] "GET /all_params/ HTTP/1.1" 200 -
+21:28:30.426 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+21:28:30.487 - werkzeug - INFO -  * Restarting with stat
+21:28:36.716 - werkzeug - WARNING -  * Debugger is active!
+21:28:36.716 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:28:36.732 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:28:37.013 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:28:37] "GET /all_params/ HTTP/1.1" 200 -
+21:28:37.528 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:28:37] "GET /static/style.css HTTP/1.1" 304 -
+21:28:39.822 - __main__ - INFO - post request in AllParams
+21:28:39.963 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:28:39] "POST /all_params/ HTTP/1.1" 302 -
+21:28:39.979 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:28:39] "GET /all_params/ HTTP/1.1" 200 -
+21:28:56.595 - __main__ - INFO - post request in AllParams
+21:28:56.720 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:28:56] "POST /all_params/ HTTP/1.1" 302 -
+21:28:56.734 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:28:56] "GET /all_params/ HTTP/1.1" 200 -
+21:28:59.948 - __main__ - INFO - post request in AllParams
+21:29:00.088 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:29:00] "POST /all_params/ HTTP/1.1" 302 -
+21:29:00.105 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:29:00] "GET /all_params/ HTTP/1.1" 200 -
+21:29:10.984 - __main__ - INFO - post request in AllParams
+21:29:11.157 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:29:11] "POST /all_params/ HTTP/1.1" 302 -
+21:29:11.171 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:29:11] "GET /all_params/ HTTP/1.1" 200 -
+21:32:39.759 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:32:39] "GET / HTTP/1.1" 200 -
+21:32:44.632 - __main__ - INFO - post request in Main
+21:32:44.803 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:32:44] "POST / HTTP/1.1" 302 -
+21:32:44.819 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:32:44] "GET / HTTP/1.1" 200 -
+21:32:51.355 - __main__ - INFO - post request in Main
+21:32:51.464 - params_processor - INFO - ERROR on params_dict['flagDut']
+0.0
+21:32:51.464 - params_processor - INFO - ERROR: could not convert string to float: on
+21:32:51.464 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+21:32:51.464 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+21:32:51.496 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:32:51] "POST / HTTP/1.1" 302 -
+21:32:51.496 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:32:51] "GET / HTTP/1.1" 200 -
+21:32:56.207 - __main__ - INFO - post request in Main
+21:32:56.316 - params_processor - INFO - ERROR on params_dict['flagDut']
+0.0
+21:32:56.316 - params_processor - INFO - ERROR: could not convert string to float: on
+21:32:56.316 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+21:32:56.316 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+21:32:56.348 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:32:56] "POST / HTTP/1.1" 302 -
+21:32:56.364 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:32:56] "GET / HTTP/1.1" 200 -
+21:32:59.671 - __main__ - INFO - post request in Main
+21:32:59.796 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:32:59] "POST / HTTP/1.1" 302 -
+21:32:59.811 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:32:59] "GET / HTTP/1.1" 200 -
+21:33:11.280 - __main__ - INFO - post request in Main
+21:33:11.405 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:33:11] "POST / HTTP/1.1" 302 -
+21:33:11.421 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:33:11] "GET / HTTP/1.1" 200 -
+21:37:09.581 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:09] "GET / HTTP/1.1" 200 -
+21:37:09.628 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:09] "GET /static/style.css HTTP/1.1" 304 -
+21:37:35.671 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:35] "GET / HTTP/1.1" 200 -
+21:37:35.703 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:35] "GET /static/style.css HTTP/1.1" 304 -
+21:37:38.371 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:38] "GET / HTTP/1.1" 200 -
+21:37:38.401 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:38] "GET /static/style.css HTTP/1.1" 304 -
+21:37:39.244 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:39] "GET / HTTP/1.1" 200 -
+21:37:39.290 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:39] "GET /static/style.css HTTP/1.1" 304 -
+21:37:39.479 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:39] "GET / HTTP/1.1" 200 -
+21:37:39.525 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:39] "GET /static/style.css HTTP/1.1" 304 -
+21:37:41.381 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:41] "GET /all_params/ HTTP/1.1" 200 -
+21:37:43.066 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:37:43] "GET / HTTP/1.1" 200 -
+21:39:15.845 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:15] "GET / HTTP/1.1" 200 -
+21:39:15.892 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:15] "GET /static/style.css HTTP/1.1" 304 -
+21:39:23.571 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:23] "GET / HTTP/1.1" 200 -
+21:39:23.618 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:23] "GET /static/style.css HTTP/1.1" 304 -
+21:39:45.744 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:45] "GET / HTTP/1.1" 200 -
+21:39:45.792 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:45] "GET /static/style.css HTTP/1.1" 304 -
+21:39:46.914 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:46] "GET / HTTP/1.1" 200 -
+21:39:46.946 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:46] "GET /static/style.css HTTP/1.1" 304 -
+21:39:58.446 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:58] "GET / HTTP/1.1" 200 -
+21:39:58.523 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:58] "GET /static/style.css HTTP/1.1" 304 -
+21:39:59.569 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:59] "GET / HTTP/1.1" 200 -
+21:39:59.615 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:39:59] "GET /static/style.css HTTP/1.1" 304 -
+21:40:31.805 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:31] "GET / HTTP/1.1" 200 -
+21:40:31.835 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:31] "GET /static/style.css HTTP/1.1" 304 -
+21:40:32.569 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:32] "GET / HTTP/1.1" 200 -
+21:40:32.631 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:32] "GET /static/style.css HTTP/1.1" 304 -
+21:40:32.756 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:32] "GET / HTTP/1.1" 200 -
+21:40:32.819 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:32] "GET /static/style.css HTTP/1.1" 304 -
+21:40:39.733 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:39] "GET / HTTP/1.1" 200 -
+21:40:39.780 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:39] "GET /static/style.css HTTP/1.1" 304 -
+21:40:40.497 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:40] "GET / HTTP/1.1" 200 -
+21:40:40.545 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:40] "GET /static/style.css HTTP/1.1" 304 -
+21:40:40.670 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:40] "GET / HTTP/1.1" 200 -
+21:40:40.732 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:40] "GET /static/style.css HTTP/1.1" 304 -
+21:40:40.872 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:40] "GET / HTTP/1.1" 200 -
+21:40:40.918 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:40] "GET /static/style.css HTTP/1.1" 304 -
+21:40:43.447 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:43] "GET /all_params/ HTTP/1.1" 200 -
+21:40:45.648 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:45] "GET / HTTP/1.1" 200 -
+21:40:52.545 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:40:52] "GET /all_params/ HTTP/1.1" 200 -
+21:41:42.621 - werkzeug - INFO -  * Restarting with stat
+21:41:47.259 - werkzeug - WARNING -  * Debugger is active!
+21:41:47.259 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:41:47.275 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:41:51.065 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:41:51] "GET /all_params/ HTTP/1.1" 200 -
+21:41:51.581 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:41:51] "GET /static/style.css HTTP/1.1" 304 -
+21:41:56.154 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:41:56] "GET / HTTP/1.1" 200 -
+21:42:11.523 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:42:11] "GET / HTTP/1.1" 200 -
+21:42:11.553 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:42:11] "GET /static/style.css HTTP/1.1" 304 -
+21:47:56.417 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:47:56] "GET / HTTP/1.1" 200 -
+21:47:56.463 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:47:56] "GET /static/style.css HTTP/1.1" 304 -
+21:48:15.174 - werkzeug - INFO -  * Restarting with stat
+21:48:19.792 - werkzeug - WARNING -  * Debugger is active!
+21:48:19.792 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+21:48:19.808 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:48:20.384 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:48:20] "GET / HTTP/1.1" 200 -
+21:48:20.921 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:48:20] "GET /static/style.css HTTP/1.1" 304 -
+21:48:32.857 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:48:32] "GET /all_params/ HTTP/1.1" 200 -
+21:53:55.278 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:53:55] "GET /all_params/ HTTP/1.1" 200 -
+21:53:55.325 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:53:55] "GET /static/style.css HTTP/1.1" 304 -
+21:54:03.505 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:54:03] "GET / HTTP/1.1" 200 -
+21:55:15.854 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:55:15] "GET / HTTP/1.1" 200 -
+21:55:15.900 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:55:15] "GET /static/style.css HTTP/1.1" 304 -
+21:55:17.398 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:55:17] "GET / HTTP/1.1" 200 -
+21:55:17.444 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:55:17] "GET /static/style.css HTTP/1.1" 304 -
+21:55:17.615 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:55:17] "GET / HTTP/1.1" 200 -
+21:55:17.663 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:55:17] "GET /static/style.css HTTP/1.1" 304 -
+21:55:20.891 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:55:20] "GET / HTTP/1.1" 200 -
+21:55:20.970 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:55:20] "GET /static/style.css HTTP/1.1" 304 -
+21:55:25.822 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:55:25] "GET /all_params/ HTTP/1.1" 200 -
+21:55:27.710 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:55:27] "GET / HTTP/1.1" 200 -
+21:56:00.470 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:00] "GET / HTTP/1.1" 200 -
+21:56:00.532 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:00] "GET /static/style.css HTTP/1.1" 200 -
+21:56:14.937 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:14] "GET / HTTP/1.1" 200 -
+21:56:14.984 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:14] "GET /static/style.css HTTP/1.1" 200 -
+21:56:27.371 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:27] "GET / HTTP/1.1" 200 -
+21:56:27.480 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:27] "GET /static/style.css HTTP/1.1" 200 -
+21:56:34.924 - __main__ - INFO - post request in Main
+21:56:35.049 - params_processor - INFO - ERROR on params_dict['flagFrLoss']
+0.0
+21:56:35.049 - params_processor - INFO - ERROR: could not convert string to float: on
+21:56:35.049 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+21:56:35.063 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+21:56:35.079 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:35] "POST / HTTP/1.1" 302 -
+21:56:35.111 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:35] "GET / HTTP/1.1" 200 -
+21:56:42.319 - __main__ - INFO - post request in Main
+21:56:42.460 - params_processor - INFO - ERROR on params_dict['flagThermo']
+0.0
+21:56:42.460 - params_processor - INFO - ERROR: could not convert string to float: on
+21:56:42.460 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+21:56:42.476 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+21:56:42.476 - params_processor - INFO - ERROR on params_dict['flagFrLoss']
+0.0
+21:56:42.476 - params_processor - INFO - ERROR: could not convert string to float: on
+21:56:42.476 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+21:56:42.476 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+21:56:42.492 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:42] "POST / HTTP/1.1" 302 -
+21:56:42.523 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:42] "GET / HTTP/1.1" 200 -
+21:56:47.579 - __main__ - INFO - post request in Main
+21:56:47.688 - params_processor - INFO - ERROR on params_dict['flagFrLoss']
+0.0
+21:56:47.688 - params_processor - INFO - ERROR: could not convert string to float: on
+21:56:47.703 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+21:56:47.703 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+21:56:47.720 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:47] "POST / HTTP/1.1" 302 -
+21:56:47.736 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:56:47] "GET / HTTP/1.1" 200 -
+21:58:05.732 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:58:05] "GET / HTTP/1.1" 200 -
+21:58:05.763 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 21:58:05] "GET /static/style.css HTTP/1.1" 304 -
+22:01:38.467 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:01:38] "GET / HTTP/1.1" 200 -
+22:01:38.515 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:01:38] "GET /static/style.css HTTP/1.1" 304 -
+22:01:53.710 - werkzeug - INFO -  * Restarting with stat
+22:01:58.253 - werkzeug - WARNING -  * Debugger is active!
+22:01:58.253 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:01:58.253 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:01:58.752 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:01:58] "GET / HTTP/1.1" 200 -
+22:01:59.266 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:01:59] "GET /static/style.css HTTP/1.1" 304 -
+22:10:11.411 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:10:11] "GET / HTTP/1.1" 200 -
+22:10:11.457 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:10:11] "GET /static/style.css HTTP/1.1" 304 -
+22:10:14.052 - __main__ - INFO - post request in Main
+22:10:15.197 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:10:15] "POST / HTTP/1.1" 302 -
+22:10:15.227 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:10:15] "GET / HTTP/1.1" 200 -
+22:14:15.394 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:15] "GET / HTTP/1.1" 200 -
+22:14:15.456 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:15] "GET /static/style.css HTTP/1.1" 304 -
+22:14:21.513 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:21] "GET / HTTP/1.1" 200 -
+22:14:21.575 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:21] "GET /static/style.css HTTP/1.1" 304 -
+22:14:48.032 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:48] "GET / HTTP/1.1" 500 -
+22:14:48.220 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:48] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+22:14:48.361 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:48] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+22:14:48.438 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:48] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+22:14:48.470 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:14:48.828 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:14:48.921 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:48] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+22:14:48.921 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:14:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:15:04.387 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:04] "GET / HTTP/1.1" 500 -
+22:15:04.434 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:04] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+22:15:04.434 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:04] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+22:15:04.526 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:04] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+22:15:04.526 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:15:04.589 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:15:04.871 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:15:10.506 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:10] "GET / HTTP/1.1" 500 -
+22:15:10.538 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:10] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+22:15:10.538 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:10] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+22:15:10.553 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:10] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+22:15:10.553 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:10] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:15:10.601 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:10] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:15:10.897 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:10] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:15:21.630 - werkzeug - INFO -  * Restarting with stat
+22:15:27.115 - werkzeug - WARNING -  * Debugger is active!
+22:15:27.115 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:15:27.131 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:15:27.459 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:27] "GET / HTTP/1.1" 500 -
+22:15:27.973 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:27] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+22:15:27.973 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:27] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+22:15:27.973 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:27] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+22:15:27.989 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:27] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:15:28.036 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:15:28.332 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:15:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:16:51.046 - werkzeug - INFO -  * Restarting with stat
+22:16:55.571 - werkzeug - WARNING -  * Debugger is active!
+22:16:55.586 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:16:55.601 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:16:58.908 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:16:58] "GET / HTTP/1.1" 200 -
+22:16:59.470 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:16:59] "GET /static/style.css HTTP/1.1" 304 -
+22:17:34.667 - werkzeug - INFO -  * Restarting with stat
+22:17:39.237 - werkzeug - WARNING -  * Debugger is active!
+22:17:39.237 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:17:39.253 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:17:49.677 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:17:49] "GET / HTTP/1.1" 200 -
+22:17:50.223 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:17:50] "GET /static/style.css HTTP/1.1" 304 -
+22:19:26.917 - werkzeug - INFO -  * Restarting with stat
+22:19:31.430 - werkzeug - WARNING -  * Debugger is active!
+22:19:31.430 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:19:31.446 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:19:48.094 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:19:48] "GET / HTTP/1.1" 200 -
+22:19:48.608 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:19:48] "GET /static/style.css HTTP/1.1" 304 -
+22:20:00.125 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:20:00] "GET / HTTP/1.1" 200 -
+22:20:00.173 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:20:00] "GET /static/style.css HTTP/1.1" 304 -
+22:20:10.484 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:20:10] "GET / HTTP/1.1" 200 -
+22:20:10.532 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:20:10] "GET /static/style.css HTTP/1.1" 304 -
+22:22:38.862 - werkzeug - INFO -  * Restarting with stat
+22:22:43.403 - werkzeug - WARNING -  * Debugger is active!
+22:22:43.403 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:22:43.417 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:22:43.667 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:22:43] "GET / HTTP/1.1" 200 -
+22:22:44.197 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:22:44] "GET /static/style.css HTTP/1.1" 304 -
+22:23:10.954 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:23:10] "GET / HTTP/1.1" 200 -
+22:23:11.002 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:23:11] "GET /static/style.css HTTP/1.1" 304 -
+22:24:29.280 - werkzeug - INFO -  * Restarting with stat
+22:24:33.690 - werkzeug - WARNING -  * Debugger is active!
+22:24:33.690 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:24:33.706 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:30:04.569 - werkzeug - INFO -  * Restarting with stat
+22:30:09.201 - werkzeug - WARNING -  * Debugger is active!
+22:30:09.201 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:30:09.217 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:30:56.851 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:30:56] "GET / HTTP/1.1" 200 -
+22:30:57.427 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:30:57] "GET /static/style.css HTTP/1.1" 304 -
+22:31:16.174 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:31:16] "GET / HTTP/1.1" 200 -
+22:31:16.220 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:31:16] "GET /static/style.css HTTP/1.1" 304 -
+22:32:32.823 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:32:32] "GET / HTTP/1.1" 200 -
+22:32:32.871 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:32:32] "GET /static/style.css HTTP/1.1" 200 -
+22:35:39.730 - werkzeug - INFO -  * Restarting with stat
+22:35:50.576 - werkzeug - WARNING -  * Debugger is active!
+22:35:50.576 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:35:50.592 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:35:50.888 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:35:50] "GET / HTTP/1.1" 200 -
+22:35:51.434 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:35:51] "GET /static/style.css HTTP/1.1" 304 -
+22:36:10.299 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:36:10] "GET / HTTP/1.1" 200 -
+22:36:10.346 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:36:10] "GET /static/style.css HTTP/1.1" 304 -
+22:36:28.733 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:36:28] "GET / HTTP/1.1" 200 -
+22:36:28.779 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:36:28] "GET /static/style.css HTTP/1.1" 304 -
+22:36:47.098 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:36:47] "GET / HTTP/1.1" 200 -
+22:36:47.130 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:36:47] "GET /static/style.css HTTP/1.1" 304 -
+22:39:14.980 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:14] "GET / HTTP/1.1" 200 -
+22:39:15.043 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:15] "GET /static/style.css HTTP/1.1" 304 -
+22:39:32.644 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:32] "GET / HTTP/1.1" 200 -
+22:39:32.698 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:32] "GET /static/style.css HTTP/1.1" 304 -
+22:39:37.316 - __main__ - INFO - post request in Main
+22:39:37.473 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:37] "POST / HTTP/1.1" 302 -
+22:39:37.487 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:37] "GET / HTTP/1.1" 200 -
+22:39:42.963 - __main__ - INFO - post request in Main
+22:39:43.104 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:43] "POST / HTTP/1.1" 302 -
+22:39:43.119 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:43] "GET / HTTP/1.1" 200 -
+22:39:49.941 - __main__ - INFO - post request in Main
+22:39:50.114 - params_processor - INFO - ERROR on params_dict['flagDut']
+0.0
+22:39:50.114 - params_processor - INFO - ERROR: could not convert string to float: on
+22:39:50.128 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+22:39:50.128 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+22:39:50.128 - params_processor - INFO - ERROR on params_dict['flagFrLoss']
+0.0
+22:39:50.128 - params_processor - INFO - ERROR: could not convert string to float: on
+22:39:50.128 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+22:39:50.128 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+22:39:50.144 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:50] "POST / HTTP/1.1" 302 -
+22:39:50.191 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:50] "GET / HTTP/1.1" 200 -
+22:39:57.211 - __main__ - INFO - post request in Main
+22:39:57.368 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:57] "POST / HTTP/1.1" 302 -
+22:39:57.382 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:39:57] "GET / HTTP/1.1" 200 -
+22:40:15.483 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:40:15] "GET / HTTP/1.1" 200 -
+22:40:15.530 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:40:15] "GET /static/style.css HTTP/1.1" 304 -
+22:40:22.316 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:40:22] "GET / HTTP/1.1" 200 -
+22:40:22.362 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:40:22] "GET /static/style.css HTTP/1.1" 304 -
+22:44:31.141 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:44:31] "GET / HTTP/1.1" 200 -
+22:44:31.188 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:44:31] "GET /static/style.css HTTP/1.1" 304 -
+22:44:58.673 - werkzeug - INFO -  * Restarting with stat
+22:45:03.082 - werkzeug - WARNING -  * Debugger is active!
+22:45:03.082 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:45:03.098 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:45:08.151 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:45:08] "GET / HTTP/1.1" 200 -
+22:45:08.681 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:45:08] "GET /static/style.css HTTP/1.1" 200 -
+22:45:15.874 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:45:15] "GET / HTTP/1.1" 200 -
+22:45:15.904 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:45:15] "GET /static/style.css HTTP/1.1" 200 -
+22:45:27.378 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:45:27] "GET /all_params/ HTTP/1.1" 200 -
+22:45:30.842 - __main__ - INFO - post request in AllParams
+22:45:30.967 - params_processor - INFO - ERROR on params_dict['flagTracker']
+1.0
+22:45:30.982 - params_processor - INFO - ERROR: could not convert string to float: on
+22:45:30.982 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+22:45:30.982 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+22:45:30.997 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:45:30] "POST /all_params/ HTTP/1.1" 302 -
+22:45:31.013 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:45:31] "GET /all_params/ HTTP/1.1" 200 -
+22:46:07.217 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:46:07] "GET / HTTP/1.1" 200 -
+22:46:32.444 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:46:32] "GET / HTTP/1.1" 200 -
+22:46:32.490 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:46:32] "GET /static/style.css HTTP/1.1" 304 -
+22:46:35.361 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:46:35] "GET /all_params/ HTTP/1.1" 200 -
+22:46:39.010 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:46:39] "GET / HTTP/1.1" 200 -
+22:46:40.930 - __main__ - INFO - post request in Main
+22:46:41.069 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:46:41] "POST / HTTP/1.1" 302 -
+22:46:41.085 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:46:41] "GET / HTTP/1.1" 200 -
+22:46:41.960 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:46:41] "GET /all_params/ HTTP/1.1" 200 -

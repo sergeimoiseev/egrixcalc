@@ -1,0 +1,36 @@
+<table class=fullwidth_table>
+  <tr>
+    <td>
+      <input type=checkbox name=flagFrLoss>
+      Перевозка заморозки
+      </input>
+    </td>
+    <td>
+      <input type=checkbox name=flagThermo>
+      Датчик температуры
+      </input>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {{c['fridge_loss_probability']}}
+      <input type=text name=fridge_loss_probability value={{d['fridge_loss_probability']*100}}>
+      %
+      </input>
+    </td>
+    <td>
+      {{c['fridge__spoil_fee']}}
+      <input type=text name=fridge__spoil_fee value={{d['fridge__spoil_fee']}}>
+      руб
+      </input>
+    </td>
+    <td>
+      {{c['fridge__cargo_type']}}:
+      <select name=fridge__cargo_type>
+        <option value=1 selected>Заморозка</option>
+        <option value=2>Цветы</option>
+        <option value=3>Пиво</option>
+      </select>
+    </td>
+  </tr>
+</table>

@@ -32,9 +32,10 @@ accu = 0.05 # точность датчиков
 fridge_loss_probability = 0.05 # вероятность потерять этот грузовик продуктов за один месяц
 
 --------------
-fuel__liters_per_km = 0.12 # расход на новой машине опрос: http://mazda-xedos.ru/kakov-u-vas-srednij-rashod-benzina-na-100km-vt14.html
+fuel__liters_per_100km = 12. # Средний расход топлива на 100 км
+расход на новой машине опрос: http://mazda-xedos.ru/kakov-u-vas-srednij-rashod-benzina-na-100km-vt14.html
 fuel__cost_per_liter = 35 # стоимоть топлива
-fuel__type = diesel # вид топлива (пока не используется при расчетах)
+fuel__liters_per_100kmfuel__type = 1 # вид топлива (пока не используется при расчетах)
 интенсивность сливов
 fuel__stealing_rate = 0.05 # долей от каждого литра
 прибавка расхода топлива за счет деградации двигателя к концу срока службы

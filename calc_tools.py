@@ -129,7 +129,11 @@ def get_and_store_params(load_from_dropbox=True):
         # if no success - load params_dict from yaml file
         with open('params.yml', 'r') as backup_file:
             params_dict = yaml.load(backup_file)
+        with open('comments.yml', 'r') as backup_file:
+            comments_dict = yaml.load(backup_file)
 
     with open('params.yml', 'w') as outfile:
         outfile.write( yaml.dump(params_dict, default_flow_style=True) )
+    with open('comments.yml', 'w') as outfile:
+        outfile.write( yaml.dump(comments_dict, default_flow_style=True) )
     return params_dict, comments_dict

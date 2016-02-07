@@ -1,0 +1,22 @@
+<table class=fullwidth_table>
+  <tr>
+    <td>
+      <input type=checkbox name=flagTaxiPassengers {{ 'checked' if d['flagTaxiPassengers'] else '' }}>
+      {{c['flagTaxiPassengers']}}
+      </input>
+    </td>
+    <td>
+      <input type=checkbox name=flagTaxiPP {{ 'checked' if d['flagTaxiPP'] else '' }}>
+      {{c['flagTaxiPP']}}
+      </input>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {{c['taxi__average_drive_cost']}}
+      <input type=text name=taxi__average_drive_cost value={{d['taxi__average_drive_cost']}}>
+      руб
+      </input>
+    </td>
+  </tr>
+</table>

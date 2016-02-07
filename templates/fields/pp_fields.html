@@ -1,0 +1,22 @@
+<table class=fullwidth_table>
+  <tr>
+    <td>
+      <input type=checkbox name=flagPassengers {{ 'checked' if d['flagPassengers'] else '' }}>
+      {{c['flagPassengers']}}
+      </input>
+    </td>
+    <td>
+      <input type=checkbox name=flagPP {{ 'checked' if d['flagPP'] else '' }}>
+      {{c['flagPP']}}
+      </input>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {{c['pp__average_passengers_count_per_day']}}
+      <input type=text name=pp__average_passengers_count_per_day value={{d['pp__average_passengers_count_per_day']}}>
+      чел
+      </input>
+    </td>
+  </tr>
+</table>

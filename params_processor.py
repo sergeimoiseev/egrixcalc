@@ -40,6 +40,7 @@ class EgrixCalcView(flask.views.MethodView):
         res_d['monitoring__dut_additional_profit_per_month']=u'Экономия за счет ДУТ-а в мес, руб'
         res_d['monitoring__monitoring_additional_profit']=u'Экономия за счет контроля перемещений и моточасов в мес, руб'
         res_d['monitoring__pp_additional_profit']=u'Экономия за счет контроля пассажиропотока в мес, руб'
+        res_d['flagDut']=u'Отлдка'
         headers = [res_d[key] for key in res_d.keys() if key in results_dict.keys()]
         values = [results_dict[key] for key in res_d.keys() if key in results_dict.keys()]
 
