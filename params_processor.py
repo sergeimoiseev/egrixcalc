@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import flask, flask.views
+import collections
 import egrix_calc
 import calc_tools as ct
 import logging
@@ -11,108 +12,44 @@ class EgrixCalcView(flask.views.MethodView):
         return data
 
     def process_params(self,page_name):
-        data = dict((key, flask.request.form.getlist(key)) for key in flask.request.form.keys())
-        data_keys = [key for key in data.keys()]
-        data_vals = [flask.request.form.getlist(key) for key in  data_keys]
+        data = dict((key, flask.request.form.getlist(key)[0]) for key in flask.request.form.keys())
+        # data_keys = [key for key in data.keys()]
+        # data_vals = [flask.request.form.getlist(key) for key in  data_keys]
 
-        logger.info("data_keys\n%s" % (data_keys,))
-        logger.info("data_vals\n%s" % (data_vals,))
+        # logger.info("data_keys\n%s" % (data_keys,))
+        # logger.info("data_vals\n%s" % (data_vals,))
 
-        params_dict, comments_dict = ct.get_and_store_params(load_from_dropbox=True)
+        params_dict, comments_dict = ct.get_and_store_params(load_from_dropbox=False)
 
-        if 'firm.cars_quantity' in data.keys():
-            if data['firm.cars_quantity'][0] != '':
-                params_dict['cars_quantity'] =  int(data['firm.cars_quantity'][0])
-
-        if 'firm.average_run_time' in data.keys():
-            if data['firm.average_run_time'][0] != '':
-                motorhours_per_day = float(data['firm.average_run_time'][0])
-                params_dict['motorhours_per_day'] =  float(data['firm.average_run_time'][0])
-                if motorhours_per_day > 24:
-                    # flask.flash([u'Неверно заданы параметры.'])
-                    # flask.flash([u'Введите параметры верно.'])
-                    return flask.redirect(flask.url_for(page_name))
-
-        # необходимо реализовать чтение-вывод всех парамтеров из файла настроек
-        # на отдельную "экспертную" вкладку
-
-
-        # ниже - изменение параметров
-        # общих для всех автопарков
-        try:
-            car_type = [key for key in flask.request.form.keys() if 'type_' in key][0].split('_')[-1]
-            if car_type == '':
-                car_type = 'arbitary'  #  тип автопарка по умолчанию - неопределенный
-        except KeyError:
-            car_type = 'arbitary'  #  тип автопарка по умолчанию - неопределенный
-        
-
-        if car_type+'.dut' in data.keys():  # теперь нужно так же переделать все регулруемые параметры
-        # лучше бы это было автоматизированно т.к. парамтеров много
-        #    лучше бы ключи-name-ы в форме назывались так же как параметры в файле настроек,
-        # если это возможно
-            if data[car_type+'.dut'][0] == 'on':
-                params_dict['flagDut'] = 1.
-        if 'firm.fridge' in data.keys():
-            if data['firm.fridge'][0] == 'on':
-                params_dict['flagFrLoss'] = 1.
-                if 'equip.temp' in data.keys():
-                    if data['equip.temp'][0] == 'on':
-                        params_dict['flagThermo'] = 1.
-        if 'firm.passengers' in data.keys():
-            if data['firm.passengers'][0] == 'on':
-                params_dict['flag_passengers'] = 1.
-                if 'equip.pp' in data.keys():
-                    if data['equip.pp'][0] == 'on':
-                        params_dict['flagPP'] = 1.
-        if 'minimal.pp' in data.keys():
-            if data['minimal.pp'][0] == 'on':
-                params_dict['flagPP'] = 1.
-        if 'equip.block_eng' in data.keys():
-            if data['equip.block_eng'][0] == 'on':
-                params_dict['flag_block_eng'] = 1.
-        if 'equip.alarm_btn' in data.keys():
-            if data['equip.alarm_btn'][0] == 'on':
-                params_dict['flag_alarm_btn'] = 1.
-
+        for key in params_dict.keys():
+            try:
+                if key in data.keys():
+                    params_dict[key] = float(data[key])
+                else:
+                    params_dict[key] = float(params_dict[key])
+            except Exception as e:
+                logger.info("ERROR on params_dict['%s']\n%s" % (key,params_dict[key],))
+                logger.info("ERROR: %s" % (e))
+                logger.info("type(params_dict[key])\n%s" % (type(params_dict[key])))
+                logger.info("type(data[key])\n%s" % (type(data[key])))
 
         results_dict = egrix_calc.compare(params_dict)
         results_keys = [key for key in results_dict.keys() if key in results_dict]
         results_vals = [results_dict[key] for key in results_keys if key in results_dict]
 
-        headers = ['','','','','','','','','','']
-        values = [0.,0.,0.,0.,0.,0.,0.,0.,0.,0.]
-        for key in results_keys:
-            if key == 'workout_expenditure_per_month':
-                values[0] = "%.1f" % (results_dict['workout_expenditure_per_month'])
-                headers[0] = u'Затраты на эксплуатацию в мес, руб'
-            if key == 'workout_profit_per_month':
-                values[1] = "%.1f" % (results_dict['workout_profit_per_month'])
-                headers[1] = u'Доходы от эксплуатации в мес, руб'
-            if key == 'workout_profit_per_month':
-                values[2] = "%.1f" % (results_dict['workout_profit_per_month'])
-                headers[2] = u'Чистая прибыль в мес, руб'
-            if key == 'workout_profit_per_month':
-                values[3] = "%.1f" % (results_dict['monitoring__additional_profit_per_month'])
-                headers[3] = u'Экономия за счет мониторинга в месяц, руб'
-            if key == 'car_efficiency':
-                values[4] = "%.3f" % (results_dict['car_efficiency'])
-                headers[4] = u'Эффективность ТС'
-            if key == 'monitoring__setup_cost':
-                values[5] = "%.1f" % (results_dict['monitoring__setup_cost'])
-                headers[5] = u'Стоимость установки системы, руб'
-            if key == 'monitoring__recoupment':
-                values[6] = "%.1f" % (results_dict['monitoring__recoupment'])
-                headers[6] = u'Срок окупаемости системы, мес'
-            if key == 'monitoring__dut_additional_profit_per_month':
-                values[7] = "%.1f" % (results_dict['monitoring__dut_additional_profit_per_month'])
-                headers[7] = u'Экономия за счет ДУТ-а в мес, руб'
-            if key == 'monitoring__dut_additional_profit_per_month':
-                values[8] = "%.1f" % (results_dict['monitoring__monitoring_additional_profit'])
-                headers[8] = u'Экономия за счет контроля перемещений и моточасов в мес, руб'
-            if key == 'monitoring__dut_additional_profit_per_month':
-                values[9] = "%.1f" % (results_dict['monitoring__monitoring_additional_profit'])
-                headers[9] = u'Экономия за счет контроля пассажиропотока в мес, руб'
+        res_d = collections.OrderedDict([])
+        res_d['workout_expenditure_per_month']=u'Затраты на эксплуатацию в мес, руб'
+        res_d['work__cost_by_workout_per_month']=u'Доходы от эксплуатации в мес, руб'
+        res_d['workout_profit_per_month']=u'Чистая прибыль в мес, руб'
+        res_d['monitoring__additional_profit_per_month']=u'Экономия за счет мониторинга в месяц, руб'
+        res_d['car_efficiency']=u'Эффективность ТС'
+        res_d['monitoring__setup_cost']=u'Стоимость установки системы, руб'
+        res_d['monitoring__recoupment']=u'Срок окупаемости системы, мес'
+        res_d['monitoring__dut_additional_profit_per_month']=u'Экономия за счет ДУТ-а в мес, руб'
+        res_d['monitoring__monitoring_additional_profit']=u'Экономия за счет контроля перемещений и моточасов в мес, руб'
+        res_d['monitoring__pp_additional_profit']=u'Экономия за счет контроля пассажиропотока в мес, руб'
+        headers = [res_d[key] for key in res_d.keys() if key in results_dict.keys()]
+        values = [results_dict[key] for key in res_d.keys() if key in results_dict.keys()]
 
         full_messages_list = [headers,values]
         return full_messages_list

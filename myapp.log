@@ -709,3 +709,840 @@
 [[u'on'], [u'35'], [u'on'], [u''], [u'1'], [u'diesel'], [u'8']]
 21:48:47.273 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:47] "POST / HTTP/1.1" 302 -
 21:48:47.288 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2016 21:48:47] "GET / HTTP/1.1" 200 -
+12:57:33.573 - werkzeug - INFO -  * Restarting with stat
+12:57:38.078 - werkzeug - WARNING -  * Debugger is active!
+12:57:38.081 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+12:57:38.135 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+12:58:35.411 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+12:58:35.548 - werkzeug - INFO -  * Restarting with stat
+12:58:39.823 - werkzeug - WARNING -  * Debugger is active!
+12:58:39.825 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+12:58:39.839 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+12:58:40.119 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 12:58:40] "GET / HTTP/1.1" 200 -
+12:58:45.578 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 12:58:45] "GET /static/style.css HTTP/1.1" 304 -
+12:58:45.634 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 12:58:45] "GET /static/favicon.ico HTTP/1.1" 200 -
+12:59:11.710 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+12:59:11.762 - werkzeug - INFO -  * Restarting with stat
+12:59:15.762 - werkzeug - WARNING -  * Debugger is active!
+12:59:15.763 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+12:59:15.776 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+12:59:15.950 - __main__ - INFO - post request in Main
+12:59:15.953 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+12:59:15.954 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+12:59:16.071 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 12:59:16] "POST / HTTP/1.1" 302 -
+12:59:16.194 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 12:59:16] "GET / HTTP/1.1" 200 -
+12:59:42.838 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+12:59:42.891 - werkzeug - INFO -  * Restarting with stat
+12:59:47.197 - werkzeug - WARNING -  * Debugger is active!
+12:59:47.200 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+12:59:47.216 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+12:59:47.509 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 12:59:47] "GET / HTTP/1.1" 200 -
+12:59:48.132 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 12:59:48] "GET /static/style.css HTTP/1.1" 304 -
+12:59:50.532 - __main__ - INFO - post request in Main
+12:59:50.535 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+12:59:50.536 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+12:59:50.638 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 12:59:50] "POST / HTTP/1.1" 302 -
+12:59:50.657 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 12:59:50] "GET / HTTP/1.1" 200 -
+13:09:32.507 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:09:32.566 - werkzeug - INFO -  * Restarting with stat
+13:23:23.171 - werkzeug - INFO -  * Restarting with stat
+13:23:27.303 - werkzeug - WARNING -  * Debugger is active!
+13:23:27.305 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:23:27.321 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:23:27.750 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:23:27] "GET / HTTP/1.1" 200 -
+13:23:28.348 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:23:28] "GET /static/style.css HTTP/1.1" 304 -
+13:23:29.881 - __main__ - INFO - post request in Main
+13:23:29.884 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:23:29.887 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:23:30.092 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:23:30] "POST / HTTP/1.1" 500 -
+13:23:30.302 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:23:30] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+13:23:30.349 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:23:30] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+13:23:30.420 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:23:30] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+13:23:30.698 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:23:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:23:30.933 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:23:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:23:31.197 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:23:31] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:23:31.288 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:23:31] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+13:24:18.253 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:24:18.318 - werkzeug - INFO -  * Restarting with stat
+13:24:22.762 - werkzeug - WARNING -  * Debugger is active!
+13:24:22.763 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:24:22.778 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:24:23.023 - __main__ - INFO - post request in Main
+13:24:23.026 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:24:23.028 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:24:23.128 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:24:23] "POST / HTTP/1.1" 302 -
+13:24:23.233 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:24:23] "GET / HTTP/1.1" 200 -
+13:24:23.763 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:24:23] "GET /static/style.css HTTP/1.1" 304 -
+13:24:24.921 - __main__ - INFO - post request in Main
+13:24:24.924 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:24:24.926 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:24:25.000 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:24:25] "POST / HTTP/1.1" 302 -
+13:24:25.015 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:24:25] "GET / HTTP/1.1" 200 -
+13:24:27.394 - __main__ - INFO - post request in Main
+13:24:27.398 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:24:27.400 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:24:27.470 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:24:27] "POST / HTTP/1.1" 302 -
+13:24:27.484 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:24:27] "GET / HTTP/1.1" 200 -
+13:24:28.415 - __main__ - INFO - post request in Main
+13:24:28.418 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:24:28.420 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:24:28.490 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:24:28] "POST / HTTP/1.1" 302 -
+13:24:28.503 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:24:28] "GET / HTTP/1.1" 200 -
+13:24:29.191 - __main__ - INFO - post request in Main
+13:24:29.196 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:24:29.197 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:24:29.266 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:24:29] "POST / HTTP/1.1" 302 -
+13:24:29.279 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:24:29] "GET / HTTP/1.1" 200 -
+13:25:48.407 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:25:48.460 - werkzeug - INFO -  * Restarting with stat
+13:25:52.809 - werkzeug - WARNING -  * Debugger is active!
+13:25:52.811 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:25:52.825 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:25:53.082 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:25:53] "GET / HTTP/1.1" 200 -
+13:25:53.625 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:25:53] "GET /static/style.css HTTP/1.1" 304 -
+13:25:54.404 - __main__ - INFO - post request in Main
+13:25:54.407 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:25:54.407 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:25:54.517 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:25:54] "POST / HTTP/1.1" 500 -
+13:25:54.549 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:25:54] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+13:25:54.553 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:25:54] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+13:25:54.559 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:25:54] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+13:25:54.563 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:25:54] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:25:54.657 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:25:54] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:25:54.900 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:25:54] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+13:25:54.904 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:25:54] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:26:07.230 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:26:07.283 - werkzeug - INFO -  * Restarting with stat
+13:26:11.655 - werkzeug - WARNING -  * Debugger is active!
+13:26:11.657 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:26:11.671 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:26:11.793 - __main__ - INFO - post request in Main
+13:26:11.799 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:26:11.801 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:26:11.934 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:11] "POST / HTTP/1.1" 500 -
+13:26:12.453 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:12] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+13:26:12.459 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:12] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+13:26:12.463 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:12] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+13:26:17.967 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:26:17.973 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:26:17.979 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:26:41.388 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:26:41.440 - werkzeug - INFO -  * Restarting with stat
+13:26:45.986 - werkzeug - WARNING -  * Debugger is active!
+13:26:45.989 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:26:46.002 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:26:46.236 - __main__ - INFO - post request in Main
+13:26:46.240 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:26:46.246 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:26:46.372 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:46] "POST / HTTP/1.1" 302 -
+13:26:46.487 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:46] "GET / HTTP/1.1" 200 -
+13:26:47.010 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:47] "GET /static/style.css HTTP/1.1" 304 -
+13:26:50.971 - __main__ - INFO - post request in Main
+13:26:50.973 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:26:50.976 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:26:51.045 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:51] "POST / HTTP/1.1" 302 -
+13:26:51.058 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:26:51] "GET / HTTP/1.1" 200 -
+13:27:18.934 - __main__ - INFO - post request in Main
+13:27:18.937 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:27:18.940 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:27:19.009 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:27:19] "POST / HTTP/1.1" 302 -
+13:27:19.023 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:27:19] "GET / HTTP/1.1" 200 -
+13:29:34.575 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:29:34.628 - werkzeug - INFO -  * Restarting with stat
+13:29:39.016 - werkzeug - WARNING -  * Debugger is active!
+13:29:39.016 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:29:39.029 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:29:39.315 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:29:39] "GET / HTTP/1.1" 200 -
+13:29:39.828 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:29:39] "GET /static/style.css HTTP/1.1" 304 -
+13:29:40.737 - __main__ - INFO - post request in Main
+13:29:40.740 - params_processor - INFO - data_keys
+['type_minimal', 'firm.cars_quantity', 'fuel__type', 'fuel__cost_per_liter', 'firm.average_run_time']
+13:29:40.743 - params_processor - INFO - data_vals
+[[u''], [u'1'], [u'diesel'], [u'35'], [u'8']]
+13:29:40.838 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:29:40] "POST / HTTP/1.1" 302 -
+13:29:40.851 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:29:40] "GET / HTTP/1.1" 200 -
+13:29:43.479 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:29:43] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:29:45.471 - __main__ - INFO - post request in TypeArbitary
+13:29:45.476 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:29:45.479 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:29:45.551 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:29:45] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:29:45.565 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:29:45] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:30:20.615 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:30:20.671 - werkzeug - INFO -  * Restarting with stat
+13:30:25.671 - werkzeug - WARNING -  * Debugger is active!
+13:30:25.673 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:30:25.686 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:32:25.214 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+13:32:25.269 - werkzeug - INFO -  * Restarting with stat
+13:32:29.519 - werkzeug - WARNING -  * Debugger is active!
+13:32:29.520 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:32:29.535 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:32:30.375 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:32:30] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:32:31.038 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:32:31] "GET /static/style.css HTTP/1.1" 304 -
+13:32:33.006 - __main__ - INFO - post request in TypeArbitary
+13:32:33.012 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:32:33.013 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:32:33.108 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:32:33] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:32:33.128 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:32:33] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:33:28.295 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:33:28] "GET / HTTP/1.1" 200 -
+13:37:01.559 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:37:01.615 - werkzeug - INFO -  * Restarting with stat
+13:37:05.878 - werkzeug - WARNING -  * Debugger is active!
+13:37:05.880 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:37:05.892 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:37:06.098 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:37:06] "GET / HTTP/1.1" 200 -
+13:37:06.607 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:37:06] "GET /static/style.css HTTP/1.1" 304 -
+13:37:07.505 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:37:07] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:37:09.884 - __main__ - INFO - post request in TypeArbitary
+13:37:09.890 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:37:09.891 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:37:09.997 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:37:09] "POST /type_arbitary/ HTTP/1.1" 500 -
+13:37:10.154 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:37:10] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+13:37:10.177 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:37:10] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+13:37:10.181 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:37:10] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+13:37:10.247 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:37:10] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:37:10.526 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:37:10] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:37:10.558 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:37:10] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:37:10.673 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:37:10] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+13:38:09.269 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\egrix_calc.py', reloading
+13:38:09.325 - werkzeug - INFO -  * Restarting with stat
+13:38:13.739 - werkzeug - WARNING -  * Debugger is active!
+13:38:13.740 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:38:13.755 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:38:13.855 - __main__ - INFO - post request in TypeArbitary
+13:38:13.864 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:38:13.865 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:38:13.996 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:13] "POST /type_arbitary/ HTTP/1.1" 500 -
+13:38:14.450 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:14] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+13:38:14.453 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:14] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+13:38:14.457 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:14] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+13:38:14.461 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:14] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:38:14.522 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:14] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:38:14.756 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:14] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:38:18.148 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:18] "GET / HTTP/1.1" 200 -
+13:38:19.941 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:19] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:38:22.104 - __main__ - INFO - post request in TypeArbitary
+13:38:22.108 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:38:22.111 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:38:22.233 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:22] "POST /type_arbitary/ HTTP/1.1" 500 -
+13:38:22.269 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:22] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+13:38:22.273 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:22] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+13:38:22.279 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:22] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+13:38:22.298 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:22] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:38:22.395 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:22] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:38:22.680 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:38:22] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:39:34.598 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:39:34.657 - werkzeug - INFO -  * Restarting with stat
+13:39:38.979 - werkzeug - WARNING -  * Debugger is active!
+13:39:38.983 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:39:38.997 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:39:43.020 - __main__ - INFO - post request in TypeArbitary
+13:39:43.026 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:39:43.029 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:39:43.130 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:39:43] "POST /type_arbitary/ HTTP/1.1" 500 -
+13:39:43.657 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:39:43] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+13:39:43.663 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:39:43] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+13:39:43.667 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:39:43] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+13:39:43.671 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:39:43] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:39:43.721 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:39:43] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:39:43.953 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:39:43] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:41:31.148 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:41:31.207 - werkzeug - INFO -  * Restarting with stat
+13:41:35.436 - werkzeug - WARNING -  * Debugger is active!
+13:41:35.440 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:41:35.454 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:41:38.176 - __main__ - INFO - post request in TypeArbitary
+13:41:38.181 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:41:38.184 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:41:38.279 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:41:38] "POST /type_arbitary/ HTTP/1.1" 500 -
+13:41:38.788 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:41:38] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+13:41:38.792 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:41:38] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+13:41:38.796 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:41:38] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+13:41:38.801 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:41:38] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:41:38.858 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:41:38] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:41:39.085 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:41:39] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:42:19.648 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:42:19.703 - werkzeug - INFO -  * Restarting with stat
+13:42:24.035 - werkzeug - WARNING -  * Debugger is active!
+13:42:24.036 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:42:24.052 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:42:36.121 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:42:36.170 - werkzeug - INFO -  * Restarting with stat
+13:42:40.338 - werkzeug - WARNING -  * Debugger is active!
+13:42:40.341 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:42:40.355 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:42:40.549 - __main__ - INFO - post request in TypeArbitary
+13:42:40.555 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:42:40.565 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:42:40.637 - params_processor - INFO - params_dict['prob']
+500000.0
+13:42:40.663 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:42:40] "POST /type_arbitary/ HTTP/1.1" 500 -
+13:42:41.174 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:42:41] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+13:42:41.180 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:42:41] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+13:42:41.184 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:42:41] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+13:42:41.193 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:42:41] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:42:41.250 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:42:41] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:42:41.450 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:42:41] "GET /type_arbitary/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+13:43:42.944 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:43:43.005 - werkzeug - INFO -  * Restarting with stat
+13:43:47.298 - werkzeug - WARNING -  * Debugger is active!
+13:43:47.301 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:43:47.315 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:43:51.055 - __main__ - INFO - post request in TypeArbitary
+13:43:51.063 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:43:51.065 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:43:51.138 - params_processor - INFO - params_dict['prob']
+500000.0
+13:43:51.138 - params_processor - INFO - error on params_dict['cars_quantity']
+1.0
+13:43:51.140 - params_processor - INFO - error on params_dict['prob']
+500000.0
+13:43:51.141 - params_processor - INFO - error on params_dict['x_k']
+0.8
+13:43:51.142 - params_processor - INFO - error on params_dict['cost_loss_by_car_sell']
+1000000.0
+13:43:51.144 - params_processor - INFO - error on params_dict['average_speed']
+50.0
+13:43:51.144 - params_processor - INFO - error on params_dict['motorhours_per_day']
+5.0
+13:43:51.145 - params_processor - INFO - error on params_dict['workdays_per_year']
+250.0
+13:43:51.147 - params_processor - INFO - error on params_dict['C_plus']
+125000.0
+13:43:51.148 - params_processor - INFO - error on params_dict['work__cost_per_tkm']
+5.0
+13:43:51.148 - params_processor - INFO - error on params_dict['payload']
+5.0
+13:43:51.150 - params_processor - INFO - error on params_dict['a']
+1.0
+13:43:51.151 - params_processor - INFO - error on params_dict['accu']
+0.05
+13:43:51.151 - params_processor - INFO - error on params_dict['fridge_loss_probability']
+0.05
+13:43:51.153 - params_processor - INFO - error on params_dict['fuel__liters_per_km']
+0.12
+13:43:51.158 - params_processor - INFO - error on params_dict['fuel__cost_per_liter']
+35.0
+13:43:51.161 - params_processor - INFO - error on params_dict['fuel__stealing_rate']
+0.05
+13:43:51.163 - params_processor - INFO - error on params_dict['fuel__usage_increase_by_time_of_workout']
+0.275
+13:43:51.164 - params_processor - INFO - error on params_dict['repair__year_cost_new_car']
+20000.0
+13:43:51.164 - params_processor - INFO - error on params_dict['breaking_on_last_hundreds_probability']
+0.95
+13:43:51.167 - params_processor - INFO - error on params_dict['service__price_part_per_year']
+0.05
+13:43:51.167 - params_processor - INFO - error on params_dict['fridge__spoil_fee']
+50000.0
+13:43:51.168 - params_processor - INFO - error on params_dict['driver__salary']
+30000.0
+13:43:51.170 - params_processor - INFO - error on params_dict['monitoring__tracker_cost']
+4500.0
+13:43:51.171 - params_processor - INFO - error on params_dict['monitoring__dut_cost']
+2500.0
+13:43:51.171 - params_processor - INFO - error on params_dict['monitoring__termometr_cost']
+2000.0
+13:43:51.173 - params_processor - INFO - error on params_dict['monitoring__pp']
+3000.0
+13:43:51.174 - params_processor - INFO - error on params_dict['monitoring__abonent_pays_per_month']
+300.0
+13:43:51.174 - params_processor - INFO - error on params_dict['monitoring__block_eng_cost']
+2000.0
+13:43:51.176 - params_processor - INFO - error on params_dict['monitoring__alarm_btn_cost']
+1000.0
+13:43:51.200 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:43:51] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:43:51.312 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:43:51] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:43:51.835 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:43:51] "GET /static/style.css HTTP/1.1" 304 -
+13:43:55.694 - __main__ - INFO - post request in TypeArbitary
+13:43:55.703 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:43:55.704 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:43:55.792 - params_processor - INFO - params_dict['prob']
+500000.0
+13:43:55.793 - params_processor - INFO - error on params_dict['cars_quantity']
+1.0
+13:43:55.796 - params_processor - INFO - error on params_dict['prob']
+500000.0
+13:43:55.798 - params_processor - INFO - error on params_dict['x_k']
+0.8
+13:43:55.799 - params_processor - INFO - error on params_dict['cost_loss_by_car_sell']
+1000000.0
+13:43:55.801 - params_processor - INFO - error on params_dict['average_speed']
+50.0
+13:43:55.802 - params_processor - INFO - error on params_dict['motorhours_per_day']
+5.0
+13:43:55.805 - params_processor - INFO - error on params_dict['workdays_per_year']
+250.0
+13:43:55.805 - params_processor - INFO - error on params_dict['C_plus']
+125000.0
+13:43:55.808 - params_processor - INFO - error on params_dict['work__cost_per_tkm']
+5.0
+13:43:55.809 - params_processor - INFO - error on params_dict['payload']
+5.0
+13:43:55.809 - params_processor - INFO - error on params_dict['a']
+1.0
+13:43:55.812 - params_processor - INFO - error on params_dict['accu']
+0.05
+13:43:55.812 - params_processor - INFO - error on params_dict['fridge_loss_probability']
+0.05
+13:43:55.813 - params_processor - INFO - error on params_dict['fuel__liters_per_km']
+0.12
+13:43:55.815 - params_processor - INFO - error on params_dict['fuel__cost_per_liter']
+35.0
+13:43:55.816 - params_processor - INFO - error on params_dict['fuel__stealing_rate']
+0.05
+13:43:55.819 - params_processor - INFO - error on params_dict['fuel__usage_increase_by_time_of_workout']
+0.275
+13:43:55.821 - params_processor - INFO - error on params_dict['repair__year_cost_new_car']
+20000.0
+13:43:55.822 - params_processor - INFO - error on params_dict['breaking_on_last_hundreds_probability']
+0.95
+13:43:55.822 - params_processor - INFO - error on params_dict['service__price_part_per_year']
+0.05
+13:43:55.823 - params_processor - INFO - error on params_dict['fridge__spoil_fee']
+50000.0
+13:43:55.825 - params_processor - INFO - error on params_dict['driver__salary']
+30000.0
+13:43:55.826 - params_processor - INFO - error on params_dict['monitoring__tracker_cost']
+4500.0
+13:43:55.828 - params_processor - INFO - error on params_dict['monitoring__dut_cost']
+2500.0
+13:43:55.829 - params_processor - INFO - error on params_dict['monitoring__termometr_cost']
+2000.0
+13:43:55.831 - params_processor - INFO - error on params_dict['monitoring__pp']
+3000.0
+13:43:55.832 - params_processor - INFO - error on params_dict['monitoring__abonent_pays_per_month']
+300.0
+13:43:55.832 - params_processor - INFO - error on params_dict['monitoring__block_eng_cost']
+2000.0
+13:43:55.834 - params_processor - INFO - error on params_dict['monitoring__alarm_btn_cost']
+1000.0
+13:43:55.848 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:43:55] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:43:55.862 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:43:55] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:45:03.474 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:45:03.536 - werkzeug - INFO -  * Restarting with stat
+13:45:07.888 - werkzeug - WARNING -  * Debugger is active!
+13:45:07.890 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:45:07.904 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:45:11.609 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:45:11.663 - werkzeug - INFO -  * Restarting with stat
+13:45:15.967 - werkzeug - WARNING -  * Debugger is active!
+13:45:15.969 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:45:15.983 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:45:16.265 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:45:16] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:45:16.720 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:45:16] "GET /static/style.css HTTP/1.1" 304 -
+13:45:19.252 - __main__ - INFO - post request in TypeArbitary
+13:45:19.256 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:45:19.259 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:45:19.328 - params_processor - INFO - params_dict['prob']
+500000.0
+13:45:19.329 - params_processor - INFO - error on params_dict['cars_quantity']
+1.0
+13:45:19.332 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.332 - params_processor - INFO - error on params_dict['prob']
+500000.0
+13:45:19.335 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.335 - params_processor - INFO - error on params_dict['x_k']
+0.8
+13:45:19.338 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.338 - params_processor - INFO - error on params_dict['cost_loss_by_car_sell']
+1000000.0
+13:45:19.339 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.341 - params_processor - INFO - error on params_dict['average_speed']
+50.0
+13:45:19.342 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.344 - params_processor - INFO - error on params_dict['motorhours_per_day']
+5.0
+13:45:19.345 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.346 - params_processor - INFO - error on params_dict['workdays_per_year']
+250.0
+13:45:19.348 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.348 - params_processor - INFO - error on params_dict['C_plus']
+125000.0
+13:45:19.349 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.351 - params_processor - INFO - error on params_dict['work__cost_per_tkm']
+5.0
+13:45:19.352 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.354 - params_processor - INFO - error on params_dict['payload']
+5.0
+13:45:19.355 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.357 - params_processor - INFO - error on params_dict['a']
+1.0
+13:45:19.358 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.359 - params_processor - INFO - error on params_dict['accu']
+0.05
+13:45:19.361 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.362 - params_processor - INFO - error on params_dict['fridge_loss_probability']
+0.05
+13:45:19.364 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.365 - params_processor - INFO - error on params_dict['fuel__liters_per_km']
+0.12
+13:45:19.367 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.368 - params_processor - INFO - error on params_dict['fuel__cost_per_liter']
+35.0
+13:45:19.368 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.371 - params_processor - INFO - error on params_dict['fuel__stealing_rate']
+0.05
+13:45:19.371 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.374 - params_processor - INFO - error on params_dict['fuel__usage_increase_by_time_of_workout']
+0.275
+13:45:19.375 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.377 - params_processor - INFO - error on params_dict['repair__year_cost_new_car']
+20000.0
+13:45:19.378 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.380 - params_processor - INFO - error on params_dict['breaking_on_last_hundreds_probability']
+0.95
+13:45:19.381 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.381 - params_processor - INFO - error on params_dict['service__price_part_per_year']
+0.05
+13:45:19.384 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.385 - params_processor - INFO - error on params_dict['fridge__spoil_fee']
+50000.0
+13:45:19.387 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.388 - params_processor - INFO - error on params_dict['driver__salary']
+30000.0
+13:45:19.390 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.391 - params_processor - INFO - error on params_dict['monitoring__tracker_cost']
+4500.0
+13:45:19.391 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.394 - params_processor - INFO - error on params_dict['monitoring__dut_cost']
+2500.0
+13:45:19.394 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.395 - params_processor - INFO - error on params_dict['monitoring__termometr_cost']
+2000.0
+13:45:19.398 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.398 - params_processor - INFO - error on params_dict['monitoring__pp']
+3000.0
+13:45:19.400 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.401 - params_processor - INFO - error on params_dict['monitoring__abonent_pays_per_month']
+300.0
+13:45:19.401 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.404 - params_processor - INFO - error on params_dict['monitoring__block_eng_cost']
+2000.0
+13:45:19.404 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.407 - params_processor - INFO - error on params_dict['monitoring__alarm_btn_cost']
+1000.0
+13:45:19.407 - params_processor - INFO - error: float() argument must be a string or a number
+13:45:19.430 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:45:19] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:45:19.447 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:45:19] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:46:42.769 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:46:42.825 - werkzeug - INFO -  * Restarting with stat
+13:46:47.084 - werkzeug - WARNING -  * Debugger is active!
+13:46:47.085 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:46:47.099 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:46:47.421 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:46:47] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:46:47.944 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:46:47] "GET /static/style.css HTTP/1.1" 304 -
+13:46:50.278 - __main__ - INFO - post request in TypeArbitary
+13:46:50.282 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:46:50.286 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:46:50.355 - params_processor - INFO - params_dict['prob']
+500000.0
+13:46:50.357 - params_processor - INFO - error on params_dict['cars_quantity']
+1.0
+13:46:50.358 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.359 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.361 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.361 - params_processor - INFO - error on params_dict['prob']
+500000.0
+13:46:50.362 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.364 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.365 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.365 - params_processor - INFO - error on params_dict['x_k']
+0.8
+13:46:50.365 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.367 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.368 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.368 - params_processor - INFO - error on params_dict['cost_loss_by_car_sell']
+1000000.0
+13:46:50.369 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.371 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.371 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.372 - params_processor - INFO - error on params_dict['average_speed']
+50.0
+13:46:50.374 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.375 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.375 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.377 - params_processor - INFO - error on params_dict['motorhours_per_day']
+5.0
+13:46:50.378 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.378 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.380 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.381 - params_processor - INFO - error on params_dict['workdays_per_year']
+250.0
+13:46:50.381 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.382 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.384 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.384 - params_processor - INFO - error on params_dict['C_plus']
+125000.0
+13:46:50.385 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.388 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.388 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.388 - params_processor - INFO - error on params_dict['work__cost_per_tkm']
+5.0
+13:46:50.390 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.391 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.391 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.392 - params_processor - INFO - error on params_dict['payload']
+5.0
+13:46:50.394 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.394 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.394 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.395 - params_processor - INFO - error on params_dict['a']
+1.0
+13:46:50.397 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.398 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.398 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.401 - params_processor - INFO - error on params_dict['accu']
+0.05
+13:46:50.401 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.401 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.404 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.404 - params_processor - INFO - error on params_dict['fridge_loss_probability']
+0.05
+13:46:50.404 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.405 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.407 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.407 - params_processor - INFO - error on params_dict['fuel__liters_per_km']
+0.12
+13:46:50.410 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.411 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.411 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.413 - params_processor - INFO - error on params_dict['fuel__cost_per_liter']
+35.0
+13:46:50.414 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.415 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.417 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.417 - params_processor - INFO - error on params_dict['fuel__stealing_rate']
+0.05
+13:46:50.417 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.418 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.421 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.421 - params_processor - INFO - error on params_dict['fuel__usage_increase_by_time_of_workout']
+0.275
+13:46:50.423 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.424 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.424 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.426 - params_processor - INFO - error on params_dict['repair__year_cost_new_car']
+20000.0
+13:46:50.427 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.428 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.430 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.430 - params_processor - INFO - error on params_dict['breaking_on_last_hundreds_probability']
+0.95
+13:46:50.431 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.433 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.433 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.434 - params_processor - INFO - error on params_dict['service__price_part_per_year']
+0.05
+13:46:50.436 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.437 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.437 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.438 - params_processor - INFO - error on params_dict['fridge__spoil_fee']
+50000.0
+13:46:50.440 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.440 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.443 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.444 - params_processor - INFO - error on params_dict['driver__salary']
+30000.0
+13:46:50.444 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.446 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.447 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.447 - params_processor - INFO - error on params_dict['monitoring__tracker_cost']
+4500.0
+13:46:50.448 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.450 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.451 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.453 - params_processor - INFO - error on params_dict['monitoring__dut_cost']
+2500.0
+13:46:50.453 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.454 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.456 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.457 - params_processor - INFO - error on params_dict['monitoring__termometr_cost']
+2000.0
+13:46:50.457 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.459 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.460 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.461 - params_processor - INFO - error on params_dict['monitoring__pp']
+3000.0
+13:46:50.463 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.463 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.464 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.466 - params_processor - INFO - error on params_dict['monitoring__abonent_pays_per_month']
+300.0
+13:46:50.467 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.469 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.470 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.471 - params_processor - INFO - error on params_dict['monitoring__block_eng_cost']
+2000.0
+13:46:50.473 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.473 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.476 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.476 - params_processor - INFO - error on params_dict['monitoring__alarm_btn_cost']
+1000.0
+13:46:50.477 - params_processor - INFO - error: float() argument must be a string or a number
+13:46:50.479 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+13:46:50.480 - params_processor - INFO - type(data[key])
+<type 'list'>
+13:46:50.503 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:46:50] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:46:50.519 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:46:50] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:47:32.183 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:47:32.243 - werkzeug - INFO -  * Restarting with stat
+13:47:36.456 - werkzeug - WARNING -  * Debugger is active!
+13:47:36.460 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:47:36.474 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:47:39.072 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:47:39] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:47:39.582 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:47:39] "GET /static/style.css HTTP/1.1" 304 -
+13:47:41.953 - __main__ - INFO - post request in TypeArbitary
+13:47:41.960 - params_processor - INFO - data_keys
+['fridge_loss_probability', 'x_k', 'monitoring__pp', 'cars_quantity', 'fuel__stealing_rate', 'accu', 'payload', 'C_plus', 'fuel__cost_per_liter', 'average_speed', 'fuel__usage_increase_by_time_of_workout', 'cost_loss_by_car_sell', 'monitoring__dut_cost', 'prob', 'monitoring__termometr_cost', 'workdays_per_year', 'monitoring__tracker_cost', 'work__cost_per_tkm', 'monitoring__alarm_btn_cost', 'monitoring__abonent_pays_per_month', 'motorhours_per_day', 'fuel__liters_per_km', 'a', 'service__price_part_per_year', 'breaking_on_last_hundreds_probability', 'monitoring__block_eng_cost', 'repair__year_cost_new_car', 'type_arbitary', 'driver__salary', 'fridge__spoil_fee']
+13:47:41.963 - params_processor - INFO - data_vals
+[[u'0.05'], [u'0.8'], [u'3000.0'], [u'1.0'], [u'0.05'], [u'0.05'], [u'5.0'], [u'125000.0'], [u'35.0'], [u'50.0'], [u'0.275'], [u'1000000.0'], [u'2500.0'], [u'500000.0'], [u'2000.0'], [u'250.0'], [u'4500.0'], [u'5.0'], [u'1000.0'], [u'300.0'], [u'5.0'], [u'0.12'], [u'1.0'], [u'0.05'], [u'0.95'], [u'2000.0'], [u'20000.0'], [u''], [u'30000.0'], [u'50000.0']]
+13:47:42.032 - params_processor - INFO - params_dict['prob']
+500000.0
+13:47:42.061 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:47:42] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:47:42.076 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:47:42] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:48:44.329 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+13:48:44.385 - werkzeug - INFO -  * Restarting with stat
+13:48:48.736 - werkzeug - WARNING -  * Debugger is active!
+13:48:48.737 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+13:48:48.752 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+13:48:49.029 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:48:49] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:48:49.555 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:48:49] "GET /static/style.css HTTP/1.1" 304 -
+13:48:53.884 - __main__ - INFO - post request in TypeArbitary
+13:48:53.984 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:48:53] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:48:53.999 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:48:53] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:49:40.493 - __main__ - INFO - post request in TypeArbitary
+13:50:21.528 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:50:21] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:50:21.625 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:50:21] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:50:21.668 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:50:21] "GET /static/style.css HTTP/1.1" 304 -
+13:50:35.799 - __main__ - INFO - post request in TypeArbitary
+13:50:35.871 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:50:35] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:50:35.885 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:50:35] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:50:43.992 - __main__ - INFO - post request in TypeArbitary
+13:50:44.065 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:50:44] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:50:44.079 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:50:44] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:50:51.125 - __main__ - INFO - post request in TypeArbitary
+13:50:51.200 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:50:51] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:50:51.233 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:50:51] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:50:56.509 - __main__ - INFO - post request in TypeArbitary
+13:50:56.631 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:50:56] "POST /type_arbitary/ HTTP/1.1" 302 -
+13:50:56.650 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:50:56] "GET /type_arbitary/ HTTP/1.1" 200 -
+13:51:04.684 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 13:51:04] "GET / HTTP/1.1" 200 -
+14:01:03.766 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+14:01:03.834 - werkzeug - INFO -  * Restarting with stat
+14:01:08.941 - werkzeug - WARNING -  * Debugger is active!
+14:01:08.944 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+14:01:08.957 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+14:13:40.348 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 14:13:40] "GET /type_arbitary/ HTTP/1.1" 200 -
+14:14:10.407 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\params_processor.py', reloading
+14:14:10.520 - werkzeug - INFO -  * Restarting with stat
+14:14:18.778 - werkzeug - WARNING -  * Debugger is active!
+14:14:18.779 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+14:14:18.793 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

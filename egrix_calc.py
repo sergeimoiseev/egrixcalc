@@ -7,8 +7,8 @@ logger = logging.getLogger(__name__)
 def calc(params_dict):
     globals().update(params_dict)  # very dirty!! polutes namespace
 
-    logger.info("params_dict['flagThermo']\n%s" % (params_dict['flagThermo'],))
-    logger.info("params_dict['flagFrLoss']\n%s" % (params_dict['flagFrLoss'],))
+    logger.info("params_dict['cost_loss_by_car_sell']\n%s" % (params_dict['cost_loss_by_car_sell'],))
+    logger.info("params_dict['prob']\n%s" % (params_dict['prob'],))
 
     flagB = flagTracker # контролируются ли левые ходки
     calc_results_dict = {}
@@ -98,6 +98,7 @@ def calc(params_dict):
     k = work__cost_per_tkm * payload * prob
     # k*x_k/(1+b)
     work__cost_by_workout = k*x_k/(1+b)
+    work__cost_by_workout_per_month = work__cost_by_workout/(12 * srok)
 
 # Расходы за срок службы
     # =СУММ(E2;E51;E14;E23;E29;E34;E40;E46;E55;E19)-E58
@@ -132,7 +133,7 @@ def calc(params_dict):
     workout_profit_per_month = workout_profit / (12*srok)
 
     calc_results_dict['workout_profit'] = workout_profit
-    calc_results_dict['work__cost_by_workout'] = work__cost_by_workout
+    calc_results_dict['work__cost_by_workout_per_month'] = work__cost_by_workout_per_month
     calc_results_dict['workout_expenditure_per_month'] = workout_expenditure_per_month
     calc_results_dict['workout_profit_per_month'] = workout_profit_per_month
     calc_results_dict['monitoring__setup_cost'] = monitoring__setup_cost
@@ -179,8 +180,8 @@ def compare(par_dict):
                                       + results_wo_monitoring['fuel__stolen_workout_cost']
     monitoring__dut_additional_profit_per_month = monitoring__dut_additional_profit / (12*srok)
 
-    monitoring__pp_additional_profit = - results_with_monitoring['workout_profit'] \
-                                      + results_wo_monitoring['workout_profit']
+    monitoring__pp_additional_profit = - results_with_monitoring['driver__salaries_by_workout'] \
+                                      + results_wo_monitoring['driver__salaries_by_workout']
     monitoring__pp_additional_profit_per_month = monitoring__pp_additional_profit / (12*srok)
 
     monitoring__monitoring_additional_profit = - results_with_monitoring['fuel__total_usage_cost'] \
