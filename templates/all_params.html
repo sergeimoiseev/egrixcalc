@@ -1,31 +1,31 @@
 {% extends "base.html" %}
 {% block body %}
-  <form action="{{url_for('type_arbitary')}}" method="post">
-    {% include 'fields/firm_fields.html' %}
+  <div class="hyperlink" id=main> <a href="{{url_for('index')}}">Вернуться к типовым наборам оборудования</a>
+  </div>
+  <form action="{{url_for('all_params')}}" method="post">
     <fieldset>
-        <legend>Выберите дополнительное оборудование:</legend>
+        <legend>Выберите дополнительное оборудование и укажите необходиые параметры:</legend>
             <div>
-              {% include 'dut_fields.html' %}
-              <br>
-              <input type=checkbox id=temp name=arbitary.temp>
-                Датчик температуры 
-              </input><br>
-              <input type=checkbox id=block_eng name=arbitary.block_eng>
-                Реле блокировки двигателя 
-              </input><br>
-              <input type=checkbox id=alarm_btn name=arbitary.alarm_btn>
-                Тревожная кнопка
-              </input><br>
-              <input type=checkbox id=pp name=arbitary.pp>
-                ПП
-              </input><br>
+              {% for key, val in d.iteritems() %}
+                {% if 'flag' in key %}
+                Флаг {{ key }}
+                  {% if val == 1.0 %}
+                    <input type=checkbox name={{ key }} checked>{{ c[key] }}</input>
+                  {% else %}
+                    <input type=checkbox name={{ key }}>{{ c[key] }}</input>
+                  {% endif %}
+                {% else %}
+                {{ key }} =
+                <input type=text name={{ key }} value={{ val }}>{{ c[key] }}</input>
+                {% endif %}
+                <br>
+              {% endfor %}
               <button type=submit1 name=type_arbitary>Рассчитать</button>
             </div>
     </fieldset>
   </form>
   <div class="hyperlink" id=main> <a href="{{url_for('index')}}">Вернуться к типовым наборам оборудования</a>
-  </div>    
-  
+  </div> 
   <br>
   <br>
   {% with m = get_flashed_messages() %}
@@ -48,6 +48,16 @@
         <td> {{ m[1][4]|safe }} </td>
         <td> {{ m[1][5]|safe }} </td>
         <td> {{ m[1][6]|safe }} </td>
+        </tr>
+        <tr>
+        <th> {{ m[0][7]|safe }} </th>
+        <th> {{ m[0][8]|safe }} </th>
+        <th> {{ m[0][9]|safe }} </th>
+        </tr>
+        <tr>
+        <td> {{ m[1][7]|safe }} </td>
+        <td> {{ m[1][8]|safe }} </td>
+        <td> {{ m[1][9]|safe }} </td>
         </tr>
       </table>
     {% endif %}

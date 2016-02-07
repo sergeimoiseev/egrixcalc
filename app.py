@@ -14,7 +14,7 @@ default_params, params_comments = ct.get_and_store_params(load_from_dropbox=True
 
 class Main(proc.EgrixCalcView):
     def get(self):
-        return flask.render_template('index.html')
+        return flask.render_template('index.html',d = default_params, c = params_comments)
 
     def post(self):
         logger.info("post request in Main")
@@ -26,27 +26,27 @@ class Main(proc.EgrixCalcView):
 
         return flask.redirect(flask.url_for('index'))
 
-class TypeArbitary(proc.EgrixCalcView):
+class AllParams(proc.EgrixCalcView):
     def get(self):
         global default_params, params_comments
-        return flask.render_template('type_arbitary.html',d = default_params, c = params_comments)
+        return flask.render_template('all_params.html',d = default_params, c = params_comments)
 
     def post(self):
-        logger.info("post request in TypeArbitary")
+        logger.info("post request in AllParams")
 
-        messages_to_flash = self.process_params('type_arbitary')
+        messages_to_flash = self.process_params('all_params')
 
         flask.flash(messages_to_flash[0])
         flask.flash(messages_to_flash[1])
 
-        return flask.redirect(flask.url_for('type_arbitary'))
+        return flask.redirect(flask.url_for('all_params'))
 
 app.add_url_rule('/',
         view_func=Main.as_view('index'),
         methods=['GET', 'POST'])
 
-app.add_url_rule('/type_arbitary/', 
-        view_func=TypeArbitary.as_view('type_arbitary'),
+app.add_url_rule('/all_params/', 
+        view_func=AllParams.as_view('all_params'),
         methods=['GET', 'POST'])
 
 if __name__ == '__main__':

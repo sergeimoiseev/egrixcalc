@@ -1556,3 +1556,65 @@
 14:21:01.808 - werkzeug - WARNING -  * Debugger is active!
 14:21:01.809 - werkzeug - INFO -  * Debugger pin code: 229-871-158
 14:21:01.822 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+18:15:46.497 - werkzeug - INFO -  * Restarting with stat
+18:15:50.913 - werkzeug - WARNING -  * Debugger is active!
+18:15:50.979 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+18:15:51.148 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+18:17:02.434 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:17:02] "GET / HTTP/1.1" 200 -
+18:18:34.213 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:18:34] "GET / HTTP/1.1" 200 -
+18:18:41.826 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:18:41] "GET /static/style.css HTTP/1.1" 304 -
+18:18:43.286 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:18:43] "GET /type_arbitary/ HTTP/1.1" 200 -
+18:18:49.233 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:18:49] "GET / HTTP/1.1" 200 -
+18:18:54.387 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:18:54] "GET /type_arbitary/ HTTP/1.1" 200 -
+18:19:02.263 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:19:02] "GET / HTTP/1.1" 200 -
+18:19:32.700 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:19:32] "GET / HTTP/1.1" 200 -
+18:19:32.746 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:19:32] "GET /static/style.css HTTP/1.1" 304 -
+18:20:54.095 - werkzeug - INFO -  * Restarting with stat
+18:20:58.494 - werkzeug - WARNING -  * Debugger is active!
+18:20:58.496 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+18:20:58.510 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+18:20:59.967 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:20:59] "GET / HTTP/1.1" 200 -
+18:21:00.494 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:21:00] "GET /static/style.css HTTP/1.1" 304 -
+18:21:06.003 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:21:06] "GET /type_arbitary/ HTTP/1.1" 200 -
+18:21:08.456 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:21:08] "GET / HTTP/1.1" 200 -
+18:23:24.236 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:23:24] "GET / HTTP/1.1" 200 -
+18:23:24.283 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:23:24] "GET /static/style.css HTTP/1.1" 304 -
+18:23:56.058 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:23:56] "GET / HTTP/1.1" 200 -
+18:23:56.095 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:23:56] "GET /static/style.css HTTP/1.1" 304 -
+18:25:25.891 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:25:25] "GET / HTTP/1.1" 200 -
+18:25:25.933 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:25:25] "GET /static/style.css HTTP/1.1" 304 -
+18:27:35.273 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\app.py', reloading
+18:27:35.328 - werkzeug - INFO -  * Restarting with stat
+18:27:40.625 - werkzeug - WARNING -  * Debugger is active!
+18:27:40.631 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+18:27:40.644 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+18:28:48.559 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Sergei\\Projects\\EgrixCalc\\code\\app.py', reloading
+18:28:48.611 - werkzeug - INFO -  * Restarting with stat
+18:28:53.066 - werkzeug - WARNING -  * Debugger is active!
+18:28:53.066 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+18:28:53.084 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+18:30:14.743 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:30:14] "GET / HTTP/1.1" 200 -
+18:30:15.398 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:30:15] "GET /static/style.css HTTP/1.1" 304 -
+18:30:18.631 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:30:18] "GET /all_params/ HTTP/1.1" 200 -
+18:30:20.969 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:30:20] "GET / HTTP/1.1" 200 -
+18:30:22.665 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:30:22] "GET /all_params/ HTTP/1.1" 200 -
+18:30:24.631 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:30:24] "GET / HTTP/1.1" 200 -
+18:33:06.752 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:06] "GET / HTTP/1.1" 200 -
+18:33:06.793 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:06] "GET /static/style.css HTTP/1.1" 304 -
+18:33:11.566 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:11] "GET /all_params/ HTTP/1.1" 200 -
+18:33:14.888 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:14] "GET / HTTP/1.1" 200 -
+18:33:16.388 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:16] "GET /all_params/ HTTP/1.1" 200 -
+18:33:20.719 - __main__ - INFO - post request in AllParams
+18:33:21.246 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:21] "POST /all_params/ HTTP/1.1" 302 -
+18:33:21.266 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:21] "GET /all_params/ HTTP/1.1" 200 -
+18:33:23.553 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:23] "GET / HTTP/1.1" 200 -
+18:33:26.211 - __main__ - INFO - post request in Main
+18:33:26.266 - params_processor - INFO - ERROR on params_dict['fuel__type']
+35.0
+18:33:26.269 - params_processor - INFO - ERROR: could not convert string to float: diesel
+18:33:26.270 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+18:33:26.273 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+18:33:26.299 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:26] "POST / HTTP/1.1" 302 -
+18:33:26.315 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 18:33:26] "GET / HTTP/1.1" 200 -
