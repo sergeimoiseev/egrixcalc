@@ -7,7 +7,13 @@ html *
 }
 .fullwidth_table {
   table-layout : fixed;
-  width:100%;
+  width:70%;
+}
+/* Apply padding to td elements that are direct children of the tr element. */
+.fullwidth_table
+{
+  border-collapse:separate; 
+  border-spacing:1em;
 }
 .result_table {
     width:880px;
@@ -16,13 +22,13 @@ html *
 .result_table tr {
     width:80px;
     margin:10;
-    padding:4px;
+    padding:10px;
 }
 a {text-decoration:none}
 /* Tabbed example */
 div.tabs {
   /*min-height: 12em;       No height: can grow if :target doesn't work */
-  height: 15em;
+  height: 20em;
   position: relative;       /* Establish a containing block */
   line-height: 1;       /* Easier to calculate with */
   z-index: 0}           /* So that we can put other things behind */

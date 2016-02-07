@@ -2174,3 +2174,84 @@
 22:46:41.069 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:46:41] "POST / HTTP/1.1" 302 -
 22:46:41.085 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:46:41] "GET / HTTP/1.1" 200 -
 22:46:41.960 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:46:41] "GET /all_params/ HTTP/1.1" 200 -
+22:49:29.427 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:49:29] "GET / HTTP/1.1" 200 -
+22:49:29.630 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:49:29] "GET / HTTP/1.1" 200 -
+22:49:29.693 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:49:29] "GET /static/style.css HTTP/1.1" 200 -
+22:49:57.368 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:49:57] "GET / HTTP/1.1" 200 -
+22:49:57.415 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:49:57] "GET /static/style.css HTTP/1.1" 200 -
+22:50:12.674 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:50:12] "GET / HTTP/1.1" 200 -
+22:50:12.721 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:50:12] "GET /static/style.css HTTP/1.1" 200 -
+22:50:32.200 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:50:32] "GET / HTTP/1.1" 200 -
+22:50:32.247 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:50:32] "GET /static/style.css HTTP/1.1" 200 -
+22:50:41.638 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:50:41] "GET / HTTP/1.1" 200 -
+22:50:41.668 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:50:41] "GET /static/style.css HTTP/1.1" 200 -
+22:51:17.480 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:17] "GET / HTTP/1.1" 200 -
+22:51:17.513 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:17] "GET /static/style.css HTTP/1.1" 200 -
+22:51:18.931 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:18] "GET / HTTP/1.1" 200 -
+22:51:18.979 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:18] "GET /static/style.css HTTP/1.1" 304 -
+22:51:19.430 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:19] "GET / HTTP/1.1" 200 -
+22:51:19.463 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:19] "GET /static/style.css HTTP/1.1" 304 -
+22:51:24.204 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:24] "GET / HTTP/1.1" 200 -
+22:51:24.252 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:24] "GET /static/style.css HTTP/1.1" 200 -
+22:51:24.923 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:24] "GET / HTTP/1.1" 200 -
+22:51:24.984 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:24] "GET /static/style.css HTTP/1.1" 304 -
+22:51:25.109 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:25] "GET / HTTP/1.1" 200 -
+22:51:25.157 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:25] "GET /static/style.css HTTP/1.1" 304 -
+22:51:38.973 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:38] "GET / HTTP/1.1" 200 -
+22:51:39.019 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:39] "GET /static/style.css HTTP/1.1" 200 -
+22:51:40.220 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:40] "GET / HTTP/1.1" 200 -
+22:51:40.282 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:40] "GET /static/style.css HTTP/1.1" 304 -
+22:51:40.532 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:40] "GET / HTTP/1.1" 200 -
+22:51:40.595 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:40] "GET /static/style.css HTTP/1.1" 304 -
+22:51:40.766 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:40] "GET / HTTP/1.1" 200 -
+22:51:40.813 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:51:40] "GET /static/style.css HTTP/1.1" 304 -
+22:51:54.562 - werkzeug - INFO -  * Restarting with stat
+22:52:00.430 - werkzeug - WARNING -  * Debugger is active!
+22:52:00.430 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:52:00.446 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:52:01.319 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:52:01] "GET / HTTP/1.1" 200 -
+22:52:01.897 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:52:01] "GET /static/style.css HTTP/1.1" 304 -
+22:52:59.642 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:52:59] "GET / HTTP/1.1" 200 -
+22:52:59.701 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:52:59] "GET /static/style.css HTTP/1.1" 200 -
+22:53:02.676 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:53:02] "GET / HTTP/1.1" 200 -
+22:53:02.730 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:53:02] "GET /static/style.css HTTP/1.1" 304 -
+22:53:02.894 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:53:02] "GET / HTTP/1.1" 200 -
+22:53:02.948 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:53:02] "GET /static/style.css HTTP/1.1" 304 -
+22:53:03.453 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:53:03] "GET / HTTP/1.1" 200 -
+22:53:03.520 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:53:03] "GET /static/style.css HTTP/1.1" 304 -
+22:53:05.676 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:53:05] "GET /all_params/ HTTP/1.1" 200 -
+22:53:14.489 - werkzeug - INFO -  * Restarting with stat
+22:53:19.040 - werkzeug - WARNING -  * Debugger is active!
+22:53:19.043 - werkzeug - INFO -  * Debugger pin code: 229-871-158
+22:53:19.056 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:53:19.424 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:53:19] "GET / HTTP/1.1" 200 -
+22:53:19.971 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:53:19] "GET /static/style.css HTTP/1.1" 304 -
+22:53:22.513 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:53:22] "GET /all_params/ HTTP/1.1" 200 -
+22:53:24.654 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:53:24] "GET / HTTP/1.1" 200 -
+22:54:17.184 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:17] "GET / HTTP/1.1" 200 -
+22:54:17.232 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:17] "GET /static/style.css HTTP/1.1" 200 -
+22:54:23.049 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:23] "GET / HTTP/1.1" 200 -
+22:54:23.096 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:23] "GET /static/style.css HTTP/1.1" 200 -
+22:54:23.907 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:23] "GET / HTTP/1.1" 200 -
+22:54:23.970 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:23] "GET /static/style.css HTTP/1.1" 304 -
+22:54:24.127 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:24] "GET / HTTP/1.1" 200 -
+22:54:24.188 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:24] "GET /static/style.css HTTP/1.1" 304 -
+22:54:24.345 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:24] "GET / HTTP/1.1" 200 -
+22:54:24.407 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:24] "GET /static/style.css HTTP/1.1" 304 -
+22:54:31.765 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:31] "GET / HTTP/1.1" 200 -
+22:54:31.812 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:31] "GET /static/style.css HTTP/1.1" 200 -
+22:54:32.529 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:32] "GET / HTTP/1.1" 200 -
+22:54:32.628 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:54:32] "GET /static/style.css HTTP/1.1" 304 -
+22:55:48.022 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:55:48] "GET / HTTP/1.1" 200 -
+22:55:48.085 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:55:48] "GET /static/style.css HTTP/1.1" 200 -
+22:55:58.957 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:55:58] "GET / HTTP/1.1" 200 -
+22:55:59.005 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:55:59] "GET /static/style.css HTTP/1.1" 200 -
+22:56:21.213 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:56:21] "GET / HTTP/1.1" 200 -
+22:56:21.259 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:56:21] "GET /static/style.css HTTP/1.1" 200 -
+22:56:42.279 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:56:42] "GET / HTTP/1.1" 200 -
+22:56:42.309 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:56:42] "GET /static/style.css HTTP/1.1" 200 -
+22:56:54.861 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:56:54] "GET / HTTP/1.1" 200 -
+22:56:54.894 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:56:54] "GET /static/style.css HTTP/1.1" 200 -
+22:56:59.059 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:56:59] "GET / HTTP/1.1" 200 -
+22:56:59.151 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:56:59] "GET /static/style.css HTTP/1.1" 200 -
+22:57:13.124 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2016 22:57:13] "GET /all_params/ HTTP/1.1" 200 -
