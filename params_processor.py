@@ -7,17 +7,9 @@ import logging
 logger = logging.getLogger(__name__)
 
 class EgrixCalcView(flask.views.MethodView):
-    def test_func(self):
-        data = dict((key, flask.request.form.getlist(key)) for key in flask.request.form.keys())
-        return data
 
     def process_params(self,page_name):
         data = dict((key, flask.request.form.getlist(key)[0]) for key in flask.request.form.keys())
-        # data_keys = [key for key in data.keys()]
-        # data_vals = [flask.request.form.getlist(key) for key in  data_keys]
-
-        # logger.info("data_keys\n%s" % (data_keys,))
-        # logger.info("data_vals\n%s" % (data_vals,))
 
         params_dict, comments_dict = ct.get_and_store_params(load_from_dropbox=False)
 

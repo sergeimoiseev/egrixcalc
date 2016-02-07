@@ -205,5 +205,4 @@ def compare(par_dict):
 if __name__ == '__main__':
     ct.setup_logging()
     d,c = ct.get_and_store_params()
-    # d = read_params_dict(from_dropbox=True)
     print(d)
