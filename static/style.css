@@ -7,7 +7,7 @@ html *
 }
 .fullwidth_table {
   table-layout : fixed;
-  width:70%;
+  width:80%;
 }
 /* Apply padding to td elements that are direct children of the tr element. */
 .fullwidth_table
