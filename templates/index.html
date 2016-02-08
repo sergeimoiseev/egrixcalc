@@ -9,7 +9,7 @@
               <div>
                 {% include 'fields/dut_fields.html' %}
                 {% include 'fields/cargo_fields.html' %}
-                <button type=submit name=type_freight>Рассчитать</button>
+                <button type=submit name=submit value=type_freight>Рассчитать</button>
               </div>
           </div>
 
@@ -17,7 +17,7 @@
               <div>
                 {% include 'fields/temp_fields.html' %}
                 {% include 'fields/dut_fields.html' %}
-                <button type=submit name=type_fridge>Рассчитать</button>
+                <button type=submit name=submit value=type_fridge>Рассчитать</button>
               </div>
           </div>
 
@@ -25,27 +25,30 @@
               <div>
                 {% include 'fields/pp_fields.html' %}
                 {% include 'fields/dut_fields.html' %}
-                <button type=submit name=type_passenger>Рассчитать</button>
+                <button type=submit name=submit value=type_passenger>Рассчитать</button>
               </div>
           </div>
 
           <div id=type_taxi> <a href="#type_taxi">Такси</a>
               <div>
                 {% include 'fields/taxi_fields.html' %}
-                <button type=submit name=type_taxi>Рассчитать</button>
+                <button type=submit name=submit value=type_taxi>Рассчитать</button>
               </div>
           </div>
 
           <div id=type_machinery> <a href="#type_machinery">Спец. техника</a>
               <div>
                 {% include 'fields/agregate_fields.html' %}
-                <button type=submit name=type_machinery>Рассчитать</button>
+                <button type=submit name=submit value=type_machinery>Рассчитать</button>
               </div>
           </div>
           
 
           <div id=type_minimal> <a href="#type_minimal">Без датчиков - только трекер</a>
             <div>Выберите одну из первых вкладок, если вы хотите оборудовать типовой автопарк<br><br>
+              <div>
+                <button type=submit name=submit value=type_minimal>Рассчитать</button>
+              </div>
             </div>
           </div>
         </div>

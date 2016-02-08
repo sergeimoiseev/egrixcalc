@@ -19,8 +19,9 @@ class Main(proc.EgrixCalcView):
     def post(self):
         logger.info("post request in Main")
 
-        messages_to_flash = self.process_params('index')
+        messages_to_flash, html_path = self.process_params('index')
         
+        logger.info("html_path\n%s" % (html_path,))
         flask.flash(messages_to_flash[0])
         flask.flash(messages_to_flash[1])
 
@@ -34,8 +35,8 @@ class AllParams(proc.EgrixCalcView):
     def post(self):
         logger.info("post request in AllParams")
 
-        messages_to_flash = self.process_params('all_params')
-
+        messages_to_flash, html_path = self.process_params('all_params')
+        logger.info("html_path\n%s" % (html_path,))
         flask.flash(messages_to_flash[0])
         flask.flash(messages_to_flash[1])
 

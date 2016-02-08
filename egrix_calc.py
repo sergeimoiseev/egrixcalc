@@ -4,11 +4,12 @@ import dropboxm
 import calc_tools as ct
 logger = logging.getLogger(__name__)
 
-def calc(params_dict):
+def calc(params_dict, park_type):
     globals().update(params_dict)  # very dirty!! polutes namespace
 
-    logger.info("params_dict['cost_loss_by_car_sell']\n%s" % (params_dict['cost_loss_by_car_sell'],))
-    logger.info("params_dict['prob']\n%s" % (params_dict['prob'],))
+    # logger.info("params_dict['cost_loss_by_car_sell']\n%s" % (params_dict['cost_loss_by_car_sell'],))
+    # logger.info("params_dict['prob']\n%s" % (params_dict['prob'],))
+    # logger.info("params_dict\n%s" % (params_dict,))
 
     flagB = flagTracker # контролируются ли левые ходки
     calc_results_dict = {}
@@ -150,22 +151,24 @@ def calc(params_dict):
     # calc_results_dict['srok'] = srok
     return calc_results_dict
 
-def compare(par_dict):
+def compare(par_dict, park_type):
     # Сравнение выгоды без системы и с системой
-    results_with_monitoring = calc(par_dict)
+    results_with_monitoring = calc(par_dict, park_type)
     logger.debug("results_with_monitoring['workout_profit']\n%s" % (results_with_monitoring['workout_profit'],))
     logger.debug("results_with_monitoring['car_efficiency']\n%s" % (results_with_monitoring['car_efficiency'],))
 
     # как будто мониторинга нет
-    par_dict['i'] = accu # коэфф-т простоев !!! нигде не использвется! ввести.
+    par_dict['i'] = accu # коэфф-т простоев !!! нигде не используется! ввести.
     par_dict['b'] = accu # коэфф-т "левых" ходок
     par_dict['flagTracker'] = 0.  # ставим ли трекер
     par_dict['flagDut'] = 0. # устанавливается ли ДУТ
     par_dict['flagThermo'] = 0. # устанавливается ли термометр
-    par_dict['flagFrLoss'] = 0. # портится ли товар без холодильника
     par_dict['flagI'] = 0. # есть ли контроль простоев (Idle)
     par_dict['flagPP'] = 0. # есть ли контроль пассажиропотока
-    results_wo_monitoring = calc(par_dict)
+
+    # if type_freight
+    par_dict['flagFrLoss'] = 0. # портится ли товар без холодильника
+    results_wo_monitoring = calc(par_dict, park_type)
 
     logger.debug("results_wo_monitoring['workout_profit']\n%s" % (results_wo_monitoring['workout_profit'],))
     logger.debug("results_wo_monitoring['car_efficiency']\n%s" % (results_wo_monitoring['car_efficiency'],))

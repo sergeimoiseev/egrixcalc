@@ -2295,3 +2295,285 @@
 12:32:29.858 - __main__ - INFO - post request in Main
 12:32:29.888 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 12:32:29] "POST / HTTP/1.1" 302 -
 12:32:29.921 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 12:32:29] "GET / HTTP/1.1" 200 -
+13:28:01.153 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 13:28:01] "GET /all_params/ HTTP/1.1" 200 -
+13:28:12.190 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 13:28:12] "GET / HTTP/1.1" 200 -
+21:24:37.921 - werkzeug - INFO -  * Restarting with stat
+21:24:40.809 - werkzeug - WARNING -  * Debugger is active!
+21:24:40.809 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+22:13:48.608 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:13:48] "GET /static/favicon.ico HTTP/1.1" 200 -
+22:13:53.246 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:13:53] "GET / HTTP/1.1" 200 -
+22:13:53.261 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:13:53] "GET /static/style.css HTTP/1.1" 200 -
+22:14:02.987 - __main__ - INFO - post request in Main
+22:14:03.014 - __main__ - INFO - html_path
+/
+22:14:03.016 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:03] "POST / HTTP/1.1" 302 -
+22:14:03.022 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:03] "GET / HTTP/1.1" 200 -
+22:14:18.588 - __main__ - INFO - post request in Main
+22:14:18.628 - __main__ - INFO - html_path
+/
+22:14:18.628 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:18] "POST / HTTP/1.1" 302 -
+22:14:18.638 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:18] "GET / HTTP/1.1" 200 -
+22:14:23.650 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:23] "GET /all_params/ HTTP/1.1" 500 -
+22:14:23.760 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:23] "GET /all_params/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+22:14:23.770 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:23] "GET /all_params/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+22:14:23.770 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:23] "GET /all_params/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+22:14:23.780 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:23] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:14:23.800 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:23] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:14:23.930 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:23] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:14:23.930 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:14:23] "GET /all_params/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+22:16:59.698 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\app.py', reloading
+22:17:08.994 - werkzeug - INFO -  * Restarting with stat
+22:17:12.068 - werkzeug - WARNING -  * Debugger is active!
+22:17:12.068 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+22:17:13.168 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:13] "GET /all_params/ HTTP/1.1" 500 -
+22:17:13.260 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:13] "GET /all_params/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+22:17:18.149 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:18] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:17:18.149 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:18] "GET /all_params/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+22:17:18.159 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:18] "GET /all_params/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+22:17:18.159 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:18] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:17:18.289 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:18] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:17:25.087 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:25] "GET / HTTP/1.1" 200 -
+22:17:26.747 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:26] "GET /all_params/ HTTP/1.1" 500 -
+22:17:26.847 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:26] "GET /all_params/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+22:17:26.847 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:26] "GET /all_params/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+22:17:26.857 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:26] "GET /all_params/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+22:17:26.867 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:26] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:17:26.877 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:26] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:17:26.977 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:26] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:17:48.210 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\app.py', reloading
+22:17:48.270 - werkzeug - INFO -  * Restarting with stat
+22:17:51.239 - werkzeug - WARNING -  * Debugger is active!
+22:17:51.239 - werkzeug - INFO -  * Debugger pin code: 181-547-290
+22:17:53.751 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:53] "GET /all_params/ HTTP/1.1" 500 -
+22:17:53.851 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:53] "GET /all_params/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+22:17:53.851 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:53] "GET /all_params/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+22:17:53.861 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:53] "GET /all_params/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+22:17:53.861 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:53] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:17:53.881 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:53] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:17:53.981 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:53] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:17:55.901 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:55] "GET /all_params/ HTTP/1.1" 500 -
+22:17:56.001 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:56] "GET /all_params/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+22:17:56.001 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:56] "GET /all_params/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+22:17:56.011 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:56] "GET /all_params/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+22:17:56.021 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:56] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:17:56.031 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:56] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:17:56.111 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:17:56] "GET /all_params/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+22:18:41.223 - werkzeug - INFO -  * Restarting with stat
+22:18:43.953 - werkzeug - WARNING -  * Debugger is active!
+22:18:43.953 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:18:43.953 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:18:45.845 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:18:45] "GET /all_params/ HTTP/1.1" 200 -
+22:18:45.924 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:18:45] "GET /static/style.css HTTP/1.1" 200 -
+22:18:48.025 - __main__ - INFO - post request in AllParams
+22:18:48.065 - params_processor - INFO - ERROR on params_dict['flagTracker']
+1.0
+22:18:48.065 - params_processor - INFO - ERROR: could not convert string to float: on
+22:18:48.075 - params_processor - INFO - type(params_dict[key])
+<type 'float'>
+22:18:48.075 - params_processor - INFO - type(data[key])
+<type 'unicode'>
+22:18:48.117 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:18:48] "POST /all_params/ HTTP/1.1" 302 -
+22:18:48.127 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:18:48] "GET /all_params/ HTTP/1.1" 200 -
+22:18:50.418 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:18:50] "GET / HTTP/1.1" 200 -
+22:19:16.598 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\params_processor.py', reloading
+22:19:16.618 - werkzeug - INFO -  * Restarting with stat
+22:19:19.243 - werkzeug - WARNING -  * Debugger is active!
+22:19:19.243 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:19:19.253 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:19:29.427 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\app.py', reloading
+22:19:29.457 - werkzeug - INFO -  * Restarting with stat
+22:19:32.048 - werkzeug - WARNING -  * Debugger is active!
+22:19:32.048 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:19:32.058 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:19:36.190 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:19:36] "GET / HTTP/1.1" 200 -
+22:19:36.289 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:19:36] "GET /static/style.css HTTP/1.1" 304 -
+22:19:38.069 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:19:38] "GET /all_params/ HTTP/1.1" 200 -
+22:19:40.119 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:19:40] "GET / HTTP/1.1" 200 -
+22:19:43.756 - __main__ - INFO - post request in Main
+22:19:43.805 - __main__ - INFO - html_path
+/
+22:19:43.815 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:19:43] "POST / HTTP/1.1" 302 -
+22:19:43.825 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:19:43] "GET / HTTP/1.1" 200 -
+22:19:52.198 - __main__ - INFO - post request in Main
+22:19:52.249 - __main__ - INFO - html_path
+/
+22:19:52.249 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:19:52] "POST / HTTP/1.1" 302 -
+22:19:52.259 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:19:52] "GET / HTTP/1.1" 200 -
+22:25:25.039 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\params_processor.py', reloading
+22:25:25.059 - werkzeug - INFO -  * Restarting with stat
+22:25:27.730 - werkzeug - WARNING -  * Debugger is active!
+22:25:27.730 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:25:27.730 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:26:13.053 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\params_processor.py', reloading
+22:26:13.073 - werkzeug - INFO -  * Restarting with stat
+22:26:15.859 - werkzeug - WARNING -  * Debugger is active!
+22:26:15.859 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:26:15.869 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:30:31.967 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\egrix_calc.py', reloading
+22:30:31.987 - werkzeug - INFO -  * Restarting with stat
+22:30:34.713 - werkzeug - WARNING -  * Debugger is active!
+22:30:34.713 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:30:34.723 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:31:26.309 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\egrix_calc.py', reloading
+22:31:26.328 - werkzeug - INFO -  * Restarting with stat
+22:31:55.019 - werkzeug - INFO -  * Restarting with stat
+22:31:57.670 - werkzeug - WARNING -  * Debugger is active!
+22:31:57.670 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:31:57.680 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:31:57.759 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:31:57] "GET / HTTP/1.1" 200 -
+22:31:57.851 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:31:57] "GET /static/style.css HTTP/1.1" 304 -
+22:32:02.015 - __main__ - INFO - post request in Main
+22:32:02.105 - __main__ - INFO - html_path
+
+22:32:02.115 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:32:02] "POST / HTTP/1.1" 302 -
+22:32:02.115 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:32:02] "GET / HTTP/1.1" 200 -
+22:33:15.073 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\params_processor.py', reloading
+22:33:15.094 - werkzeug - INFO -  * Restarting with stat
+22:33:17.766 - werkzeug - WARNING -  * Debugger is active!
+22:33:17.766 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:33:17.766 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:33:19.696 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:33:19] "GET / HTTP/1.1" 200 -
+22:33:19.786 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:33:19] "GET /static/style.css HTTP/1.1" 304 -
+22:33:19.845 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\egrix_calc.py', reloading
+22:33:19.865 - werkzeug - INFO -  * Restarting with stat
+22:33:22.451 - werkzeug - WARNING -  * Debugger is active!
+22:33:22.451 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:33:22.451 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:33:22.568 - __main__ - INFO - post request in Main
+22:33:22.568 - params_processor - INFO - data
+{'fridge__cargo_type': u'1', 'fridge_loss_probability': u'5.0', 'motorhours_per_day_machinery': u'0.0', 'fuel__cost_per_liter': u'35', 'fuel__liters_per_100km': u'12.0', 'cargo__cost': u'100000.0', 'cargo__loss_probability': u'5.0', 'cars_quantity': u'1.0', 'fuel__type': u'1', 'taxi__average_drive_cost': u'500.0', 'type_freight': u'', 'motorhours_per_day': u'5.0', 'fridge__spoil_fee': u'50000.0', 'pp__average_passengers_count_per_day': u'300.0', 'flagPassengers': u'on'}
+22:33:22.598 - __main__ - INFO - html_path
+
+22:33:22.598 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:33:22] "POST / HTTP/1.1" 302 -
+22:33:22.638 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:33:22] "GET / HTTP/1.1" 200 -
+22:33:43.487 - __main__ - INFO - post request in Main
+22:33:43.497 - params_processor - INFO - data
+{'fridge__cargo_type': u'1', 'fridge_loss_probability': u'5.0', 'motorhours_per_day_machinery': u'0.0', 'fuel__cost_per_liter': u'35', 'fuel__liters_per_100km': u'12.0', 'cargo__cost': u'100000.0', 'cargo__loss_probability': u'5.0', 'cars_quantity': u'1.0', 'fuel__type': u'1', 'taxi__average_drive_cost': u'500.0', 'type_freight': u'', 'motorhours_per_day': u'5.0', 'fridge__spoil_fee': u'50000.0', 'pp__average_passengers_count_per_day': u'300.0', 'flagPassengers': u'on'}
+22:33:43.538 - __main__ - INFO - html_path
+
+22:33:43.548 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:33:43] "POST / HTTP/1.1" 302 -
+22:33:43.558 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:33:43] "GET / HTTP/1.1" 200 -
+22:35:28.312 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\params_processor.py', reloading
+22:35:28.332 - werkzeug - INFO -  * Restarting with stat
+22:35:30.936 - werkzeug - WARNING -  * Debugger is active!
+22:35:30.936 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:35:30.936 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:35:32.496 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:35:32] "GET / HTTP/1.1" 200 -
+22:35:32.576 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:35:32] "GET /static/style.css HTTP/1.1" 304 -
+22:35:36.947 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:35:36] "GET /all_params/ HTTP/1.1" 200 -
+22:35:38.667 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:35:38] "GET / HTTP/1.1" 200 -
+22:35:40.826 - __main__ - INFO - post request in Main
+22:35:40.826 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:35:40] "POST / HTTP/1.1" 400 -
+22:35:40.867 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:35:40] "GET /favicon.ico HTTP/1.1" 404 -
+22:35:40.877 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:35:40] "GET /favicon.ico HTTP/1.1" 404 -
+22:36:03.635 - werkzeug - INFO -  * Restarting with stat
+22:36:06.184 - werkzeug - WARNING -  * Debugger is active!
+22:36:06.184 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:36:06.184 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:36:06.313 - __main__ - INFO - post request in Main
+22:36:06.313 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:36:06] "POST / HTTP/1.1" 400 -
+22:37:29.480 - werkzeug - INFO -  * Restarting with stat
+22:37:32.039 - werkzeug - WARNING -  * Debugger is active!
+22:37:32.049 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:37:32.049 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:37:33.039 - __main__ - INFO - post request in Main
+22:37:33.039 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:37:33] "POST / HTTP/1.1" 400 -
+22:37:36.783 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:37:36] "GET / HTTP/1.1" 200 -
+22:37:39.190 - __main__ - INFO - post request in Main
+22:37:39.200 - params_processor - INFO - data
+{'fridge__cargo_type': u'1', 'fridge_loss_probability': u'5.0', 'motorhours_per_day_machinery': u'0.0', 'fuel__cost_per_liter': u'35', 'fuel__liters_per_100km': u'12.0', 'cargo__cost': u'100000.0', 'cargo__loss_probability': u'5.0', 'submit': u'type_freight', 'cars_quantity': u'1.0', 'fuel__type': u'1', 'taxi__average_drive_cost': u'500.0', 'motorhours_per_day': u'5.0', 'fridge__spoil_fee': u'50000.0', 'pp__average_passengers_count_per_day': u'300.0', 'flagPassengers': u'on'}
+22:37:39.250 - __main__ - INFO - html_path
+
+22:37:39.250 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:37:39] "POST / HTTP/1.1" 302 -
+22:37:39.260 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:37:39] "GET / HTTP/1.1" 200 -
+22:38:10.288 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\params_processor.py', reloading
+22:38:10.315 - werkzeug - INFO -  * Restarting with stat
+22:38:13.141 - werkzeug - WARNING -  * Debugger is active!
+22:38:13.141 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:38:13.141 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:38:14.450 - __main__ - INFO - post request in Main
+22:38:14.460 - params_processor - INFO - autopark_type
+type_freight
+22:38:14.460 - params_processor - INFO - data
+{'fridge__cargo_type': u'1', 'fridge_loss_probability': u'5.0', 'motorhours_per_day_machinery': u'0.0', 'fuel__cost_per_liter': u'35', 'fuel__liters_per_100km': u'12.0', 'cargo__cost': u'100000.0', 'cargo__loss_probability': u'5.0', 'submit': u'type_freight', 'cars_quantity': u'1.0', 'fuel__type': u'1', 'taxi__average_drive_cost': u'500.0', 'motorhours_per_day': u'5.0', 'fridge__spoil_fee': u'50000.0', 'pp__average_passengers_count_per_day': u'300.0', 'flagPassengers': u'on'}
+22:38:14.510 - __main__ - INFO - html_path
+
+22:38:14.520 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:38:14] "POST / HTTP/1.1" 302 -
+22:38:14.561 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:38:14] "GET / HTTP/1.1" 200 -
+22:38:53.325 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:38:53] "GET /all_params/ HTTP/1.1" 200 -
+22:38:55.957 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:38:55] "GET / HTTP/1.1" 200 -
+22:38:58.338 - __main__ - INFO - post request in Main
+22:38:58.338 - params_processor - INFO - autopark_type
+type_freight
+22:38:58.338 - params_processor - INFO - data
+{'fridge__cargo_type': u'1', 'fridge_loss_probability': u'5.0', 'motorhours_per_day_machinery': u'0.0', 'fuel__cost_per_liter': u'35', 'fuel__liters_per_100km': u'12.0', 'cargo__cost': u'100000.0', 'cargo__loss_probability': u'5.0', 'submit': u'type_freight', 'cars_quantity': u'1.0', 'fuel__type': u'1', 'taxi__average_drive_cost': u'500.0', 'motorhours_per_day': u'5.0', 'fridge__spoil_fee': u'50000.0', 'pp__average_passengers_count_per_day': u'300.0', 'flagPassengers': u'on'}
+22:38:58.398 - __main__ - INFO - html_path
+
+22:38:58.404 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:38:58] "POST / HTTP/1.1" 302 -
+22:38:58.413 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:38:58] "GET / HTTP/1.1" 200 -
+22:39:44.788 - __main__ - INFO - post request in Main
+22:39:44.788 - params_processor - INFO - autopark_type
+type_freight
+22:39:44.788 - params_processor - INFO - data
+{'fridge__cargo_type': u'1', 'fridge_loss_probability': u'5.0', 'motorhours_per_day_machinery': u'0.0', 'fuel__cost_per_liter': u'35', 'fuel__liters_per_100km': u'12.0', 'cargo__cost': u'100000.0', 'cargo__loss_probability': u'5.0', 'submit': u'type_freight', 'cars_quantity': u'1.0', 'fuel__type': u'1', 'taxi__average_drive_cost': u'500.0', 'motorhours_per_day': u'5.0', 'fridge__spoil_fee': u'50000.0', 'pp__average_passengers_count_per_day': u'300.0', 'flagPassengers': u'on'}
+22:39:44.838 - __main__ - INFO - html_path
+
+22:39:44.848 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:39:44] "POST / HTTP/1.1" 302 -
+22:39:44.858 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:39:44] "GET / HTTP/1.1" 200 -
+22:39:48.098 - __main__ - INFO - post request in Main
+22:39:48.098 - params_processor - INFO - autopark_type
+type_fridge
+22:39:48.098 - params_processor - INFO - data
+{'fridge__cargo_type': u'1', 'fridge_loss_probability': u'5.0', 'motorhours_per_day_machinery': u'0.0', 'fuel__cost_per_liter': u'35', 'fuel__liters_per_100km': u'12.0', 'cargo__cost': u'100000.0', 'cargo__loss_probability': u'5.0', 'submit': u'type_fridge', 'cars_quantity': u'1.0', 'fuel__type': u'1', 'taxi__average_drive_cost': u'500.0', 'motorhours_per_day': u'5.0', 'fridge__spoil_fee': u'50000.0', 'pp__average_passengers_count_per_day': u'300.0', 'flagPassengers': u'on'}
+22:39:48.148 - __main__ - INFO - html_path
+
+22:39:48.148 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:39:48] "POST / HTTP/1.1" 302 -
+22:39:48.157 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:39:48] "GET / HTTP/1.1" 200 -
+22:39:51.015 - __main__ - INFO - post request in Main
+22:39:51.015 - params_processor - INFO - autopark_type
+type_passenger
+22:39:51.015 - params_processor - INFO - data
+{'fridge__cargo_type': u'1', 'fridge_loss_probability': u'5.0', 'motorhours_per_day_machinery': u'0.0', 'fuel__cost_per_liter': u'35', 'fuel__liters_per_100km': u'12.0', 'cargo__cost': u'100000.0', 'cargo__loss_probability': u'5.0', 'submit': u'type_passenger', 'cars_quantity': u'1.0', 'fuel__type': u'1', 'taxi__average_drive_cost': u'500.0', 'motorhours_per_day': u'5.0', 'fridge__spoil_fee': u'50000.0', 'pp__average_passengers_count_per_day': u'300.0', 'flagPassengers': u'on'}
+22:39:51.065 - __main__ - INFO - html_path
+
+22:39:51.075 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:39:51] "POST / HTTP/1.1" 302 -
+22:39:51.075 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:39:51] "GET / HTTP/1.1" 200 -
+22:39:55.378 - __main__ - INFO - post request in Main
+22:39:55.378 - params_processor - INFO - autopark_type
+type_taxi
+22:39:55.378 - params_processor - INFO - data
+{'fridge__cargo_type': u'1', 'fridge_loss_probability': u'5.0', 'motorhours_per_day_machinery': u'0.0', 'fuel__cost_per_liter': u'35', 'fuel__liters_per_100km': u'12.0', 'cargo__cost': u'100000.0', 'cargo__loss_probability': u'5.0', 'submit': u'type_taxi', 'cars_quantity': u'1.0', 'fuel__type': u'1', 'taxi__average_drive_cost': u'500.0', 'motorhours_per_day': u'5.0', 'fridge__spoil_fee': u'50000.0', 'pp__average_passengers_count_per_day': u'300.0', 'flagPassengers': u'on'}
+22:39:55.428 - __main__ - INFO - html_path
+
+22:39:55.428 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:39:55] "POST / HTTP/1.1" 302 -
+22:39:55.448 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:39:55] "GET / HTTP/1.1" 200 -
+22:39:58.326 - __main__ - INFO - post request in Main
+22:39:58.326 - params_processor - INFO - autopark_type
+type_machinery
+22:39:58.326 - params_processor - INFO - data
+{'fridge__cargo_type': u'1', 'fridge_loss_probability': u'5.0', 'motorhours_per_day_machinery': u'0.0', 'fuel__cost_per_liter': u'35', 'fuel__liters_per_100km': u'12.0', 'cargo__cost': u'100000.0', 'cargo__loss_probability': u'5.0', 'submit': u'type_machinery', 'cars_quantity': u'1.0', 'fuel__type': u'1', 'taxi__average_drive_cost': u'500.0', 'motorhours_per_day': u'5.0', 'fridge__spoil_fee': u'50000.0', 'pp__average_passengers_count_per_day': u'300.0', 'flagPassengers': u'on'}
+22:39:58.377 - __main__ - INFO - html_path
+
+22:39:58.387 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:39:58] "POST / HTTP/1.1" 302 -
+22:39:58.397 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:39:58] "GET / HTTP/1.1" 200 -
+22:40:41.578 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:40:41] "GET / HTTP/1.1" 200 -
+22:40:41.668 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:40:41] "GET /static/style.css HTTP/1.1" 304 -
+22:40:44.092 - __main__ - INFO - post request in Main
+22:40:44.092 - params_processor - INFO - autopark_type
+type_minimal
+22:40:44.092 - params_processor - INFO - data
+{'fridge__cargo_type': u'1', 'fridge_loss_probability': u'5.0', 'motorhours_per_day_machinery': u'0.0', 'fuel__cost_per_liter': u'35', 'fuel__liters_per_100km': u'12.0', 'cargo__cost': u'100000.0', 'cargo__loss_probability': u'5.0', 'submit': u'type_minimal', 'cars_quantity': u'1.0', 'fuel__type': u'1', 'taxi__average_drive_cost': u'500.0', 'motorhours_per_day': u'5.0', 'fridge__spoil_fee': u'50000.0', 'pp__average_passengers_count_per_day': u'300.0', 'flagPassengers': u'on'}
+22:40:44.151 - __main__ - INFO - html_path
+
+22:40:44.151 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:40:44] "POST / HTTP/1.1" 302 -
+22:40:44.161 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2016 22:40:44] "GET / HTTP/1.1" 200 -
+22:43:48.499 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\params_processor.py', reloading
+22:43:48.529 - werkzeug - INFO -  * Restarting with stat
+22:43:51.348 - werkzeug - WARNING -  * Debugger is active!
+22:43:51.348 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:43:51.348 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+22:44:22.338 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Sergei\\Projects\\egrix_calc\\egrix_calc.py', reloading
+22:44:22.369 - werkzeug - INFO -  * Restarting with stat
+22:44:25.207 - werkzeug - WARNING -  * Debugger is active!
+22:44:25.217 - werkzeug - INFO -  * Debugger pin code: 303-428-632
+22:44:25.217 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

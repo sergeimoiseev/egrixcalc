@@ -10,7 +10,9 @@ class EgrixCalcView(flask.views.MethodView):
 
     def process_params(self,page_name):
         data = dict((key, flask.request.form.getlist(key)[0]) for key in flask.request.form.keys())
-
+        autopark_type = flask.request.form['submit']
+        logger.info("autopark_type\n%s" % (autopark_type,))
+        # logger.info("data\n%s" % (data,))
         params_dict, comments_dict = ct.get_and_store_params(load_from_dropbox=False)
 
         for key in params_dict.keys():
@@ -25,7 +27,7 @@ class EgrixCalcView(flask.views.MethodView):
                 logger.info("type(params_dict[key])\n%s" % (type(params_dict[key])))
                 logger.info("type(data[key])\n%s" % (type(data[key])))
 
-        results_dict = egrix_calc.compare(params_dict)
+        results_dict = egrix_calc.compare(params_dict, autopark_type)
         results_keys = [key for key in results_dict.keys() if key in results_dict]
         results_vals = [results_dict[key] for key in results_keys if key in results_dict]
 
@@ -45,4 +47,4 @@ class EgrixCalcView(flask.views.MethodView):
         values = [results_dict[key] for key in res_d.keys() if key in results_dict.keys()]
 
         full_messages_list = [headers,values]
-        return full_messages_list
+        return full_messages_list, ''
